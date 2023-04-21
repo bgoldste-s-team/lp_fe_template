@@ -22,27 +22,29 @@ module.exports = {
        themes: [
          {
            mytheme: {
-      
+
+
+             "primary": "#36e2c3",
+
+             "secondary": "#065770",
+
+             "accent": "#a4fcb7",
+
+             "neutral": "#292E33",
+
+             "base-100": "#EDEDED",
+
+             "info": "#3388F0",
+
+             "success": "#2AD5C4",
+
+             "warning": "#CD6904",
+
+             "error": "#E83B69",
           
  // "primary": siteData['color'],
 
-               "primary": "#1aad1c",
 
-               "secondary": "#b5e554",
-
-               "accent": "#91b9ea",
-
-               "neutral": "#23242F",
-
-               "base-100": "#F6EEF7",
-
-               "info": "#A7C3EC",
-
-               "success": "#16C06E",
-
-               "warning": "#F6CB4C",
-
-               "error": "#F13B72",
            },
          },
        ],

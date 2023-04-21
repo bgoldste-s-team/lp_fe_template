@@ -15,7 +15,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-secondary-content text-neutral-content">
             <div>
                 <span className="footer-title">Reviews</span>
-                { posts.map( (p) => <Link href={`/${p.slug}`} className="link link-hover">{p.title}</Link> )}
+                { posts.map( (p) => <Link key={p.slug} href={`/${p.slug}`} className="link link-hover">{p.title}</Link> )}
 
                 {/*<a className="link link-hover">Design</a>*/}
                 {/*<a className="link link-hover">Marketing</a>*/}
@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div>
                 <span className="footer-title">Guides</span>
-                { guides.map( (g) => <Link href={`/${g.slug}`} className="link link-hover">{g.title}</Link> )}
+                { guides.map( (g) => <Link key={g.slug} href={`/${g.slug}`} className="link link-hover">{g.title}</Link> )}
             </div>
             <div>
                 <span className="footer-title">About</span>

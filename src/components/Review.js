@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer"
 import ProductBank from "@/components/ProductBank";
-
+import RelatedContent from "@/components/RelatedContent";
 const Review = ({post}) => {
 
     // const reviews = reviewData.posts;
@@ -21,7 +21,7 @@ const Review = ({post}) => {
                 <img src={post.product?.thumbnail} />
                 <div dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br>') }} />
                 <ProductBank products={[{product: post.product},]}/>
-
+                <RelatedContent />
 
                 {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
             </article>

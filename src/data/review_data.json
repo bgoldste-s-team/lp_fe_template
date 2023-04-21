@@ -1,6 +1,76 @@
 {
     "posts": [
         {
+            "id": 87,
+            "slug": "makeup-hard-case-large-bag-the-perfect-accessory-for-your-beauty-essentials",
+            "type": "review",
+            "title": "Makeup Hard Case Large Bag: The Perfect Accessory for Your Beauty Essentials",
+            "content": "Are you tired of digging through your purse for your favorite lipstick or mascara? Look no further than the Makeup Hard Case Large Bag Rose Pattern Bag Cosmetic Ladies Storage Printed Clutch 3D Multifunction Cosmetic Bag Luxury Makeup Lot! This cute and stylish bag is perfect for storing all of your beauty essentials, whether you're on the go or just need to keep things organized at home.\n\nOne of the best things about this bag is its versatility. It can be used as a makeup bag, travel case, pouch, organizer, or even a pencil bag! Plus, with its unique and pretty rose pattern, it's sure to make a statement wherever you go. And at just $6.29, it's an affordable way to add some style to your beauty routine.\n\nAnother great feature of this bag is its size. Measuring 22cm x 18cm x 13.5cm, it's large enough to hold all of your essentials, but still compact enough to fit in your purse or travel bag. And with its hard case design, you can be sure that your makeup will stay safe and protected.\n\nOf course, no product is perfect, and there are a few cons to consider. Some users have noted that the bag's material is a bit thin, which could make it less durable over time. Additionally, the rose pattern may not be everyone's cup of tea, so it's important to consider your personal style before making a purchase.\n\nOverall, the Makeup Hard Case Large Bag Rose Pattern Bag Cosmetic Ladies Storage Printed Clutch 3D Multifunction Cosmetic Bag Luxury Makeup Lot is a great choice for anyone looking to keep their beauty essentials organized and stylish. With its versatile design, affordable price, and cute rose pattern, it's sure to become your go-to accessory for all your makeup needs.",
+            "product": {
+                "id": 69,
+                "url": "https://www.amazon.com/dp/B0C2TCP6B2?tag=dexterlabs-20",
+                "name": "Makeup Hard Case Large Bag Rose Pattern Bag Cosmetic Ladies Storage Printed Clutch 3D Multifunction Cosmetic Bag Luxury Makeup Lot",
+                "price": "$6.29",
+                "thumbnail": "https://m.media-amazon.com/images/I/61xPmFOP06L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 55,
+            "slug": "get-ready-to-slay-with-the-132-color-all-in-one-makeup-gift-set-kit",
+            "type": "review",
+            "title": "Get Ready to Slay with the 132 Color All In One Makeup Gift Set Kit!",
+            "content": "Are you tired of having to buy separate makeup products for different occasions? Look no further, because this kit has got you covered! With 94 eyeshadows, 12 lip glosses, 12 concealers, 5 eyebrow powders, 3 face powders, 3 blushes, 3 contour shades, 2 lip liners, 2 eye liners, and 4 eyeshadow brushes, you'll have everything you need to create any look you desire.\n\nThis kit is perfect for makeup enthusiasts who love experimenting with different looks. Whether you're going for a natural everyday look or a bold and colorful one, this kit has all the shades you need. Plus, the compact size makes it easy to take with you on the go, so you can touch up your makeup anytime, anywhere.\n\nPros:\n- Wide range of shades for all skin tones\n- Compact size for easy portability\n- Includes brushes and liners for a complete makeup look\n\nCons:\n- Some shades may not be as pigmented as others\n- Limited number of lip liners and eye liners\n\nOverall, the 132 Color All In One Makeup Gift Set Kit is a great value for its price. With so many shades and products included, you'll be able to create endless makeup looks. While some shades may not be as pigmented as others, the variety of colors makes up for it. If you're looking for a versatile makeup kit that won't break the bank, this is definitely worth checking out.",
+            "product": {
+                "id": 37,
+                "url": "https://www.amazon.com/dp/B08JYV9PM8?tag=dexterlabs-20",
+                "name": "132 Color All In One Makeup Gift Set Kit- Includes 94 Eyeshadow, 12 Lip Gloss, 12 Concealer, 5 Eyebrow powder, 3 Face Powder, 3 Blush, 3 Contour Shade, 2 Lip Liners, 2 Eye Liners, 4 Eyeshadow Brush",
+                "price": "$29.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/51u0kx6vG5L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 88,
+            "slug": "bkdfd-desktop-storage-box-the-ultimate-makeup-organizer",
+            "type": "review",
+            "title": "BKDFD Desktop Storage Box: The Ultimate Makeup Organizer",
+            "content": "Are you tired of digging through a pile of makeup to find your favorite lipstick? Look no further than the BKDFD Desktop Storage Box Cosmetic Lip Pencil Lipstick and Eye Shadow Makeup Glaze Light Luxury Shelf Storage Box (Color : Black, Size : 1). This sleek and stylish organizer has a wide mouth and large capacity, making it perfect for storing all your beauty essentials.\n\nOne of the best features of this organizer is its adjustable layered space. You can customize the compartments to fit your specific needs, whether you have a ton of lipsticks or a collection of eye shadows. Plus, the rounded shape and three-dimensional layered storage give it a high-end look that will elevate any vanity.\n\nThis organizer is a must-have for anyone who loves makeup and wants to keep their collection organized and easily accessible. It's perfect for beauty bloggers, makeup artists, or anyone who just wants to simplify their morning routine. Plus, the multi-purpose rod for base makes it easy to move from your vanity to your bathroom counter.\n\nPros:\n- Wide mouth and large capacity\n- Adjustable layered space\n- Sleek and stylish design\n\nCons:\n- Limited color options\n\nIn conclusion, the BKDFD Desktop Storage Box Cosmetic Lip Pencil Lipstick and Eye Shadow Makeup Glaze Light Luxury Shelf Storage Box (Color : Black, Size : 1) is a game-changer for anyone who loves makeup. Its customizable compartments and high-end design make it a must-have for any beauty enthusiast. While the limited color options may be a downside for some, the functionality and style of this organizer more than make up for it.",
+            "product": {
+                "id": 70,
+                "url": "https://www.amazon.com/dp/B0C2YSS2SR?tag=dexterlabs-20",
+                "name": "BKDFD Desktop Storage Box Cosmetic Lip Pencil Lipstick and Eye Shadow Makeup Glaze Light Luxury Shelf Storage Box (Color : Black, Size : 1)",
+                "price": "$105.37",
+                "thumbnail": "https://m.media-amazon.com/images/I/41OEAFR6-6L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 32,
+            "slug": "ioeloveo-makeup-bag-the-ultimate-travel-companion-for-beauty-gurus",
+            "type": "review",
+            "title": "IOELOVEO Makeup Bag: The Ultimate Travel Companion for Beauty Gurus",
+            "content": "If you're a makeup lover like me, you know the struggle of packing all your beauty essentials for a trip. But fear not, because the IOELOVEO Makeup Bag is here to save the day! This portable and stylish cosmetic bag is perfect for organizing all your toiletries and makeup products, making it a must-have for any beauty guru on the go.\n\nOne of the best features of this makeup bag is its spacious compartments. It has multiple pockets and slots to fit all your brushes, palettes, and skincare products. Plus, the waterproof and durable material ensures that your products stay safe and secure during travel. And let's not forget about the cute and trendy design - it's the perfect accessory to show off your love for makeup!\n\nThis makeup bag would be a great fit for anyone who loves to travel or simply needs a better way to organize their beauty products. It's also a great gift idea for birthdays or Christmas, especially for your makeup-obsessed friends. Trust me, they'll thank you for it!\n\n<strong>Pros:</strong>\n- Spacious compartments for all your beauty essentials\n- Waterproof and durable material\n- Cute and trendy design\n\n<strong>Cons:</strong>\n- Limited color options\n\nIn conclusion, the IOELOVEO Makeup Bag is a game-changer for anyone who loves makeup and travel. Its spacious compartments, durable material, and stylish design make it the ultimate travel companion for beauty gurus. And at a price of $25.98, it's definitely worth the investment. So go ahead and treat yourself (or your makeup-loving friend) to this amazing cosmetic bag - you won't regret it!",
+            "product": {
+                "id": 15,
+                "url": "https://www.amazon.com/dp/B0BLV7F651?tag=dexterlabs-20",
+                "name": "IOELOVEO Makeup Bag, Cosmetic Bags for Women Toiletry Travel Organizer Portable Make Up Bags for Christmas Birthday Gifts",
+                "price": "$25.98",
+                "thumbnail": "https://m.media-amazon.com/images/I/71taIi2eTVL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 33,
+            "slug": "get-your-glow-on-with-vita-liberata-body-blur",
+            "type": "review",
+            "title": "Get Your Glow On with Vita Liberata Body Blur!",
+            "content": "If you're looking for a product that will give you a flawless bronze glow, look no further than Vita Liberata Body Blur! This leg and body makeup is perfect for anyone who wants to even out their skin tone and add a radiant glow to their look. Plus, the new packaging is super cute and easy to use!\n\nOne of the best things about Vita Liberata Body Blur is how easy it is to apply. The formula is smooth and blends easily, so you don't have to worry about any streaks or uneven patches. And once it's on, it stays put all day long! Whether you're heading to the beach or just running errands, this body foundation will keep you looking flawless.\n\nThis product is perfect for anyone who wants to add a little extra oomph to their look. Whether you're going for a full-on glam look or just want to add a little extra glow to your everyday routine, Vita Liberata Body Blur is the perfect choice. And with its skin-perfecting formula, you can be sure that you'll look your best no matter what.\n\n<strong>Pros:</strong>\n- Easy to apply\n- Long-lasting formula\n- Gives a flawless bronze glow\n\n<strong>Cons:</strong>\n- Limited color range\n- Can be a bit pricey\n\nOverall, Vita Liberata Body Blur is a great choice for anyone who wants to add a little extra glow to their look. With its easy application and long-lasting formula, you can be sure that you'll look your best all day long. And while it may be a bit pricey, the results are definitely worth it!",
+            "product": {
+                "id": 16,
+                "url": "https://www.amazon.com/dp/B09Y1HNKJN?tag=dexterlabs-20",
+                "name": "Vita Liberata Body Blur, Leg and Body Makeup. Skin Perfecting Body Foundation for Flawless Bronze, Easy Application, Radiant Glow, Evens Skin Tone,  New Packaging",
+                "price": "$39.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/31DJgN0i94L._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
             "id": 27,
             "slug": "stay-all-day-and-slay-all-night-with-stila-s-waterproof-liquid-eye-liner",
             "type": "review",
@@ -12,6 +82,202 @@
                 "name": "stila Stay All Day Waterproof Liquid Eye Liner",
                 "price": "$24.00",
                 "thumbnail": "https://m.media-amazon.com/images/I/21KtmfhrCBL._SX342_SY445_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 89,
+            "slug": "the-superheroes-of-eye-makeup-it-cosmetics-superpowers-eye-set-mascara-eyeliner",
+            "type": "review",
+            "title": "The Superheroes of Eye Makeup: It Cosmetics Superpowers Eye Set Mascara & Eyeliner",
+            "content": "If you're looking for a mascara and eyeliner duo that will make you feel like a superhero, look no further than the It Cosmetics Superpowers Eye Set. This set includes the Superhero Elastic Stretch Volumizing Mascara and the Superhero No-Tug Gel Eyeliner in Super Black and Powerful Plum. With these two products, you'll be able to create a bold and dramatic eye look that will make you feel like you can take on the world.\n\nOne of the best things about the Superhero Elastic Stretch Volumizing Mascara is that it really does give your lashes super volume, super length, and super elastic stretch in just one coat. The formula is also long-lasting and doesn't smudge or flake throughout the day. The Superhero No-Tug Gel Eyeliner is also a winner, with its smooth glide and intense pigmentation. Plus, it's waterproof and lasts all day, so you don't have to worry about touch-ups.\n\nThis set would be a good fit for anyone who wants to create a bold and dramatic eye look. Whether you're going out for a night on the town or just want to add some extra oomph to your everyday makeup routine, the Superpowers Eye Set has got you covered. The mascara and eyeliner work together to create a cohesive look that will make your eyes pop.\n\nPros:\n- Mascara gives super volume, length, and stretch in one coat\n- Eyeliner has smooth glide and intense pigmentation\n- Both products are long-lasting and waterproof\n\nCons:\n- Limited color options for eyeliner (only Super Black and Powerful Plum)\n- Some users may find the mascara formula to be too thick\n\nOverall, the It Cosmetics Superpowers Eye Set is a great choice for anyone who wants to create a bold and dramatic eye look. The mascara and eyeliner work together to give you super volume, length, and pigmentation, and they're both long-lasting and waterproof. While the eyeliner only comes in two colors, they're both versatile and can be used to create a variety of looks. If you're looking for a mascara and eyeliner duo that will make you feel like a superhero, this set is definitely worth checking out.",
+            "product": {
+                "id": 71,
+                "url": "https://www.amazon.com/dp/B08RRZBH2L?tag=dexterlabs-20",
+                "name": "It Cosmetics Superpowers Eye Set Mascara & eyeliner",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/5137BCdCi7L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 30,
+            "slug": "get-your-glow-on-with-laura-geller-new-york-baked-balance-n-brighten-powder-foundation",
+            "type": "review",
+            "title": "Get Your Glow On with LAURA GELLER NEW YORK Baked Balance-n-Brighten Powder Foundation",
+            "content": "Looking for a foundation that will give you a natural, glowing look without feeling heavy or cakey? Look no further than LAURA GELLER NEW YORK's Award-Winning Baked Balance-n-Brighten Color Correcting Powder Foundation! This buildable powder foundation provides light to medium coverage that evens out your skin tone and leaves you with a demi-matte finish that looks like your skin, only better.\n\nOne of the best things about this foundation is how easy it is to apply. The powder formula means you don't have to worry about blending liquid foundation or dealing with messy brushes. Just swirl your brush in the compact and apply to your face for a flawless finish. Plus, the color-correcting technology means you can say goodbye to redness and discoloration.\n\nThis foundation is perfect for anyone who wants a natural, everyday look that still looks put together. It's great for those with normal to oily skin, as the demi-matte finish helps control shine without looking too matte or flat. Plus, the buildable coverage means you can customize your look depending on your needs. Whether you're running errands or going out for a night on the town, this foundation has got you covered.\n\n<strong>Pros:</strong>\n- Easy to apply\n- Color-correcting technology\n- Buildable coverage\n- Demi-matte finish\n- Natural, glowing look\n\n<strong>Cons:</strong>\n- Limited shade range\n- May not work for those with dry skin\n\nOverall, LAURA GELLER NEW YORK's Baked Balance-n-Brighten Powder Foundation is a great choice for anyone looking for a natural, glowing look. It's easy to apply, has buildable coverage, and leaves you with a demi-matte finish that looks like your skin, only better. While the shade range is limited and it may not work for those with dry skin, it's definitely worth trying out if you're in the market for a new foundation.",
+            "product": {
+                "id": 13,
+                "url": "https://www.amazon.com/dp/B0725YPBPR?tag=dexterlabs-20",
+                "name": "LAURA GELLER NEW YORK Award-Winning Baked Balance-n-Brighten Color Correcting Powder Foundation - Medium - Buildable Light to Medium Coverage - Demi-Matte Natural Finish",
+                "price": "$34.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/41tDgDZJVFL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 31,
+            "slug": "brush-up-your-makeup-game-with-bdellium-tools-professional-makeup-brush-studio-series-luxury-24pc-brush-set-with-roll-up-pouch",
+            "type": "review",
+            "title": "Brush Up Your Makeup Game with Bdellium Tools Professional Makeup Brush Studio Series - Luxury 24pc. Brush Set with Roll-Up Pouch",
+            "content": "Are you tired of using the same old makeup brushes that don't give you the desired results? Look no further than the Bdellium Tools Professional Makeup Brush Studio Series - Luxury 24pc. Brush Set with Roll-Up Pouch. This set is a game-changer for all makeup enthusiasts out there. \n\nThe set includes 24 brushes that cater to all your makeup needs, from foundation to eyeshadow to contouring. The brushes are made of high-quality synthetic fibers that are soft and gentle on the skin. The roll-up pouch makes it easy to store and carry the brushes wherever you go. \n\nThis brush set is perfect for makeup artists, beauty bloggers, and anyone who loves experimenting with makeup. The brushes are easy to use and blend the makeup seamlessly, giving you a flawless finish. The set is also a great gift for your makeup-loving friends and family. \n\n<strong>Pros:</strong>\n- High-quality synthetic fibers that are soft and gentle on the skin\n- Includes 24 brushes that cater to all your makeup needs\n- Roll-up pouch makes it easy to store and carry the brushes\n\n<strong>Cons:</strong>\n- The brushes are all black, which may make it difficult to differentiate between them\n- The set is a bit pricey compared to other brush sets in the market\n\nIn conclusion, the Bdellium Tools Professional Makeup Brush Studio Series - Luxury 24pc. Brush Set with Roll-Up Pouch is a must-have for all makeup enthusiasts. The set includes all the brushes you need to create any makeup look you desire. The brushes are of high quality and are gentle on the skin. The only downside is the price, but the investment is worth it for the quality of the brushes. So, brush up your makeup game with this amazing set!",
+            "product": {
+                "id": 14,
+                "url": "https://www.amazon.com/dp/B00A42LERW?tag=dexterlabs-20",
+                "name": "Bdellium Tools Professional Makeup Brush Studio Series - Luxury 24pc. Brush Set with Roll-Up Pouch",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/414K4lYL44L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 68,
+            "slug": "get-your-makeup-game-on-point-with-vera-bradley-women-s-microfiber-brush-up-cosmetic-makeup-organizer-case-bag",
+            "type": "review",
+            "title": "Get Your Makeup Game On Point with Vera Bradley Women's Microfiber Brush Up Cosmetic Makeup Organizer Case Bag",
+            "content": "If you're a makeup junkie like me, you know the struggle of keeping your makeup organized and easily accessible. That's where the Vera Bradley Women's Microfiber Brush Up Cosmetic Makeup Organizer Case Bag comes in clutch. This lightweight bag is perfect for travel or at-home use, and it has two zippered compartments with multiple pockets to keep all your makeup essentials in place.\n\nOne of the best features of this makeup organizer is the elastic mesh pockets, which are perfect for holding your brushes securely in place. No more digging through a pile of brushes to find the one you need! The mesh zip pockets are also great for storing smaller items like lipsticks or eyeliners. And with seven slip pockets, you'll have plenty of room for all your other makeup essentials.\n\nThis makeup organizer is a great fit for anyone who wants to keep their makeup organized and easily accessible. Whether you're a makeup artist on the go or just someone who wants to keep their bathroom counter clutter-free, this bag is perfect for you. And with its solid-colored polyester microfiber material, it's both stylish and durable.\n\nPros:\n- Lightweight and easy to travel with\n- Multiple pockets and compartments for organization\n- Elastic mesh pockets keep brushes secure\n\nCons:\n- Some users may find the price point a bit high\n- Limited color options\n\nOverall, the Vera Bradley Women's Microfiber Brush Up Cosmetic Makeup Organizer Case Bag is a great investment for anyone who wants to keep their makeup organized and easily accessible. With its multiple pockets and compartments, it's perfect for travel or at-home use. And while it may be a bit pricey for some, the quality and durability of the bag make it worth the investment. So go ahead and get your makeup game on point with this awesome organizer!",
+            "product": {
+                "id": 51,
+                "url": "https://www.amazon.com/dp/B0883DJ66M?tag=dexterlabs-20",
+                "name": "Vera Bradley Women's Microfiber Brush Up Cosmetic Makeup Organizer Case Bag",
+                "price": "$59.65",
+                "thumbnail": "https://m.media-amazon.com/images/I/71ODGo2WTGL.__AC_SX395_SY395_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 69,
+            "slug": "abiudeng-double-layer-makeup-bag-the-ultimate-travel-companion",
+            "type": "review",
+            "title": "Abiudeng Double Layer Makeup Bag: The Ultimate Travel Companion",
+            "content": "Are you tired of digging through your makeup bag to find that one lipstick you need? Look no further than the Abiudeng Double Layer Makeup Bag! This large capacity travel cosmetic bag is perfect for all your beauty needs. With two layers, you can easily separate your daily cosmetics from your makeup brushes and other tools. Plus, the extended armrest makes it easy to access everything you need on the go.\n\nThis toiletry bag for women is made with high quality waterproof fabric, so you don't have to worry about spills or stains. And the durable zipper ensures that your makeup stays safe and secure. The checkered design and pink color make it a stylish addition to your travel accessories. \n\nThis luxury makeup bag is perfect for anyone who loves to travel or needs to keep their makeup organized at home. It's also a great gift for your makeup-loving friends. And at only $14.99, it's a steal! \n\nPros:\n- Large capacity with two layers\n- High quality waterproof fabric\n- Stylish checkered design and pink color\n- Durable zipper\n- Extended armrest for easy access\n\nCons:\n- Only comes in one color\n\nOverall, the Abiudeng Double Layer Makeup Bag is a must-have for anyone who wants to keep their makeup organized and easily accessible. With its large capacity, high quality materials, and stylish design, it's the ultimate travel companion.",
+            "product": {
+                "id": 52,
+                "url": "https://www.amazon.com/dp/B0BFKXYD8L?tag=dexterlabs-20",
+                "name": "Abiudeng Double Layer Makeup Bag,Travel Makeup Bag,Large Capacity Travel Cosmetic Bag,Toiletry Bag for Women,Checkered Makeup Bag,Portable Leather Toiletry Bag,Luxury Makeup Bag-Pink",
+                "price": "$14.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/7153nWXdK9L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 90,
+            "slug": "get-that-flawless-finish-with-ben-nye-cameo-luxury-powder",
+            "type": "review",
+            "title": "Get that Flawless Finish with BEN NYE Cameo Luxury Powder",
+            "content": "If you're tired of looking like a hot mess, BEN NYE Cameo Luxury Powder is here to save the day! This powder is the real deal, and it's perfect for anyone who wants to achieve a flawless finish. Whether you're a makeup newbie or a pro, this powder is easy to use and will give you that airbrushed look you've been dreaming of.\n\nOne of the best things about BEN NYE Cameo Luxury Powder is that it's super versatile. You can use it to set your foundation, bake your under-eye area, or even as a highlighter. It's perfect for all skin types and comes in a range of shades to suit every skin tone. Plus, it's long-lasting, so you won't have to worry about touch-ups throughout the day.\n\nIf you're someone who loves a good bargain, you'll be happy to know that BEN NYE Cameo Luxury Powder won't break the bank. At just $19.40, it's a steal compared to other high-end powders on the market. And with a 4.6-star rating, you know you're getting a quality product that people love.\n\nPro:\n- Versatile and easy to use\n- Suitable for all skin types and tones\n- Long-lasting\n- Affordable\n\nCon:\n- Some users have reported that the powder can be a bit too light for darker skin tones\n\nIn conclusion, BEN NYE Cameo Luxury Powder is a must-have for anyone who wants to achieve a flawless finish. It's versatile, easy to use, and affordable, making it the perfect addition to your makeup bag. So, what are you waiting for? Get your hands on this powder and start slaying!",
+            "product": {
+                "id": 167,
+                "url": "https://www.amazon.com/dp/B00AZRGHZU?tag=dexterlabs-20",
+                "name": "BEN NYE Cameo Luxury Powder 1.5 Oz",
+                "price": "$19.40",
+                "thumbnail": "https://m.media-amazon.com/images/I/417YjYo7VZL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 91,
+            "slug": "get-your-glow-on-with-gecomo-hellokiss-hightlighter-stick-puff-fairy-stick-highlight-powder-glitter-loose-powder-brush-stick-contouring-powder-shimming-powder-for-eyes-face-body-tiktok-makeup-02-pink",
+            "type": "review",
+            "title": "Get Your Glow On with GECOMO Hellokiss Hightlighter Stick Puff Fairy Stick Highlight Powder Glitter Loose Powder Brush Stick Contouring Powder Shimming Powder for Eyes, Face, Body Tiktok Makeup (#02 Pink)",
+            "content": "Are you ready to shine like a fairy princess? Look no further than the GECOMO Hellokiss Hightlighter Stick Puff Fairy Stick Highlight Powder Glitter Loose Powder Brush Stick Contouring Powder Shimming Powder for Eyes, Face, Body Tiktok Makeup (#02 Pink). This magical product will have you sparkling and glowing in no time.\n\nFirst off, this highlighter stick is super versatile. You can use it on your eyes, face, and body for an all-over shimmer. Plus, it comes with a puff fairy stick and brush stick for easy application. No need to worry about messy loose powder with this product.\n\nThis highlighter is perfect for anyone who wants to add some sparkle to their makeup routine. Whether you're going for a subtle glow or a full-on glitter bomb, this product has got you covered. Plus, it's affordable at only $6.99, so you won't break the bank trying to achieve your fairy princess dreams.\n\nPros:\n- Versatile product for eyes, face, and body\n- Comes with puff fairy stick and brush stick for easy application\n- Affordable price\n\nCons:\n- Limited color options (only available in #02 Pink)\n\nIn conclusion, the GECOMO Hellokiss Hightlighter Stick Puff Fairy Stick Highlight Powder Glitter Loose Powder Brush Stick Contouring Powder Shimming Powder for Eyes, Face, Body Tiktok Makeup (#02 Pink) is a must-have for anyone who wants to add some sparkle to their makeup routine. It's versatile, easy to use, and affordable. The only downside is the limited color options, but if you're a fan of pink, you'll love this product. So go ahead and get your glow on!",
+            "product": {
+                "id": 72,
+                "url": "https://www.amazon.com/dp/B0BYDX97BB?tag=dexterlabs-20",
+                "name": "GECOMO Hellokiss Hightlighter Stick Puff Fairy Stick Highlight Powder Glitter Loose Powder Brush Stick Contouring Powder Shimming Powder for Eyes, Face, Body Tiktok Makeup (#02 Pink)",
+                "price": "$6.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/41gfKZv+T9L._SY300_SX300_.jpg"
+            }
+        },
+        {
+            "id": 92,
+            "slug": "organize-your-life-with-the-nubabi-makeup-desk-cosmetic-storage-box-organizer",
+            "type": "review",
+            "title": "Organize Your Life with the Nubabi Makeup Desk Cosmetic Storage Box Organizer",
+            "content": "Are you tired of digging through a cluttered makeup bag every morning? Do you want to upgrade your vanity game? Look no further than the Nubabi Makeup Desk Cosmetic Storage Box Organizer! This luxury desktop cosmetics storage box is perfect for anyone who wants to keep their beauty products organized and easily accessible.\n\nOne of the best features of this storage box is its versatility. You can use it to store makeup, skincare products, hair accessories, and even snacks! The built-in handles make it easy to move from your dresser to your bathroom countertop, and the clear plastic design allows you to see everything inside. Plus, the diamond-grain texture adds a touch of elegance to any space.\n\nThis storage box would be a great fit for anyone who loves makeup and wants to keep their collection organized. It's also perfect for people who have limited counter space and need a compact storage solution. And if you're looking for a thoughtful gift for a beauty lover in your life, this storage box is a great option. You can even customize it with stickers or other decorations to make it extra special.\n\nPros:\n- Versatile storage options\n- Clear plastic design allows you to see everything inside\n- Diamond-grain texture adds a touch of elegance\n\nCons:\n- Only available in one color\n\nIn conclusion, the Nubabi Makeup Desk Cosmetic Storage Box Organizer is a must-have for anyone who wants to keep their beauty products organized and easily accessible. Its versatility, clear plastic design, and diamond-grain texture make it a great addition to any vanity or bathroom countertop. And at only $39.99, it's an affordable way to upgrade your storage game. So what are you waiting for? Get storing now!",
+            "product": {
+                "id": 73,
+                "url": "https://www.amazon.com/dp/B0BVLKPWPZ?tag=dexterlabs-20",
+                "name": "Nubabi Makeup Desk Cosmetic Storage Box Organizer,Luxury desktop cosmetics storage box large skin care products facial mask dresser sundries snack storage basket",
+                "price": "$39.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/61ALjibYtGL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 93,
+            "slug": "mirror-mirror-on-the-wall-who-s-the-fairest-of-them-all-amayyahzj-vanity-mirror-of-course",
+            "type": "review",
+            "title": "Mirror, Mirror on the Wall, Who's the Fairest of Them All? AMAYYAhzj Vanity Mirror, of Course!",
+            "content": "If you're looking for a portable, compact mirror that's both stylish and functional, look no further than the AMAYYAhzj Vanity Mirror. This luxury makeup mirror is perfect for anyone who wants to look their best on the go. With its beautiful metal frame and sleek design, it's sure to turn heads wherever you go.\n\nOne of the best things about this mirror is its size. At just 6.5cm for the round mirror and 5.6cm for the square mirror, it's small enough to fit in your pocket or purse, but big enough to give you a clear view of your face. Plus, it comes in both gold and silver, so you can choose the one that best matches your style.\n\nThis mirror is perfect for anyone who loves makeup and wants to make sure they look their best no matter where they are. Whether you're getting ready for a night out with friends or just need to touch up your makeup during the day, this mirror has got you covered. And because it's so compact and portable, you can take it with you wherever you go.\n\nPros:\n- Stylish metal frame\n- Comes in both gold and silver\n- Compact and portable\n- Perfect for makeup lovers on the go\n\nCons:\n- Only comes in two colors\n- No magnification\n\nIn conclusion, if you're looking for a stylish and functional mirror that you can take with you wherever you go, the AMAYYAhzj Vanity Mirror is definitely worth considering. With its beautiful metal frame, compact size, and sleek design, it's sure to become your new favorite accessory. Just be aware that it only comes in two colors and doesn't have any magnification.",
+            "product": {
+                "id": 74,
+                "url": "https://www.amazon.com/dp/B0C2C1MRXD?tag=dexterlabs-20",
+                "name": "AMAYYAhzj Vanity Mirror Luxury Makeup Mirrors Portable Square Folded Compact Mirrors Gold Silver Pocket Mirror Cosmetic Mirror (Size : M)",
+                "price": "$107.52",
+                "thumbnail": "https://m.media-amazon.com/images/I/41Te2NQ17lL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 94,
+            "slug": "get-organized-with-the-makeup-storage-desktop-cosmetic-storage-box-desk-simple-and-light-luxury-finishing-rack-bathroom-skin-care-product-storage-rack-jewelry-storage-case-display",
+            "type": "review",
+            "title": "Get Organized with the Makeup Storage Desktop Cosmetic Storage Box Desk Simple And Light Luxury Finishing Rack Bathroom Skin Care Product Storage Rack Jewelry Storage Case Display",
+            "content": "Are you tired of digging through a messy makeup bag every morning? Do you want to show off your beauty products in a chic and organized way? Look no further than the Makeup Storage Desktop Cosmetic Storage Box Desk Simple And Light Luxury Finishing Rack Bathroom Skin Care Product Storage Rack Jewelry Storage Case Display!\n\nThis storage rack is perfect for anyone who loves makeup, skincare, or jewelry. It's made of metal and leather, giving it a sleek and modern look. Plus, it comes in three different colors to match any decor. You can use it on your dressing table, bedside table, or even in your office. It's versatile and can fit on any desktop!\n\nOne of the best features of this storage rack is how it displays your products. You can easily see everything you have and find what you need quickly. It's also great for keeping your products clean and organized. No more digging through a messy bag or drawer! Plus, it's easy to clean and maintain.\n\nPros:\n- Sleek and modern design\n- Comes in three different colors\n- Versatile and can fit on any desktop\n- Displays products in a chic and organized way\n- Easy to clean and maintain\n\nCons:\n- Slightly expensive compared to other storage options\n- May not fit larger products or brushes\n\nOverall, the Makeup Storage Desktop Cosmetic Storage Box Desk Simple And Light Luxury Finishing Rack Bathroom Skin Care Product Storage Rack Jewelry Storage Case Display is a great investment for anyone who wants to get organized and show off their beauty products. It's sleek, modern, and versatile, making it a great addition to any desktop. Just be aware of the price and size limitations before purchasing.",
+            "product": {
+                "id": 75,
+                "url": "https://www.amazon.com/dp/B0C1B7SGHK?tag=dexterlabs-20",
+                "name": "Makeup Storage Desktop Cosmetic Storage Box Desk Simple And Light Luxury Finishing Rack Bathroom Skin Care Product Storage Rack Jewelry Storage Case Display",
+                "price": "$101.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/41HE2Pn0bjS.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 95,
+            "slug": "strong-get-organized-and-slay-your-makeup-game-with-this-simple-and-luxe-storage-rack-strong",
+            "type": "review",
+            "title": "<strong>Get Organized and Slay Your Makeup Game with This Simple and Luxe Storage Rack</strong>",
+            "content": "Are you tired of digging through a pile of makeup to find your favorite lipstick? Look no further than the Makeup Organizer Desktop Cosmetic Storage Box Desk Simple And Light Luxury Finishing Rack Bathroom Skin Care Product Storage Rack Cosmetic Display Cases. This sleek and stylish storage rack is perfect for anyone who wants to keep their makeup collection organized and easily accessible.\n\nOne of the best features of this storage rack is its versatility. It can be used on any desktop, from your dressing table to your workbench. Plus, it's available in three chic colors to match any decor. The metal and leather construction is both durable and easy to clean, so you can keep your makeup looking fresh and new.\n\nThis storage rack is a great fit for anyone who loves makeup and wants to keep their collection organized. It's also a perfect gift for your makeup-loving friends and family members. With its multifunctional design and space-saving capabilities, it's sure to be a hit with anyone who wants to slay their makeup game.\n\n<strong>Pros:</strong>\n- Sleek and stylish design\n- Versatile and space-saving\n- Durable and easy to clean\n\n<strong>Cons:</strong>\n- Slightly pricey compared to other makeup organizers\n- Limited color options\n\nIn conclusion, the Makeup Organizer Desktop Cosmetic Storage Box Desk Simple And Light Luxury Finishing Rack Bathroom Skin Care Product Storage Rack Cosmetic Display Cases is a must-have for anyone who wants to keep their makeup collection organized and easily accessible. With its sleek design and durable construction, it's sure to be a staple on your desktop for years to come. Just be aware of the slightly higher price point and limited color options.",
+            "product": {
+                "id": 76,
+                "url": "https://www.amazon.com/dp/B0C1B6MV6X?tag=dexterlabs-20",
+                "name": "Makeup Organizer Desktop Cosmetic Storage Box Desk Simple And Light Luxury Finishing Rack Bathroom Skin Care Product Storage Rack Cosmetic Display Cases",
+                "price": "$105.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/41gJ9aRUADS.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 96,
+            "slug": "blend-and-cleanse-with-beautyblender-all-the-toppings-duo-a-sponge-and-cleanser-combo-that-will-leave-you-feeling-flawless",
+            "type": "review",
+            "title": "Blend and Cleanse with Beautyblender All the Toppings Duo: A Sponge and Cleanser Combo That Will Leave You Feeling Flawless",
+            "content": "Are you tired of using the same old makeup sponge that leaves your foundation looking cakey and uneven? Look no further than the Beautyblender All the Toppings Blend & Cleanse Duo! This sponge is perfect for blending foundations, powders, and creams to give you a flawless finish. Plus, the included cleanser removes makeup and grime from the sponge, making it easy to keep your tools clean and hygienic.\n\nThis sponge is perfect for anyone who loves a flawless makeup look. Whether you're a makeup artist or just someone who loves experimenting with different looks, the Beautyblender All the Toppings Blend & Cleanse Duo is a must-have. The sponge is vegan and cruelty-free, so you can feel good about using it on your skin. Plus, the cleanser is gentle and effective, so you can keep your sponge clean without damaging it.\n\nPros:\n- The sponge is perfect for blending foundations, powders, and creams to give you a flawless finish.\n- The included cleanser removes makeup and grime from the sponge, making it easy to keep your tools clean and hygienic.\n- The sponge is vegan and cruelty-free, so you can feel good about using it on your skin.\n\nCons:\n- The sponge may be a bit pricey for some people.\n- The cleanser may not work as well on other makeup tools.\n\nIn conclusion, the Beautyblender All the Toppings Blend & Cleanse Duo is a great investment for anyone who loves a flawless makeup look. The sponge is perfect for blending foundations, powders, and creams, and the included cleanser makes it easy to keep your tools clean and hygienic. While the price may be a bit steep for some, the quality of the product is definitely worth it. So go ahead and treat yourself to this amazing sponge and cleanser combo \u2013 your skin will thank you!",
+            "product": {
+                "id": 77,
+                "url": "https://www.amazon.com/dp/B0B15N4G3Z?tag=dexterlabs-20",
+                "name": "Beautyblender All the Toppings Blend & Cleanse Duo \u2013 Makeup Sponge for Blending Foundations, Powders & Creams, Cleanser Removes Makeup & Grime on Sponge, Vegan & Cruelty-Free",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/31+iyCIRTGL._SY300_SX300_.jpg"
+            }
+        },
+        {
+            "id": 125,
+            "slug": "travel-in-style-with-the-bisibuy-luxury-cubes-toiletry-bag",
+            "type": "review",
+            "title": "Travel in Style with the bisibuy Luxury Cubes Toiletry Bag",
+            "content": "Looking for a stylish and functional toiletry bag for your next adventure? Look no further than the bisibuy Luxury Cubes Travel Toiletry Bag! This water-resistant bag is perfect for men and women alike, with a heavy-duty metal hook for easy hanging and a compact yet spacious design that can hold all your travel essentials.\n\nOne of the best features of this bag is its versatility. It's not just a toiletry bag - it can also be used as a makeup bag, shaving kit, or even a gym bag. And with its modern bright pattern, it's sure to turn heads wherever you go.\n\nBut the bisibuy Luxury Cubes Toiletry Bag isn't just stylish - it's also highly functional. The quality material and structure ensure that the bag remains upright and doesn't tip over on bathroom ledges or basins. And the convenient hook design allows you to hang it on a variety of surfaces, saving counter space and making your essentials easily accessible.\n\nPros:\n- Stylish and functional design\n- Versatile use as a toiletry bag, makeup bag, or gym bag\n- Water-resistant material\n- Heavy-duty metal hook for easy hanging\n- Compact yet spacious design\n\nCons:\n- Limited color options\n\nOverall, the bisibuy Luxury Cubes Travel Toiletry Bag is a must-have for anyone who values organization and convenience while traveling. With its stylish design and versatile functionality, it's the perfect companion for any adventure. So why wait? Grab yours today and start traveling in style!",
+            "product": {
+                "id": 105,
+                "url": "https://www.amazon.com/dp/B0C2ZBM8G9?tag=dexterlabs-20",
+                "name": "bisibuy Luxury Cubes Travel Toiletry Bags Pouch Men Women Bathroom Shower Bag Organizer with Hanging Hook Water-resistant Cosmetic Makeup Bag",
+                "price": "$19.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/61c5JN0pZ+L._AC_SY300_SX300_.jpg"
+            }
+        },
+        {
+            "id": 97,
+            "slug": "conceal-your-flaws-with-dermaflage-s-full-coverage-concealer-palette",
+            "type": "review",
+            "title": "Conceal Your Flaws with Dermaflage's Full Coverage Concealer Palette",
+            "content": "If you're looking for a concealer that can hide your dark circles, blemishes, and other imperfections, then you might want to check out Dermaflage's Full Coverage Concealer Palette. This waterproof concealer cream comes in three different shades that can match any skin tone. Plus, it comes with a brush that makes it easy to apply and blend.\n\nOne of the best things about this concealer is that it's long-lasting and sweat-proof. You can wear it all day without worrying about it smudging or fading. It's perfect for those who have an active lifestyle or those who live in humid areas. Moreover, it's cruelty-free and vegan, so you can feel good about using it.\n\nThis concealer palette is ideal for anyone who wants to achieve a flawless look without spending too much time and effort. It's also great for those who have sensitive skin or allergies, as it's free from parabens, sulfates, and phthalates. Whether you're a makeup newbie or a pro, you'll find this product easy to use and versatile.\n\n<strong>Pros:</strong>\n- Comes in three shades that can match any skin tone\n- Waterproof and sweat-proof\n- Cruelty-free and vegan\n- Easy to apply and blend\n- Long-lasting\n\n<strong>Cons:</strong>\n- Some users might find the shades too light or too dark for their skin tone\n- The brush might not be of high quality\n\nOverall, Dermaflage's Full Coverage Concealer Palette is a great investment for anyone who wants to achieve a flawless complexion. It's affordable, easy to use, and effective. While it might not be perfect for everyone, it's definitely worth trying out. So, go ahead and give it a shot!",
+            "product": {
+                "id": 78,
+                "url": "https://www.amazon.com/dp/B07PZ8RN1W?tag=dexterlabs-20",
+                "name": "Full Coverage Concealer Palette, Waterproof Concealer Cream, 3 Colors + Brush, by Dermaflage",
+                "price": "$33.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/31fHF3coOhL._SX300_SY300_QL70_FMwebp_.jpg"
             }
         },
         {
@@ -85,6 +351,20 @@
             }
         },
         {
+            "id": 98,
+            "slug": "get-ready-to-slay-with-charlotte-s-luxury-eyeshadow-palette-pillow-talk",
+            "type": "review",
+            "title": "Get Ready to Slay with Charlotte's Luxury Eyeshadow Palette Pillow Talk",
+            "content": "Are you tired of boring eyeshadow palettes that don't give you the glam you deserve? Look no further than Charlotte's Luxury Eyeshadow Palette Pillow Talk. This palette is perfect for anyone who wants to add some sparkle and shine to their look. With 12 gorgeous shades ranging from soft pinks to deep browns, you'll be able to create endless eye-catching looks.\n\nOne of the best features of this palette is its versatility. Whether you're going for a natural daytime look or a bold nighttime look, this palette has got you covered. The shades are highly pigmented and blendable, making it easy to create a seamless transition between colors. Plus, the compact size makes it perfect for on-the-go touch-ups.\n\nThis palette is a must-have for anyone who loves to experiment with makeup. It's perfect for makeup artists, beauty bloggers, or anyone who just wants to add some extra glam to their everyday look. The shades are universally flattering and can be worn by anyone, regardless of skin tone or eye color. Plus, the luxurious packaging makes it a great gift for any makeup lover in your life.\n\nPros:\n- Versatile shades for both natural and bold looks\n- Highly pigmented and blendable\n- Compact size for on-the-go touch-ups\n- Universally flattering shades\n- Luxurious packaging\n\nCons:\n- Some shades may be too similar to each other\n- Higher price point compared to other eyeshadow palettes\n\nIn conclusion, Charlotte's Luxury Eyeshadow Palette Pillow Talk is a must-have for anyone who loves to experiment with makeup and wants to add some extra glam to their look. With its versatile shades, highly pigmented formula, and luxurious packaging, it's the perfect addition to any makeup collection. While it may be a bit pricier than other eyeshadow palettes, the quality and versatility make it well worth the investment. So go ahead and slay, queen!",
+            "product": {
+                "id": 79,
+                "url": "https://www.amazon.com/dp/B0C164ZJXW?tag=dexterlabs-20",
+                "name": "Charlotte's Luxury Eyeshadow Palette Pillow Talk",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/31JgjzYy8AL._SY300_SX300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
             "id": 23,
             "slug": "get-your-makeup-game-on-point-with-the-rotating-organizer-360",
             "type": "review",
@@ -110,6 +390,20 @@
                 "name": "Mario Badescu Facial Spray with Aloe, Herbs and Rosewater for All Skin Types | Face Mist that Hydrates, Rejuvenates & Clarifies",
                 "price": "$1.50",
                 "thumbnail": "https://m.media-amazon.com/images/I/31YVu3msm7L._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 99,
+            "slug": "mirror-mirror-on-the-wall-who-s-the-fairest-of-them-all-aloncehzj-makeup-mirror-with-lights-of-course",
+            "type": "review",
+            "title": "Mirror, Mirror on the Wall, Who's the Fairest of Them All? ALONCEhzj Makeup Mirror with Lights, of course!",
+            "content": "This portable square folded compact mirror is the perfect addition to any makeup lover's collection. With its sleek gold or silver frame and built-in lights, you'll be able to see every detail of your flawless face. Plus, it's small enough to fit in your pocket or purse, so you can touch up your makeup on the go.\n\nOne of the most useful features of this mirror is the built-in lights. Whether you're in a dimly lit room or outside at night, the lights will ensure that you can see every detail of your makeup. Plus, the mirror is available in both round and square shapes, so you can choose the one that best fits your style.\n\nThis mirror would be a great fit for anyone who loves makeup and wants to make sure they always look their best. Whether you're a professional makeup artist or just someone who loves to experiment with different looks, this mirror will help you achieve your desired look.\n\nPros:\n- Built-in lights\n- Portable and compact\n- Sleek and stylish design\n\nCons:\n- Higher price point\n- Limited color options\n\nIn conclusion, the ALONCEhzj Makeup Mirror with Lights is a must-have for any makeup lover. Its built-in lights, portable design, and stylish frame make it the perfect addition to your makeup routine. While it may be a bit pricier than other mirrors on the market, the quality and convenience make it well worth the investment.",
+            "product": {
+                "id": 80,
+                "url": "https://www.amazon.com/dp/B0C2C37RL8?tag=dexterlabs-20",
+                "name": "ALONCEhzj Makeup Mirror with Lights Luxury Makeup Mirrors Portable Square Folded Compact Mirrors Gold Silver Pocket Mirror Cosmetic Mirror (Size : M)",
+                "price": "$116.52",
+                "thumbnail": "https://m.media-amazon.com/images/I/41Te2NQ17lL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
             }
         },
         {
@@ -141,6 +435,20 @@
             }
         },
         {
+            "id": 100,
+            "slug": "mirror-mirror-on-the-go-a-review-of-the-luxury-beauty-care-mini-mirror-set",
+            "type": "review",
+            "title": "Mirror, Mirror on the Go: A Review of the Luxury Beauty Care Mini Mirror Set",
+            "content": "Looking for a cute and compact mirror to take on the go? Look no further than the Luxury Beauty Care 2 Piece Mini Mirror Set! These sparkly pink handheld mirrors are perfect for touch-ups on the fly, whether you're at work, out with friends, or traveling the world. And at just 4x2 inches, they'll fit easily in your purse or pocket.\n\nOne of the best things about these mirrors is their size. They're small enough to be portable, but big enough to actually see your face in. Plus, the handle makes them easy to hold and maneuver, so you can get just the right angle for your makeup or hair. And let's be real, the sparkly pink design is just too cute to resist.\n\nWho would this product be a good fit for? Anyone who wants a mirror they can take with them anywhere! Whether you're a busy mom, a college student, or a frequent traveler, these mirrors are a great addition to your beauty arsenal. They're also a fun gift for your bestie or your little sister who's just starting to experiment with makeup.\n\nPros:\n- Cute and compact design\n- Easy to hold and maneuver\n- Comes in a set of two\n- Perfect for on-the-go touch-ups\n\nCons:\n- Some users may not like the sparkly pink design\n- Mirrors are not magnified\n\nOverall, the Luxury Beauty Care 2 Piece Mini Mirror Set is a great choice for anyone who wants a portable and practical mirror. While the sparkly pink design may not be everyone's cup of tea, it's definitely a fun and playful touch. And at just $19.99 for a set of two, it's a great value too. So go ahead and add these mirrors to your beauty bag - you won't regret it!",
+            "product": {
+                "id": 142,
+                "url": "https://www.amazon.com/dp/B0BZQT5N2K?tag=dexterlabs-20",
+                "name": "Luxury Beauty Care 2 Piece Mini Mirror Set, Travel Size, Sparkly, Pink, Makeup, Small, Handheld Cosmetic Mirrors, 4x2, Dark and Light Pink",
+                "price": "$19.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/61Mc3pjTswL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
             "id": 28,
             "slug": "larimar-luxury-black-makeup-brush-set-the-ultimate-tool-for-a-flawless-beat",
             "type": "review",
@@ -167,6 +475,541 @@
                 "price": "$143.17",
                 "thumbnail": "https://m.media-amazon.com/images/I/21hV0yZggFL._SX300_SY300_QL70_FMwebp_.jpg"
             }
+        },
+
+        {
+            "id": 34,
+            "slug": "get-baked-with-makeup-revolution-loose-baking-powder-a-review",
+            "type": "review",
+            "title": "Get Baked with Makeup Revolution Loose Baking Powder: A Review",
+            "content": "If you're looking for a setting powder that will keep your makeup in place all day, reduce shine, and give you a flawless finish, then Makeup Revolution Loose Baking Powder is the product for you. This powder is perfect for light skin tones and comes in the shade Banana Light. It provides long-lasting coverage and is easy to apply.\n\nOne of the best things about this powder is that it's super lightweight and doesn't feel heavy on your skin. It's perfect for those who want a natural look but still want their makeup to stay in place. The powder is also very finely milled, which means it won't settle into fine lines or pores. It's perfect for baking under your eyes or setting your entire face.\n\nMakeup Revolution Loose Baking Powder is a great fit for anyone who wants a high-quality setting powder without breaking the bank. It's perfect for those who are just starting out with makeup or for those who want to try out a new product. The powder is also vegan and cruelty-free, which is a huge plus for those who are conscious about the products they use.\n\nPros:\n- Provides long-lasting coverage\n- Reduces shine\n- Lightweight and finely milled\n- Vegan and cruelty-free\n- Affordable\n\nCons:\n- Only available in one shade\n- May not work for those with darker skin tones\n\nOverall, Makeup Revolution Loose Baking Powder is a great product that provides long-lasting coverage and reduces shine. It's perfect for those with light skin tones and is easy to apply. While it may not work for everyone, it's definitely worth trying out if you're in the market for a new setting powder. So go ahead and get baked with Makeup Revolution!",
+            "product": {
+                "id": 17,
+                "url": "https://www.amazon.com/dp/B08B36528M?tag=dexterlabs-20",
+                "name": "Makeup Revolution Loose Baking Powder, Make Up Setting Powder, Provides Long-lasting Coverage, Reduces Shine, For Light Skin Tones, Banana Light, 32g",
+                "price": "$8.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/31NhVUI+pXS._SY300_SX300_.jpg"
+            }
+        },
+        {
+            "id": 35,
+            "slug": "get-ready-to-slay-with-haus-laboratories-by-lady-gaga-glam-attack-liquid-eyeshadow",
+            "type": "review",
+            "title": "Get Ready to Slay with HAUS LABORATORIES By Lady Gaga: GLAM ATTACK LIQUID EYESHADOW",
+            "content": "Are you tired of boring eyeshadows that don't last? Do you want to add some sparkle to your life? Look no further than HAUS LABORATORIES By Lady Gaga: GLAM ATTACK LIQUID EYESHADOW! This pigmented liquid eyeshadow comes in 13 shimmer and 4 metallic colors, perfect for any occasion. Plus, it's vegan and cruelty-free, so you can feel good about your purchase.\n\nOne of the best features of this liquid eyeshadow is how long-lasting it is. You can wear it all day without worrying about it smudging or fading. It's also super blendable, so you can create a variety of looks with just one product. Whether you want a subtle shimmer or a bold metallic pop, GLAM ATTACK has got you covered.\n\nThis product would be a great fit for anyone who loves makeup and wants to add some extra glam to their look. It's also perfect for those who are vegan or cruelty-free, as it aligns with those values. Plus, with so many colors to choose from, there's something for everyone. Whether you're a makeup pro or just starting out, GLAM ATTACK is easy to use and will make you feel like a superstar.\n\n<strong>Pros:</strong>\n- Long-lasting\n- Blendable\n- Vegan and cruelty-free\n- Comes in a variety of colors\n\n<strong>Cons:</strong>\n- Some colors may not be as pigmented as others\n\nIn conclusion, HAUS LABORATORIES By Lady Gaga: GLAM ATTACK LIQUID EYESHADOW is a must-have for anyone who loves makeup and wants to add some extra sparkle to their life. With its long-lasting formula, blendability, and variety of colors, it's a versatile product that can be used for any occasion. While some colors may not be as pigmented as others, overall this product is a winner. So go ahead and slay, hunty!",
+            "product": {
+                "id": 29,
+                "url": "https://www.amazon.com/dp/B08DLJKT53?tag=dexterlabs-20",
+                "name": "HAUS LABORATORIES By Lady Gaga: GLAM ATTACK LIQUID EYESHADOW | Pigmented Liquid Eyeshadow Available in 13 Shimmer & 4 Metallic Colors, Long Lasting & Blendable Eye Makeup, Vegan & Cruelty-Free",
+                "price": "$6.67",
+                "thumbnail": "https://m.media-amazon.com/images/I/31IFpuK-cWL._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 36,
+            "slug": "lipstick-lovers-rejoice-lancici-2pcs-lipstick-organizer-is-here-to-save-the-day",
+            "type": "review",
+            "title": "Lipstick Lovers Rejoice: Lancici 2Pcs Lipstick Organizer is Here to Save the Day!",
+            "content": "Are you tired of digging through your purse for your favorite lipstick? Do you wish you had a cute and compact way to store your lip glosses? Look no further than the Lancici 2Pcs Lipstick Organizer! This luxury leather bag is the perfect size to hold all your favorite lip products, and even has a keychain so you can attach it to your purse or backpack. Plus, it comes in a classic design that will never go out of style.\n\nThis lipstick organizer is perfect for anyone who loves makeup and is always on the go. It's small enough to fit in your purse or backpack, but big enough to hold all your favorite lip products. Plus, the keychain makes it easy to attach to your bag so you never have to worry about losing it. Whether you're traveling or just running errands, this lipstick organizer is a must-have.\n\nOne of the best features of this lipstick organizer is the high-quality leather material. It's soft to the touch and looks expensive, but it's actually very affordable. Plus, the classic design means it will never go out of style. Another great feature is the size - it's small enough to fit in your purse, but big enough to hold all your favorite lip products. And the keychain makes it easy to attach to your bag so you never have to worry about losing it.\n\nPros:\n- High-quality leather material\n- Classic design that will never go out of style\n- Small enough to fit in your purse, but big enough to hold all your favorite lip products\n- Keychain makes it easy to attach to your bag\n\nCons:\n- Only comes in one color (Classic)\n\nIn conclusion, the Lancici 2Pcs Lipstick Organizer is a must-have for anyone who loves makeup and is always on the go. It's small enough to fit in your purse, but big enough to hold all your favorite lip products. Plus, the keychain makes it easy to attach to your bag so you never have to worry about losing it. The only downside is that it only comes in one color, but the classic design means it will never go out of style. Overall, I highly recommend this lipstick organizer!",
+            "product": {
+                "id": 47,
+                "url": "https://www.amazon.com/dp/B09ZYMXGB4?tag=dexterlabs-20",
+                "name": "Lancici 2Pcs Lipstick Organizer, Luxury Leather Lip Gloss Bag, Mini Lipstick Case with Keychain, Girls travel Lipgloss Makeup Storage Holder for Purse Perfume Fingernail Polish (Classic) (KARAT379)",
+                "price": "$18.69",
+                "thumbnail": "https://m.media-amazon.com/images/I/71Re+2BT1TL._AC_SY300_SX300_.jpg"
+            }
+        },
+        {
+            "id": 37,
+            "slug": "e-l-f-hydrating-camo-concealer-the-ultimate-weapon-against-dark-circles-and-imperfections",
+            "type": "review",
+            "title": "e.l.f Hydrating Camo Concealer: The Ultimate Weapon Against Dark Circles and Imperfections",
+            "content": "Are you tired of looking like a raccoon every morning? Do you want to hide those pesky pimples without caking on makeup? Look no further than e.l.f Hydrating Camo Concealer! This lightweight, full-coverage concealer is a game-changer for anyone who wants to look flawless without sacrificing hydration or comfort.\n\nOne of the best things about this concealer is its versatility. Whether you have normal, combination, or dry skin, you can count on e.l.f Hydrating Camo Concealer to provide the coverage you need without feeling heavy or greasy. Plus, the satin finish gives your skin a natural-looking glow that lasts all day long. And with 25 shades to choose from, you're sure to find the perfect match for your skin tone.\n\nAnother great feature of this concealer is its hydrating properties. Thanks to key ingredients like sodium hyaluronate and rose flower water, your skin will stay moisturized and healthy-looking even after hours of wear. And the large doe foot applicator makes it easy to apply the product precisely where you need it, without wasting any product or making a mess.\n\nOf course, no product is perfect, and e.l.f Hydrating Camo Concealer is no exception. Some users have reported that the Fair Beige shade can be a bit too light for their skin tone, so it's important to swatch the product before buying to make sure you get the right match. But overall, this concealer is a must-have for anyone who wants to look their best without breaking the bank.\n\nPros:\n- Lightweight, full-coverage formula\n- Satin finish for a natural-looking glow\n- Hydrating ingredients keep skin moisturized\n- Large doe foot applicator for precise application\n- 25 shades to choose from\n\nCons:\n- Fair Beige shade may be too light for some skin tones\n\nIn conclusion, e.l.f Hydrating Camo Concealer is a fantastic product that delivers on its promises. Whether you're a makeup newbie or a seasoned pro, you'll love how easy it is to use and how great it makes your skin look. So why wait? Add this concealer to your makeup bag today and get ready to slay all day!",
+            "product": {
+                "id": 18,
+                "url": "https://www.amazon.com/dp/B07ZR1CQHP?tag=dexterlabs-20",
+                "name": "e.l.f, Hydrating Camo Concealer, Lightweight, Full Coverage, Long Lasting, Conceals, Corrects, Covers, Hydrates, Highlights, Fair Beige, Satin Finish, 25 Shades, All-Day Wear, 0.20 Fl Oz",
+                "price": "$7.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/31oqhwPYq4L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 38,
+            "slug": "get-lit-with-the-makeup-travel-lighted-case",
+            "type": "review",
+            "title": "Get Lit with the Makeup Travel Lighted Case!",
+            "content": "Are you tired of struggling to do your makeup in dimly lit hotel rooms? Look no further than the Makeup Travel Lighted Case with Large LED Light Mirror Coetic Bag Organizer Professional Adjustable Divider Storage, Waterproof Portable Make up Train Box Accessories And Tools Case (SN-White)! This bad boy has got you covered with its bright LED lights that will make you feel like a Hollywood star.\n\nNot only is this case lit, but it's also super organized. With adjustable dividers and waterproof storage, you can keep all your makeup and tools in one place without worrying about spills or messes. Plus, it's portable and easy to travel with, so you can take your glam on the go.\n\nThis case is perfect for makeup artists or anyone who loves to travel and needs a reliable and organized way to store their makeup. It's also great for those who struggle with lighting when doing their makeup and need a little extra help. Trust us, once you try this case, you'll wonder how you ever lived without it.\n\n<strong>Pros:</strong>\n- Bright LED lights for easy makeup application\n- Adjustable dividers and waterproof storage for organization\n- Portable and easy to travel with\n\n<strong>Cons:</strong>\n- Only comes in white (not a huge deal, but some may prefer other color options)\n\nOverall, the Makeup Travel Lighted Case with Large LED Light Mirror Coetic Bag Organizer Professional Adjustable Divider Storage, Waterproof Portable Make up Train Box Accessories And Tools Case (SN-White) is a game-changer for anyone who loves makeup and travel. With its bright lights and organized storage, you'll never have to struggle with doing your makeup in bad lighting again. Highly recommend!",
+            "product": {
+                "id": 19,
+                "url": "https://www.amazon.com/dp/B0BN9VRD2Q?tag=dexterlabs-20",
+                "name": "Makeup Travel Lighted Case with Large LED Light Mirror Coetic Bag Organizer Professional Adjustable Divider Storage, Waterproof Portable Make up Train Box Accessories And Tools Case (SN-White)",
+                "price": "$79.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/71LXGFiuO6L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 39,
+            "slug": "leicurace-makeup-brush-holder-organizer-the-perfect-addition-to-your-vanity",
+            "type": "review",
+            "title": "LEICURACE Makeup Brush Holder Organizer: The Perfect Addition to Your Vanity",
+            "content": "Are you tired of digging through a pile of makeup brushes just to find the one you need? Look no further than the LEICURACE Makeup Brush Holder Organizer! This crystal makeup holder is not only functional, but it's also super stylish. The light luxury retro design will make you feel like a beauty guru, even if you're just a beginner.\n\nOne of the best features of this makeup holder is its size. It's small enough to fit on your vanity without taking up too much space, but big enough to hold all of your essential brushes, eyeliners, and eyebrow pencils. Plus, the smooth and glossy finish makes it easy to clean and maintain. No more worrying about makeup stains ruining your favorite organizer!\n\nThis makeup holder would be a great fit for anyone who loves makeup and wants to keep their collection organized. Whether you're a professional makeup artist or just someone who enjoys experimenting with different looks, this holder will make your life so much easier. Plus, the green color adds a pop of fun to your vanity, making it a great gift for your makeup-loving friends.\n\nPros:\n- Stylish and modern design\n- Durable and long-lasting materials\n- Perfect size for holding all of your essential makeup tools\n- Easy to clean and maintain\n\nCons:\n- The green color may not be everyone's cup of tea\n\nOverall, the LEICURACE Makeup Brush Holder Organizer is a great investment for anyone who wants to keep their makeup collection organized and looking chic. It's functional, stylish, and easy to clean, making it the perfect addition to any vanity. So go ahead and treat yourself to this light luxury retro makeup holder - you won't regret it!",
+            "product": {
+                "id": 20,
+                "url": "https://www.amazon.com/dp/B0BKY1W7C9?tag=dexterlabs-20",
+                "name": "LEICURACE Makeup Brush Holder Organizer Crystal Makeup Holder for Lipstick Organizer Small Makeup Organizer Light Luxury Retro Desktop Eyeliners Eyebrow Pencil Storage Cup Holder (Green/S+L)",
+                "price": "$27.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/71yKn1WsCdL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 102,
+            "slug": "get-organized-in-style-with-xialiuxia-makeup-storage-light-luxury-iron-art-cosmetic-holder",
+            "type": "review",
+            "title": "Get Organized in Style with XIALIUXIA Makeup Storage Light Luxury Iron Art Cosmetic Holder",
+            "content": "Are you tired of digging through a cluttered makeup bag every morning? Do you want to display your beauty products like the queen you are? Look no further than the XIALIUXIA Makeup Storage Light Luxury Iron Art Cosmetic Holder! This three-layer storage rack is perfect for organizing your makeup, skincare, jewelry, and more. Plus, it looks super chic on any dressing table or bathroom counter.\n\nOne of the best features of this storage rack is its viewing experience. You can easily see all of your products at a glance, making it easy to find what you need. The wrought iron material is sturdy and durable, so you don't have to worry about it falling apart. And with three layers, you have plenty of space to store all of your favorite products.\n\nThis storage rack would be a great fit for anyone who loves makeup and wants to keep their collection organized. It's also perfect for anyone who wants to display their products like a beauty influencer. And with its versatile design, it can be used in any room of the house, from the bedroom to the kitchen.\n\nPros:\n- Stylish and chic design\n- Three layers provide plenty of storage space\n- Durable wrought iron material\n\nCons:\n- Slight chromatic aberration may occur due to lighting and shooting angle\n- Color may vary slightly from product picture\n\nOverall, the XIALIUXIA Makeup Storage Light Luxury Iron Art Cosmetic Holder is a great investment for anyone who wants to get organized in style. It's durable, versatile, and looks great on any surface. So why not treat yourself to this beauty storage solution today?",
+            "product": {
+                "id": 82,
+                "url": "https://www.amazon.com/dp/B0C1B85GKS?tag=dexterlabs-20",
+                "name": "XIALIUXIA Makeup Storage Light Luxury Iron Art Cosmetic Holder Mask Perfume Lipstick Storage Box Desktop Dressing Table Bathroom Skin Care Rack Storage Jewelry Storage Case Display",
+                "price": "$121.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/41b6DDbUxUS.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+
+        {
+            "id": 41,
+            "slug": "get-your-glam-on-with-bueart-design-s-pink-pearl-makeup-brush-set",
+            "type": "review",
+            "title": "Get Your Glam On with Bueart Design's Pink Pearl Makeup Brush Set!",
+            "content": "If you're a makeup lover, you know that the right brushes can make all the difference. That's why I'm obsessed with the Bueart Design Best GIFT Luxury 30Pcs Professional Pearl Pink Deluxe Makeup Brushes set with Super Extra large Brush holder case Foundation Face Blending Blush Concealers brush sets for makeup. Not only are these brushes super cute with their pink pearl handles, but they're also incredibly high-quality and versatile.\n\nOne of my favorite things about this set is the variety of brushes included. There are brushes for every step of your makeup routine, from foundation to blush to eyeshadow. Plus, the super extra large brush holder case makes it easy to keep everything organized and in one place. Whether you're a makeup pro or just starting out, this set has everything you need to create a flawless look.\n\nThis set would be a great fit for anyone who loves makeup and wants to up their game. It's also a perfect gift for your makeup-loving friends and family members. Trust me, they'll be obsessed with these brushes just like I am!\n\n<strong>Pros:</strong>\n- High-quality brushes that are versatile and perfect for every step of your makeup routine\n- Super cute pink pearl handles that will make you feel like a glam queen\n- Comes with a large brush holder case to keep everything organized and in one place\n\n<strong>Cons:</strong>\n- The pink color might not be everyone's cup of tea\n- The set is a bit pricey, but you're paying for high-quality brushes that will last you a long time\n\nOverall, I highly recommend the Bueart Design Best GIFT Luxury 30Pcs Professional Pearl Pink Deluxe Makeup Brushes set with Super Extra large Brush holder case Foundation Face Blending Blush Concealers brush sets for makeup. It's a great investment for anyone who loves makeup and wants to take their routine to the next level. Plus, the pink pearl handles are just too cute to resist!",
+            "product": {
+                "id": 22,
+                "url": "https://www.amazon.com/dp/B0B31JLXZ7?tag=dexterlabs-20",
+                "name": "Bueart Design Best GIFT Luxury 30Pcs Professional Pearl Pink Deluxe Makeup Brushes set with Super Extra large Brush holder case Foundation Face Blending Blush Concealers brush sets for makeup",
+                "price": "$69.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/51FHxXYgQ0L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "slug": "get-flawless-skin-with-the-fiera-concealer-brush-a-review",
+            "type": "review",
+            "title": "Get Flawless Skin with the FI\u00c8RA Concealer Brush: A Review",
+            "content": "If you're tired of looking like a raccoon with dark circles under your eyes, the FI\u00c8RA Concealer Brush is here to save the day! This expert facial brush is perfect for applying cream and liquid concealer makeup with a seamless, even application. It's lightweight and easy to clean, making it the perfect tool for anyone who wants to achieve flawless skin without spending hours in front of the mirror.\n\nOne of the best things about the FI\u00c8RA Concealer Brush is how easy it is to use. The bristles are soft and flexible, allowing you to apply your concealer with precision and control. Whether you're trying to cover up blemishes, dark circles, or redness, this brush will help you achieve a natural-looking finish that won't cake or crease. Plus, it's perfect for use with the Fi\u00e8ra Luxury Concealer, which is designed to work seamlessly with this brush.\n\nIf you're someone who loves makeup and wants to take your beauty routine to the next level, the FI\u00c8RA Concealer Brush is definitely worth checking out. It's perfect for anyone who wants to achieve a flawless, airbrushed look without spending a fortune on expensive makeup products. Plus, it's lightweight and easy to clean, making it a great choice for anyone who's always on the go.\n\nPros:\n- Soft, flexible bristles for precise application\n- Lightweight and easy to clean\n- Perfect for use with Fi\u00e8ra Luxury Concealer\n- Helps achieve a natural-looking finish\n\nCons:\n- Only available in one color\n- May not be suitable for those with very sensitive skin\n\nIn conclusion, the FI\u00c8RA Concealer Brush is a must-have tool for anyone who wants to achieve flawless skin with minimal effort. It's easy to use, easy to clean, and perfect for use with the Fi\u00e8ra Luxury Concealer. While it may not be suitable for those with very sensitive skin, it's definitely worth checking out if you're looking for a high-quality concealer brush that won't break the bank. So go ahead and give it a try \u2013 your skin will thank you!",
+            "product": {
+                "id": 23,
+                "url": "https://www.amazon.com/dp/B09GW99XXG?tag=dexterlabs-20",
+                "name": "FI\u00c8RA Concealer Brush - Expert Facial Brush for Cream & Liquid Concealer Makeup - Seamless, Even Application - Lightweight & Easy to Clean - Perfect for Use with Fi\u00e8ra Luxury Concealer",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/21ctAu8SJAL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "slug": "real-techniques-everyday-essentials-kit-the-only-makeup-brush-set-you-need",
+            "type": "review",
+            "title": "Real Techniques Everyday Essentials Kit: The Only Makeup Brush Set You Need",
+            "content": "Are you tired of using the same old makeup brushes that leave your face looking like a hot mess? Look no further than the Real Techniques Everyday Essentials Kit! This 6 piece set comes with 2 makeup blending sponges and ultra plush synthetic bristles that will leave your face looking flawless. \n\nThis kit is perfect for anyone who wants to achieve a pro-styled look without breaking the bank. The brushes are designed by makeup artists and loved by millions, so you know you're getting quality tools. Whether you're a makeup newbie or a seasoned pro, this set has everything you need to master face, cheek, and eye makeup. \n\nPros:\n- Comes with 2 makeup blending sponges\n- Ultra plush synthetic bristles\n- Affordable price\n- Easy to clean with brush cleansing gel\n- Designed by makeup artists\n\nCons:\n- Limited color options\n- Some brushes may be too small for those with larger faces\n\nIn conclusion, the Real Techniques Everyday Essentials Kit is a must-have for anyone who wants to up their makeup game. With its affordable price and high-quality brushes, you can achieve a flawless look without breaking the bank. So what are you waiting for? Add this kit to your makeup collection today!",
+            "product": {
+                "id": 24,
+                "url": "https://www.amazon.com/dp/B0814747R8?tag=dexterlabs-20",
+                "name": "Real Techniques Everyday Essentials Kit, Makeup Brush Set With 2 Makeup Blending Sponges, For Eyeshadow, Foundation, Blush, & Concealer, UltraPlush Synthetic Bristles, 6 Piece Makeup Brush Set",
+                "price": "$19.76",
+                "thumbnail": "https://m.media-amazon.com/images/I/417ojiJ5mAL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "slug": "strong-get-organized-and-smell-good-doing-it-a-review-of-the-funest-makeup-perfume-organizer-strong",
+            "type": "review",
+            "title": "<strong>Get Organized and Smell Good Doing It: A Review of the Funest Makeup Perfume Organizer</strong>",
+            "content": "Are you tired of digging through a pile of makeup and perfume bottles just to find your favorite lipstick? Look no further than the Funest Makeup Perfume Organizer! This 360 degree rotating lazy susan is the perfect addition to any vanity or desk. With its large capacity, you can store all your lotions, potions, and even jewelry in one convenient place.\n\nOne of the best features of this organizer is its ability to rotate a full 360 degrees. No more awkwardly reaching for that one bottle in the back of the shelf. Just give it a spin and voila! Plus, the lazy susan design adds a touch of fun to your daily routine. It's like playing spin the bottle, but with your makeup collection.\n\nThis organizer would be a great fit for anyone who loves makeup and wants to keep their collection organized. It's also perfect for those who are short on space but still want to display their favorite products. And let's be real, who doesn't love a good lazy susan? It's a classic kitchen gadget that has now made its way into the world of beauty.\n\n<strong>Pros:</strong>\n- 360 degree rotating design\n- Large capacity for storing multiple products\n- Can be used for makeup, perfume, and jewelry\n\n<strong>Cons:</strong>\n- Only available in one color (white)\n- Some may find the price a bit steep for a cosmetic organizer\n\nIn conclusion, the Funest Makeup Perfume Organizer is a fun and functional addition to any beauty lover's collection. Its rotating design and large capacity make it easy to find and store all your favorite products. While the price may be a bit high for some, the convenience and organization it provides is well worth it. So go ahead, treat yourself to a little spin the bottle action with the Funest Makeup Perfume Organizer.",
+            "product": {
+                "id": 25,
+                "url": "https://www.amazon.com/dp/B0B1CS1JPF?tag=dexterlabs-20",
+                "name": "funest Makeup Perfume Organizer, 360 Degree Rotating Lazy Susan Cosmetic Desk Storage Lotions Display Case Round Gift Tray with Large Capacity, for your Jewelry",
+                "price": "$24.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/71aIPPX3L6L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "slug": "say-goodbye-to-dark-circles-with-maybelline-instant-age-rewind-eraser-concealer",
+            "type": "review",
+            "title": "Say Goodbye to Dark Circles with Maybelline Instant Age Rewind Eraser Concealer",
+            "content": "Are you tired of looking like a raccoon with those pesky dark circles under your eyes? Fear not, my fellow beauty enthusiasts, for Maybelline has come to the rescue with their Instant Age Rewind Eraser Dark Circles Treatment Multi-Use Concealer! This little gem instantly erases the appearance of dark circles and fine lines, leaving your under-eye area looking radiant and refreshed. Plus, it contains goji berry and haloxyl to help erase the appearance of dark circles and fine lines over time. \n\nThis concealer is perfect for anyone who wants to look more awake and refreshed, whether you're a busy mom, a college student pulling all-nighters, or just someone who loves to party all night long. The sponge applicator makes it easy to apply and blend, and the formula is lightweight and buildable, so you can customize your coverage to your liking. Plus, it's available in a variety of shades to match a range of skin tones. \n\nPros:\n- Instantly erases the appearance of dark circles and fine lines\n- Visibly diminishes the appearance of puffiness\n- Contains goji berry and haloxyl to help erase the appearance of dark circles and fine lines over time\n- Lightweight and buildable formula\n- Sponge applicator makes it easy to apply and blend\n- Available in a variety of shades to match a range of skin tones\n\nCons:\n- Some users may find the sponge applicator unhygienic\n- May not provide enough coverage for extremely dark circles\n\nIn conclusion, Maybelline Instant Age Rewind Eraser Dark Circles Treatment Multi-Use Concealer is a must-have for anyone who wants to look more awake and refreshed. Its lightweight, buildable formula and sponge applicator make it easy to apply and blend, and its goji berry and haloxyl-infused formula helps erase the appearance of dark circles and fine lines over time. While some users may find the sponge applicator unhygienic and it may not provide enough coverage for extremely dark circles, overall, this concealer is a winner in my book!",
+            "product": {
+                "id": 26,
+                "url": "https://www.amazon.com/dp/B004Y9GTOO?tag=dexterlabs-20",
+                "name": "Maybelline Instant Age Rewind Eraser Dark Circles Treatment Multi-Use Concealer, 110, 1 Count (Packaging May Vary)",
+                "price": "$8.80",
+                "thumbnail": "https://m.media-amazon.com/images/I/31p66xH5bmL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 46,
+            "slug": "strong-get-organized-in-style-with-youdepot-makeup-and-jewelry-organizer-strong",
+            "type": "review",
+            "title": "<strong>Get Organized in Style with Youdepot Makeup and Jewelry Organizer</strong>",
+            "content": "Are you tired of digging through a cluttered makeup bag to find your favorite lipstick? Look no further than the Youdepot Makeup and Jewelry Organizer! This vintage-inspired organizer is the perfect addition to any vanity or bathroom counter. With its luxury tempered glass and ample storage space, you'll be able to easily find and display all of your favorite skincare products, brushes, lipsticks, and jewelry.\n\nOne of the most useful features of this organizer is its versatility. The tempered glass shelves can be adjusted to fit a variety of different sized products, making it easy to customize your storage space. Plus, the two drawers at the bottom are perfect for storing larger items like hairbrushes or palettes. Whether you're a makeup artist or just someone who loves to experiment with different beauty products, this organizer is a must-have.\n\nThis organizer would be a great fit for anyone who wants to streamline their morning routine and keep their beauty products organized. It's also a great gift idea for the beauty lover in your life. Plus, with its vintage-inspired design, it's sure to add a touch of glamour to any room.\n\n<strong>Pros:</strong>\n- Ample storage space for a variety of products\n- Adjustable tempered glass shelves\n- Two drawers for additional storage\n- Vintage-inspired design adds a touch of glamour to any room\n\n<strong>Cons:</strong>\n- Higher price point may not be affordable for everyone\n- Glass shelves may require more frequent cleaning to maintain their appearance\n\nIn conclusion, the Youdepot Makeup and Jewelry Organizer is a stylish and practical addition to any beauty lover's collection. With its versatile storage options and vintage-inspired design, it's sure to make your morning routine a little bit easier. While it may be a bit pricier than some other organizers on the market, its durability and functionality make it well worth the investment.",
+            "product": {
+                "id": 27,
+                "url": "https://www.amazon.com/dp/B09ZKV9FJR?tag=dexterlabs-20",
+                "name": "Youdepot Makeup and jewelry organizer, vintage makeup organizer,make up organizers and storage luxury tempered Glass Cosmetic Organizer,for skincare products,Brushes, Lipsticks,Jewelry.",
+                "price": "$159.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/81QfSB1UikL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 103,
+            "slug": "travel-in-style-with-the-colorful-transparent-toilet-bag",
+            "type": "review",
+            "title": "Travel in Style with the Colorful Transparent Toilet Bag",
+            "content": "Are you tired of digging through your makeup bag to find your favorite lipstick? Look no further than the Travel Colorful Transparent Toilet Bag! This bag is perfect for the girl on the go who wants to keep her skincare and makeup organized and easily accessible. With its large capacity, you can fit all your essentials and more!\n\nThis bag is perfect for anyone who loves to travel or just needs a little organization in their life. The transparent design makes it easy to find what you need without having to dig through a cluttered bag. Plus, the colorful design adds a fun pop of color to your travel essentials.\n\nPros:\n- Large capacity to fit all your essentials\n- Transparent design for easy access\n- Colorful design adds a fun touch to your travel essentials\n\nCons:\n- Color may vary slightly from the picture\n\nIn conclusion, the Travel Colorful Transparent Toilet Bag is a must-have for anyone who wants to travel in style and keep their skincare and makeup organized. With its large capacity and transparent design, you'll never have to dig through a cluttered bag again. Plus, the colorful design adds a fun touch to your travel essentials. Don't hesitate, add this bag to your travel essentials today!",
+            "product": {
+                "id": 83,
+                "url": "https://www.amazon.com/dp/B0BZH3QYD4?tag=dexterlabs-20",
+                "name": "Travel Colorful Transparent Toilet Bag Large Capacity Makeup Bag Storage Bag for Women's Skin Care Checke Pouch Luxury",
+                "price": "$6.09",
+                "thumbnail": "https://m.media-amazon.com/images/I/51aEYSUB5mL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 47,
+            "slug": "get-your-beauty-fix-with-allure-beauty-box-the-best-monthly-delivery",
+            "type": "review",
+            "title": "Get Your Beauty Fix with Allure Beauty Box - The Best Monthly Delivery",
+            "content": "Are you tired of scouring the internet for the latest beauty trends? Look no further than Allure Beauty Box - The Best in Beauty Delivered Monthly! This subscription service delivers a curated selection of top-rated beauty products straight to your doorstep. It's like Christmas every month, but better because you get to keep all the presents!\n\nOne of the best features of Allure Beauty Box is the variety of products you receive. From skincare to makeup to haircare, each box includes a mix of full-size and deluxe samples from both well-known and up-and-coming brands. Plus, the included mini magazine provides tips and tricks for using each product to its fullest potential.\n\nThis subscription is perfect for anyone who loves trying new beauty products or wants to stay up-to-date on the latest trends. It's also a great gift for the beauty lover in your life. With Allure Beauty Box, you'll never have to worry about running out of your favorite products or missing out on the latest must-haves.\n\n<strong>Pros:</strong>\n- Variety of products from well-known and up-and-coming brands\n- Full-size and deluxe samples included\n- Mini magazine provides tips and tricks for each product\n\n<strong>Cons:</strong>\n- Some products may not be suitable for all skin types\n- Limited customization options\n\nIn conclusion, Allure Beauty Box - The Best in Beauty Delivered Monthly is a great subscription service for anyone who loves trying new beauty products. With a mix of full-size and deluxe samples from a variety of brands, you're sure to find something you love in each box. While there are some minor cons, the pros far outweigh them. So go ahead and treat yourself (or a friend) to a monthly beauty fix!",
+            "product": {
+                "id": 28,
+                "url": "https://www.amazon.com/dp/B0742LVLMJ?tag=dexterlabs-20",
+                "name": "Allure Beauty Box - The Best in Beauty Delivered Monthly",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/71rk4XEttgL.__AC_SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 48,
+            "slug": "the-master-of-mattes-a-review-of-makeup-by-mario-s-eyeshadow-palette",
+            "type": "review",
+            "title": "The Master of Mattes: A Review of MAKEUP BY MARIO's Eyeshadow Palette",
+            "content": "If you're a makeup lover, you know that finding the perfect matte eyeshadow palette is like finding a needle in a haystack. But fear not, my fellow beauty enthusiasts, because MAKEUP BY MARIO's Master Mattes\u2122 Eyeshadow Palette is here to save the day. With 12 buildable shades that range from soft white to intense black, this palette is a universal must-have for any makeup collection.\n\nOne of the best features of this palette is its versatility. Whether you're going for a natural daytime look or a dramatic nighttime vibe, these shades have got you covered. Plus, the formula is designed to prevent fallout, so you won't have to worry about any pesky eyeshadow dust ruining your flawless foundation. And let's not forget about the carbon black pigment in Matte 12, which is five times more intense than a traditional black shadow. Talk about drama!\n\nThis palette would be a great fit for anyone who loves a good matte eyeshadow, whether you're a beginner or a pro. The shades are easy to blend and build, so you can create a variety of looks without any fuss. And if you're a fan of MAKEUP BY MARIO's other products, this palette will fit right in with your collection.\n\nPROS:\n- Versatile shades for any look\n- Buildable formula that prevents fallout\n- Carbon black pigment for intense drama\n\nCONS:\n- Pricey at $68.75\n- Limited to matte shades only\n\nIn conclusion, MAKEUP BY MARIO's Master Mattes\u2122 Eyeshadow Palette is a must-have for any makeup lover who wants to add some versatility and drama to their collection. While it may be a bit pricey, the quality and range of shades make it worth the investment. So go ahead and channel your inner makeup artist with this amazing palette!",
+            "product": {
+                "id": 30,
+                "url": "https://www.amazon.com/dp/B09ZGX8M9F?tag=dexterlabs-20",
+                "name": "MAKEUP BY MARIO Master Mattes\u2122 Eyeshadow Palette 12 x 0.03 oz/ 1 g null 12 x 0.03 oz/ 1 g",
+                "price": "$68.75",
+                "thumbnail": "https://m.media-amazon.com/images/I/31V9nYQchbL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 49,
+            "slug": "winky-lux-peeper-perfect-under-eye-concealer-the-ultimate-solution-for-dark-circles",
+            "type": "review",
+            "title": "Winky Lux Peeper Perfect Under Eye Concealer: The Ultimate Solution for Dark Circles",
+            "content": "If you're tired of looking like a raccoon with those dark circles under your eyes, then you need to try the Winky Lux Peeper Perfect Under Eye Concealer. This concealer is not your average concealer, it's a full coverage concealer and under eye color corrector that will make you look like you've had a full 8 hours of sleep. Plus, it doubles as an under eye primer, so your makeup will stay put all day long.\n\nThis product is perfect for anyone who struggles with dark circles or discoloration under their eyes. It's especially great for those with fair skin tones, as it comes in a shade that matches perfectly. The formula is creamy and easy to blend, so you won't have to worry about it looking cakey or settling into fine lines. Plus, it's cruelty-free and vegan, so you can feel good about using it.\n\n<strong>Pros:</strong>\n- Full coverage formula that covers dark circles and discoloration\n- Doubles as an under eye primer to keep makeup in place\n- Creamy and easy to blend formula\n- Cruelty-free and vegan\n\n<strong>Cons:</strong>\n- Limited shade range, only available in fair\n- May not work for those with very deep or severe dark circles\n\nIn conclusion, the Winky Lux Peeper Perfect Under Eye Concealer is a must-have for anyone who struggles with dark circles or discoloration under their eyes. It's a full coverage concealer and under eye color corrector that doubles as an under eye primer, making it the ultimate solution for tired-looking eyes. While the shade range is limited, the formula is creamy and easy to blend, and it's cruelty-free and vegan. Give it a try and say goodbye to raccoon eyes for good!",
+            "product": {
+                "id": 31,
+                "url": "https://www.amazon.com/dp/B08PNKP3SD?tag=dexterlabs-20",
+                "name": "Winky Lux Peeper Perfect Under Eye Concealer, Concealer Makeup and Under Eye Primer, Full Coverage Concealer and Under Eye Color Corrector for Dark Circles, Fair",
+                "price": "$18.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/31qwTIMwmyL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 104,
+            "slug": "dickinson-s-enhanced-witch-hazel-toner-the-secret-to-a-smoother-complexion",
+            "type": "review",
+            "title": "Dickinson's Enhanced Witch Hazel Toner: The Secret to a Smoother Complexion",
+            "content": "Are you tired of using harsh toners that leave your skin feeling tight and dry? Look no further than Dickinson's Enhanced Witch Hazel Hydrating Toner with Rosewater! This alcohol-free formula gently cleanses and tones your skin while nourishing it with Hyaluronic Acid and Vitamin E. Plus, with the added bonus of invigorating rosewater, you'll feel refreshed and ready to take on the day.\n\nThis toner is perfect for anyone looking to maintain their skin's natural balance without using harsh or confusing ingredients. Whether you have dry, oily, or combination skin, Dickinson's Enhanced Witch Hazel Toner will leave you with a softer, healthier look. And with its 98% natural formula, you can feel good about what you're putting on your skin.\n\nPros:\n- Alcohol-free formula won't dry out your skin\n- Contains nourishing ingredients like Hyaluronic Acid and Vitamin E\n- Invigorating rosewater leaves you feeling refreshed\n- 98% natural formula with no parabens, sulfates, dyes, or glutens\n- Affordable price point\n\nCons:\n- Some users may not like the scent of rosewater\n- The 16 oz. bottle may be too large for travel\n\nIn conclusion, Dickinson's Enhanced Witch Hazel Hydrating Toner with Rosewater is a must-have for anyone looking to improve their skincare routine. With its gentle, nourishing formula and affordable price point, you can't go wrong. So why not give it a try and see the difference for yourself? Your skin will thank you!",
+            "product": {
+                "id": 84,
+                "url": "https://www.amazon.com/dp/B00KX32J26?tag=dexterlabs-20",
+                "name": "Dickinson's Enhanced Witch Hazel Hydrating Toner with Rosewater, Alcohol Free, 98% Natural Formula, 16 Fl Oz",
+                "price": "$5.87",
+                "thumbnail": "https://m.media-amazon.com/images/I/31U1DfefnOL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 50,
+            "slug": "get-that-flawless-finish-with-ben-nye-luxury-powders-banana-1-5oz",
+            "type": "review",
+            "title": "Get that Flawless Finish with Ben Nye Luxury Powders - Banana 1.5oz",
+            "content": "Looking for a powder that will give you that perfect finish? Look no further than Ben Nye Luxury Powders - Banana 1.5oz! This powder is the real deal, providing a superior matte finish that will leave you looking flawless. Plus, it's often compared to French powders, so you know it's good.\n\nWho is this powder good for? Anyone who wants to look their best! Whether you're a makeup artist or just someone who wants to look great for a night out, this powder is perfect for you. It's also great for people with oily skin, as it helps to control shine and keep your makeup in place all day long.\n\nOne of the best things about Ben Nye Luxury Powders - Banana 1.5oz is that it's translucent with just a hint of color. This means that it will work for a variety of skin tones, and won't leave you looking like you're wearing a mask. Plus, it's super easy to apply - just use a fluffy brush to dust it over your face.\n\nPros:\n- Provides a superior matte finish\n- Translucent with just a hint of color\n- Easy to apply\n\nCons:\n- Does not come with a seal\n\nOverall, Ben Nye Luxury Powders - Banana 1.5oz is a great choice for anyone who wants to look their best. It provides a flawless finish that will last all day, and is easy to apply. Plus, it's affordable and works for a variety of skin tones. The only downside is that it doesn't come with a seal, but that's a minor issue compared to all the benefits this powder provides. So go ahead and give it a try - you won't be disappointed!",
+            "product": {
+                "id": 32,
+                "url": "https://www.amazon.com/dp/B00942W51C?tag=dexterlabs-20",
+                "name": "Ben Nye Luxury Powders - Banana 1.5oz",
+                "price": "$18.80",
+                "thumbnail": "https://m.media-amazon.com/images/I/41HHcMQ2jQL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 51,
+            "slug": "luscious-lips-alert-by-terry-baume-de-rose-lip-balm-review",
+            "type": "review",
+            "title": "Luscious Lips Alert: By Terry Baume de Rose Lip Balm Review",
+            "content": "If you're looking for a lip balm that will make your lips look like they've been kissed by an angel, then you need to try By Terry Baume de Rose Lip Balm. This nourishing and hydrating lip plumping balm is perfect for anyone who wants fuller, softer, and more kissable lips. With its luxurious formula and beautiful packaging, this lip balm is a must-have for anyone who loves to pamper themselves.\n\nOne of the best things about this lip balm is how hydrating it is. It's perfect for those cold winter months when your lips are feeling dry and chapped. The formula is rich and creamy, and it feels amazing on your lips. Plus, it's packed with nourishing ingredients like shea butter and rose flower essential wax, which help to soothe and protect your lips.\n\nAnother great feature of this lip balm is that it's perfect for creating a plumping effect. If you're looking for a way to make your lips look fuller and more voluminous, then this is the product for you. The formula contains a blend of natural oils and waxes that help to smooth out fine lines and wrinkles, giving your lips a more youthful appearance.\n\n<strong>Pros:</strong>\n- Hydrating and nourishing formula\n- Creates a plumping effect\n- Luxurious packaging\n\n<strong>Cons:</strong>\n- Expensive\n- Some may not like the rose scent\n\nOverall, By Terry Baume de Rose Lip Balm is a fantastic product that is perfect for anyone who wants to pamper their lips. While it is on the expensive side, the results are definitely worth it. If you're looking for a lip balm that will leave your lips feeling soft, smooth, and plump, then this is the product for you. So go ahead and treat yourself to a little luxury \u2013 your lips will thank you!",
+            "product": {
+                "id": 33,
+                "url": "https://www.amazon.com/dp/B07VS2GQQR?tag=dexterlabs-20",
+                "name": "By Terry Baume de Rose Lip Balm | Nourishing and Hydrating Lip Plumping Balm | For Fuller Lips | 10g (0.35 oz)",
+                "price": "$54.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/41374ygrg6L._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 105,
+            "slug": "2023-new-4-sticks-lipsticks-the-lipstick-set-you-need-in-your-life",
+            "type": "review",
+            "title": "2023 New 4 Sticks Lipsticks: The Lipstick Set You Need in Your Life",
+            "content": "Are you tired of boring lipsticks that don't last long? Look no further than the 2023 New 4 Sticks Lipsticks Velvet Matte Polarized Temperature Change Lip Gloss Sets! This set includes four different shades that will leave your lips looking and feeling amazing.\n\nOne of the best features of this lipstick set is its long-lasting formula. You won't have to worry about reapplying every hour, which is perfect for those busy days when you don't have time for touch-ups. Plus, the moisturizing effect will keep your lips feeling soft and smooth all day long.\n\nThis lipstick set is perfect for anyone who loves to experiment with different lip colors. The set includes four different shades, so you can mix and match to create your own unique look. Plus, the portable size makes it easy to take with you on the go, so you can touch up your lips whenever you need to.\n\nPros:\n- Long-lasting formula\n- Moisturizing effect\n- Four different shades to choose from\n- Portable size\n\nCons:\n- Colors may not be suitable for all skin tones\n\nIn conclusion, the 2023 New 4 Sticks Lipsticks Velvet Matte Polarized Temperature Change Lip Gloss Sets are a must-have for anyone who loves to experiment with different lip colors. The long-lasting formula and moisturizing effect make this set a great investment, and the portable size makes it easy to take with you wherever you go. While the colors may not be suitable for all skin tones, there are still plenty of options to choose from. So go ahead and treat yourself to this amazing lipstick set - your lips will thank you!",
+            "product": {
+                "id": 85,
+                "url": "https://www.amazon.com/dp/B0C2JBRQLW?tag=dexterlabs-20",
+                "name": "2023 New 4 Sticks Lipsticks Velvet Matte Polarized Temperature Change Lip Gloss Sets, Matte Long Lasting Moisturizer Lipstick Set, Gift for Women Girls",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/41E-SwEQFtL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 52,
+            "slug": "nire-beauty-15piece-award-winning-professional-makeup-brush-set-the-only-set-you-need-for-a-flawless-beat",
+            "type": "review",
+            "title": "Nir\u00e9 Beauty 15piece Award Winning Professional Makeup Brush Set: The Only Set You Need for a Flawless Beat",
+            "content": "If you're a makeup lover like me, you know the struggle of finding the perfect brushes. But look no further, because the Nir\u00e9 Beauty 15piece Award Winning Professional Makeup Brush Set has got you covered. This set includes everything you need for a flawless beat, from a variety of brushes to a makeup sponge and brush cleaner. Plus, it's vegan and comes in a cute case with a guide and gift box. \n\nThis set is perfect for anyone who loves makeup, whether you're a beginner or a pro. The brushes are high quality and versatile, so you can use them for any type of makeup look. The makeup sponge is also a game changer, giving you a flawless finish without any streaks. And the brush cleaner is a must-have for keeping your brushes in top shape. \n\nPros:\n- High quality brushes that are versatile and easy to use\n- Vegan and comes with a cute case, guide, and gift box\n- Makeup sponge and brush cleaner included for a flawless finish\n\nCons:\n- Some of the brushes may shed a little at first, but this is normal for new brushes\n\nOverall, I highly recommend the Nir\u00e9 Beauty 15piece Award Winning Professional Makeup Brush Set. It's a great investment for anyone who loves makeup and wants to achieve a flawless beat. Plus, it's vegan and comes with everything you need to get started. So go ahead and treat yourself to this amazing set!",
+            "product": {
+                "id": 34,
+                "url": "https://www.amazon.com/dp/B01FQZNFYG?tag=dexterlabs-20",
+                "name": "Nir\u00e9 Beauty 15piece Award Winning Professional Makeup Brush Set: Vegan Makeup Brushes with Case, Makeup Sponge, Brush Cleaner, Guide, Gift Box",
+                "price": "$75.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/41B5V8Fhl7L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 53,
+            "slug": "get-ready-to-glow-with-tatcha-liquid-silk-canvas-a-primer-that-will-make-your-skin-sing",
+            "type": "review",
+            "title": "Get Ready to Glow with Tatcha Liquid Silk Canvas: A Primer That Will Make Your Skin Sing!",
+            "content": "Are you tired of primers that feel heavy and greasy on your skin? Look no further than Tatcha Liquid Silk Canvas! This weightless, oil-free primer will leave your skin feeling silky smooth and ready for makeup application. With 30 ml | 1 oz of product, you'll have plenty to last you through all your glam sessions.\n\nThis primer is perfect for anyone who wants to achieve a flawless, airbrushed look. It's especially great for those with oily skin, as it helps control shine throughout the day. Plus, it's packed with nourishing ingredients like silk extracts and Japanese superfoods, so you can feel good about what you're putting on your skin.\n\n<strong>Pros:</strong>\n- Weightless and oil-free formula\n- Leaves skin feeling silky smooth\n- Helps control shine throughout the day\n- Packed with nourishing ingredients\n\n<strong>Cons:</strong>\n- Only comes in one shade\n- Pricey compared to other primers on the market\n\nIn conclusion, Tatcha Liquid Silk Canvas is a great choice for anyone looking for a weightless, oil-free primer that will leave their skin feeling silky smooth. While it may be a bit pricey, the nourishing ingredients and shine control make it worth the investment. Give it a try and get ready to glow!",
+            "product": {
+                "id": 35,
+                "url": "https://www.amazon.com/dp/B085VFYN7Z?tag=dexterlabs-20",
+                "name": "Tatcha Liquid Silk Canvas: Weightless Oil-Free Liquid Silk Face Primer, 30 ml | 1 oz",
+                "price": "$54.00",
+                "thumbnail": "https://m.media-amazon.com/images/I/21exKJuekCL._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 54,
+            "slug": "airbrush-your-way-to-flawless-skin-a-review-of-the-temptu-airbrush-makeup-system-s-one-kit",
+            "type": "review",
+            "title": "Airbrush Your Way to Flawless Skin: A Review of the TEMPTU Airbrush Makeup System S-One Kit",
+            "content": "If you're a makeup junkie like me, you know that airbrush makeup is the holy grail of flawless skin. And the TEMPTU Airbrush Makeup System S-One Kit is the ultimate tool to achieve that airbrushed look. This kit is perfect for professionals and makeup artists, but even beginners can use it with ease.\n\nOne of the best features of this kit is the S/B Silicone-Based Foundation Starter Set. The foundation is lightweight and buildable, so you can customize your coverage. Plus, it's long-lasting and won't budge throughout the day. The kit also includes a cleaning kit, which is essential for keeping your airbrush gun in top condition.\n\nThe TEMPTU Airbrush Makeup System S-One Kit is also travel-friendly, so you can take it with you wherever you go. It's lightweight and compact, so it won't take up too much space in your luggage. And let's be real, who doesn't want to look flawless on vacation?\n\n<strong>Pros:</strong>\n- The S/B Silicone-Based Foundation Starter Set is lightweight, buildable, and long-lasting\n- The cleaning kit is essential for keeping your airbrush gun in top condition\n- The kit is travel-friendly and won't take up too much space in your luggage\n\n<strong>Cons:</strong>\n- The foundation shades may not be suitable for all skin tones\n\nOverall, the TEMPTU Airbrush Makeup System S-One Kit is a great investment for anyone who wants to achieve flawless skin. It's perfect for professionals and makeup artists, but even beginners can use it with ease. The S/B Silicone-Based Foundation Starter Set is lightweight and buildable, and the cleaning kit is essential for keeping your airbrush gun in top condition. The only downside is that the foundation shades may not be suitable for all skin tones.",
+            "product": {
+                "id": 36,
+                "url": "https://www.amazon.com/dp/B07CYC322W?tag=dexterlabs-20",
+                "name": "TEMPTU Airbrush Makeup System S-One Kit: Airbrush Makeup Set for Professionals and Makeup Artists: Includes S/B Silicone-Based Foundation Starter Set & Cleaning Kit, Lightweight, Travel-Friendly",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/412MA89rjFL._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 106,
+            "slug": "defend-your-skin-with-lab-series-all-in-one-defense-lotion-spf-35-lotion-men-3-4-oz",
+            "type": "review",
+            "title": "Defend Your Skin with Lab Series All-In-One Defense Lotion SPF 35 Lotion Men 3.4 oz",
+            "content": "Yo, listen up fellas! If you're looking for a lotion that's got your back, then you gotta check out Lab Series All-In-One Defense Lotion SPF 35 Lotion Men 3.4 oz. This bad boy is packed with all the good stuff to keep your skin hydrated and protected from the harsh elements of the world. Plus, it absorbs quickly so you can get on with your day without feeling greasy.\n\nOne of the best things about this lotion is that it provides balanced moisture to combat dehydration and soothe irritation. Ain't nobody got time for dry, itchy skin, am I right? And with SPF 35, you can rest easy knowing that your skin is protected from those harmful UV rays. Plus, it's got an invisible shield against environmental aggressors like pollution and free radicals. So, whether you're hitting the beach or just walking to work, your skin will be ready for anything.\n\nThis lotion is perfect for any dude who wants to take care of his skin without all the fuss. It's easy to apply, absorbs quickly, and doesn't leave any residue. Plus, it's great for all skin types, so whether you've got oily, dry, or combination skin, this lotion will work for you. And at $58.97, it's a small price to pay for healthy, protected skin.\n\n<strong>Pros:</strong>\n- Provides balanced moisture to combat dehydration and soothe irritation\n- SPF 35 protects skin from harmful UV rays\n- Invisible shield against environmental aggressors like pollution and free radicals\n- Easy to apply and absorbs quickly\n- Great for all skin types\n\n<strong>Cons:</strong>\n- Some users may find the price to be a bit steep\n\nIn conclusion, if you're looking for a lotion that's got your back, then Lab Series All-In-One Defense Lotion SPF 35 Lotion Men 3.4 oz is the way to go. It's packed with all the good stuff to keep your skin healthy and protected, and it's easy to use. Plus, it's great for all skin types, so you don't have to worry about whether it'll work for you. So, go ahead and give it a try - your skin will thank you!",
+            "product": {
+                "id": 86,
+                "url": "https://www.amazon.com/dp/B09FVHRFMK?tag=dexterlabs-20",
+                "name": "Lab Series All-In-One Defense Lotion SPF 35 Lotion Men 3.4 oz",
+                "price": "$58.97",
+                "thumbnail": "https://m.media-amazon.com/images/I/416DFuCV7IL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 56,
+            "slug": "get-ready-to-say-bye-bye-to-dark-circles-with-it-cosmetics-makeup-set",
+            "type": "review",
+            "title": "Get Ready to Say Bye Bye to Dark Circles with IT Cosmetics Makeup Set!",
+            "content": "Are you tired of looking like a raccoon every morning? Do you want to hide those dark circles and look like a fresh-faced queen? Then you need the IT Cosmetics Makeup Set! This set includes a supersize Bye Bye Under Eye Concealer (21.0 Medium) and a Heavenly Luxe Complexion Perfection Concealer Brush (1 fl oz) - with Collagen, Hyaluronic Acid & Antioxidants. It's like a magic wand for your face!\n\nThe Bye Bye Under Eye Concealer is a game-changer. It's super pigmented, so a little goes a long way. Plus, it's packed with collagen, hyaluronic acid, and antioxidants, so it's not just covering up your dark circles, it's also nourishing your skin. And the Heavenly Luxe Complexion Perfection Concealer Brush is the perfect tool to apply it with. It's soft and fluffy, so it blends the concealer seamlessly into your skin.\n\nThis makeup set is perfect for anyone who wants to look flawless without spending hours in front of the mirror. It's great for busy moms, college students, or anyone who wants to look their best without a lot of effort. And it's perfect for all skin types, so whether you have dry, oily, or combination skin, you can use this set to achieve a flawless complexion.\n\nPros:\n- Super pigmented concealer\n- Packed with collagen, hyaluronic acid, and antioxidants\n- Soft and fluffy brush for seamless application\n\nCons:\n- Limited shade range\n- Can be a bit pricey\n\nIn conclusion, the IT Cosmetics Makeup Set is a must-have for anyone who wants to look their best. It's packed with amazing ingredients that will nourish your skin while hiding your dark circles. And the brush is the perfect tool to apply it with. So, if you want to look like a fresh-faced queen, get your hands on this set ASAP!",
+            "product": {
+                "id": 38,
+                "url": "https://www.amazon.com/dp/B0949HJVCR?tag=dexterlabs-20",
+                "name": "IT Cosmetics Makeup Set - Includes Supersize Bye Bye Under Eye Concealer (21.0 Medium) + Heavenly Luxe Complexion Perfection Concealer Brush (1 fl oz) - with Collagen, Hyaluronic Acid & Antioxidants",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/41gsXvWSWLS._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 57,
+            "slug": "makeup-organization-made-easy-lacattura-double-layer-makeup-bag-review",
+            "type": "review",
+            "title": "Makeup Organization Made Easy: LACATTURA Double Layer Makeup Bag Review",
+            "content": "If you're a makeup junkie like me, you know the struggle of keeping all your products organized. That's where the LACATTURA Double Layer Makeup Bag comes in clutch. This leather travel toiletry bag is the perfect size for all your beauty essentials, with an adjustable divider to keep everything in its place. Plus, it has a brush holder so you don't have to worry about your brushes getting squished or lost in the shuffle.\n\nThis makeup bag is a great fit for anyone who loves to travel or just wants to keep their vanity organized. The double layer design allows for maximum storage without taking up too much space. And the brown leather gives it a chic, sophisticated look that will make you feel like a beauty guru.\n\nOne of the best features of this makeup bag is the adjustable divider. You can customize the compartments to fit your specific products, so you don't have to worry about anything getting damaged or lost. And the brush holder is a game-changer. No more digging through your bag to find the right brush!\n\nPros:\n- Adjustable divider for customizable storage\n- Brush holder to keep brushes organized\n- Double layer design for maximum storage\n\nCons:\n- Only comes in brown (but it's a cute brown, so it's not really a con)\n\nOverall, I highly recommend the LACATTURA Double Layer Makeup Bag for anyone who wants to keep their beauty products organized and easily accessible. It's the perfect size for travel or everyday use, and the adjustable divider and brush holder make it a must-have for any makeup lover.",
+            "product": {
+                "id": 39,
+                "url": "https://www.amazon.com/dp/B0B2RSKZYJ?tag=dexterlabs-20",
+                "name": "LACATTURA Double Layer Makeup Bag for Women, Leather Travel Toiletry Bag, Large Cosmetic Case with Adjustable Divider, Portable Make Up Organizer, Brush Holder, Beauty Storage Bags for Girls, Brown",
+                "price": "$32.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/81hjH3WsWZL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 107,
+            "slug": "get-your-makeup-game-on-point-with-brewix-makeup-organizer",
+            "type": "review",
+            "title": "Get Your Makeup Game on Point with BREWIX Makeup Organizer",
+            "content": "Are you tired of digging through a pile of makeup products every time you need something? Do you want to keep your dressing table clutter-free and organized? Look no further than the BREWIX Makeup Organizer Light Luxury Desktop Storage Box Dressing Table Skin Care Product Storage Rack Cosmetic Storage Lipstick Mask Finishing Rack Makeup Storage Storage!\n\nThis double-layer storage rack is made of iron and crystal, giving it a sleek and stylish look that will elevate any space. It can be placed on your dressing table, desktop, living room, bathroom, or any other place you want to keep your makeup and skincare products organized. With compartments for lipstick, masks, and other products, you'll never have to search for what you need again.\n\nThis makeup organizer is perfect for anyone who loves makeup and wants to keep their products organized and easily accessible. It's also great for people who have limited space and need to make the most of their available storage. Whether you're a makeup artist or just someone who loves to experiment with different looks, this organizer will make your life easier.\n\nPros:\n- Sleek and stylish design\n- Double-layer storage with compartments for different products\n- Can be used in various settings, including dressing tables, bathrooms, and living rooms\n\nCons:\n- Only available in one color\n- Slight chromatic aberration due to lighting and shooting angle\n\nIn conclusion, the BREWIX Makeup Organizer Light Luxury Desktop Storage Box Dressing Table Skin Care Product Storage Rack Cosmetic Storage Lipstick Mask Finishing Rack Makeup Storage Storage is a must-have for anyone who wants to keep their makeup and skincare products organized and easily accessible. With its stylish design and practical features, it's a great investment for anyone who loves makeup. So, what are you waiting for? Get your hands on this organizer and take your makeup game to the next level!",
+            "product": {
+                "id": 96,
+                "url": "https://www.amazon.com/dp/B0BWLY1GDR?tag=dexterlabs-20",
+                "name": "BREWIX Makeup Organizer Light Luxury Desktop Storage Box Dressing Table Skin Care Product Storage Rack Cosmetic Storage Lipstick Mask Finishing Rack Makeup Storage Storage",
+                "price": "$83.13",
+                "thumbnail": "https://m.media-amazon.com/images/I/41kIeCa6Z0S.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 122,
+            "slug": "sdgh-professional-8pcs-makeup-brush-set-the-ultimate-tool-kit-for-your-beauty-needs",
+            "type": "review",
+            "title": "SDGH Professional 8pcs Makeup Brush Set: The Ultimate Tool Kit for Your Beauty Needs",
+            "content": "Are you tired of using the same old makeup brushes that don't give you the perfect blend you're looking for? Look no further than the SDGH Professional 8pcs Makeup Brush Set! This set is perfect for beginners and professionals alike, and will give you the flawless look you've been dreaming of.\n\nOne of the best features of this brush set is the synthetic fibers. They're perfect for picking up liquids, powders, or creams, and will give you a smooth and even application every time. Plus, the beautiful handle design will make you feel like a true makeup artist.\n\nThis set is perfect for anyone who wants to fully meet their daily, wedding, or professional makeup needs. Whether you're blending, contouring, applying shadow, highlighter, foundation, eyeshadow, eyebrows, lips, concealer, or anything else, this set has got you covered. And with its compact size, it's perfect for travel, parties, birthdays, weddings, or everyday use.\n\nPros:\n- Synthetic fibers for smooth and even application\n- Beautiful handle design\n- Perfect for daily, wedding, or professional makeup needs\n- Compact size for travel and everyday use\n- Easy to clean with lukewarm water\n\nCons:\n- Limited color options\n\nIn conclusion, the SDGH Professional 8pcs Makeup Brush Set is a must-have for anyone who wants to achieve a flawless makeup look. With its synthetic fibers, beautiful handle design, and compact size, it's perfect for beginners and professionals alike. And while the color options may be limited, the quality of the brushes more than makes up for it. So what are you waiting for? Add this set to your makeup bag today!",
+            "product": {
+                "id": 102,
+                "url": "https://www.amazon.com/dp/B0BT4DP5KF?tag=dexterlabs-20",
+                "name": "SDGH Professional 8pcs Makeup Brush Set Synthetic Hair Beautiful Handle Brush Make Up Brush Tools Kit",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/41-XQQ8NI-L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 58,
+            "slug": "aoa-studio-collection-makeup-sponge-set-the-ultimate-beauty-blender-set",
+            "type": "review",
+            "title": "AOA Studio Collection Makeup Sponge Set: The Ultimate Beauty Blender Set",
+            "content": "If you're a makeup junkie like me, you know that a good beauty blender is a must-have in your makeup kit. That's why I was so excited to try out the AOA Studio Collection Makeup Sponge Set. This set comes with six different sponges that are perfect for applying powder, cream, and liquid makeup. Plus, they're latex-free and super soft, so they won't irritate your skin.\n\nOne of the things I love about this set is that it's so versatile. The different shapes and sizes of the sponges make it easy to apply makeup to all areas of your face, including those hard-to-reach spots. Plus, they're high-definition, so you can be sure that your makeup will look flawless every time.\n\nThis set would be a great fit for anyone who loves makeup and wants to achieve a flawless look. Whether you're a beginner or a pro, these sponges are easy to use and will help you achieve the perfect finish. Plus, at only $9.95, they're a steal!\n\n<strong>Pros:</strong>\n- Set comes with six different sponges\n- Sponges are latex-free and super soft\n- High-definition sponges ensure a flawless finish\n- Versatile shapes and sizes make it easy to apply makeup to all areas of your face\n\n<strong>Cons:</strong>\n- Sponges may stain easily\n- Some users may prefer a firmer sponge for applying makeup\n\nOverall, I would definitely recommend the AOA Studio Collection Makeup Sponge Set to anyone who loves makeup. These sponges are versatile, easy to use, and will help you achieve a flawless finish every time. Plus, at only $9.95, they're a great value for the price. So go ahead and add them to your makeup kit today!",
+            "product": {
+                "id": 40,
+                "url": "https://www.amazon.com/dp/B08GSTPT8Y?tag=dexterlabs-20",
+                "name": "AOA Studio Collection Makeup Sponge Set Makeup Blender Latex Free and High-definition Set of 6 Makeup Blender For Powder Cream and Liquid, Super Soft Wonder Blender Beauty Cosmetic",
+                "price": "$9.95",
+                "thumbnail": "https://m.media-amazon.com/images/I/41sX+hKcbML._SY300_SX300_.jpg"
+            }
+        },
+        {
+            "id": 59,
+            "slug": "get-your-glow-on-with-lorac-petite-pro-contour-powder-palette-highlighter",
+            "type": "review",
+            "title": "Get Your Glow On with LORAC Petite PRO Contour Powder Palette Highlighter",
+            "content": "Looking for a compact and versatile contour palette that can help you achieve that perfect chiseled look? Look no further than the LORAC Petite PRO Contour Powder Palette Highlighter! This little gem packs a punch with four shades that can be used to contour, highlight, and add warmth to your face. Plus, it's small enough to fit in your purse for touch-ups on the go.\n\nThis palette is perfect for anyone who wants to add some definition to their face without looking too overdone. The shades are buildable, so you can go as subtle or as dramatic as you want. Plus, the powders are finely milled, so they blend seamlessly into your skin. Whether you're a makeup newbie or a pro, this palette is easy to use and can help you achieve a flawless look.\n\nOne of the best things about this palette is that it's travel-friendly. The compact size makes it easy to throw in your bag for touch-ups throughout the day. Plus, the shades are versatile enough to work on a variety of skin tones. Whether you're going for a natural daytime look or a glam nighttime look, this palette has got you covered.\n\n<strong>Pros:</strong>\n- Compact size makes it perfect for travel\n- Versatile shades that can be used for contouring, highlighting, and adding warmth\n- Buildable formula that blends seamlessly into the skin\n\n<strong>Cons:</strong>\n- Some users may find that the shades are too light or too dark for their skin tone\n\nOverall, the LORAC Petite PRO Contour Powder Palette Highlighter is a great addition to any makeup collection. It's versatile, easy to use, and travel-friendly. Whether you're a makeup newbie or a pro, this palette can help you achieve a flawless look. So go ahead and get your glow on!",
+            "product": {
+                "id": 41,
+                "url": "https://www.amazon.com/dp/B097QQR9D9?tag=dexterlabs-20",
+                "name": "LORAC Petite PRO Contour Powder Palette Highlighter",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/31PMLczmkuS._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 108,
+            "slug": "mirror-mirror-on-the-wall-who-s-the-fairest-of-them-all-edossa-bathroom-shaving-mirror-that-s-who",
+            "type": "review",
+            "title": "Mirror, Mirror on the Wall, Who's the Fairest of Them All? EDOSSA Bathroom Shaving Mirror, That's Who!",
+            "content": "Looking for a mirror that's not only functional but also stylish? Look no further than the EDOSSA Bathroom Shaving Mirror! This wall-mounted sensor mirror is perfect for anyone who wants to look their best while getting ready in the morning. With its adjustable extendable arm and 3x magnification, you'll be able to see every detail of your face with ease. Plus, the LED lights provide the perfect amount of illumination, so you can apply your makeup or shave with precision.\n\nOne of the best features of this mirror is its sensor technology. You don't have to worry about touching the mirror with dirty hands, as it will turn on and off automatically. This makes it not only more hygienic but also more convenient. And with its 360-degree rotation, you can adjust the mirror to any angle you need.\n\nThis mirror is perfect for anyone who wants to add a touch of luxury to their bathroom or vanity. It's also great for hotels, spas, and other businesses that want to provide their guests with a high-quality mirror. And with its sleek black color, it will match any decor style.\n\nPros:\n- Sensor technology for hands-free use\n- 360-degree rotation for easy adjustment\n- 3x magnification for detailed makeup work\n- LED lights provide perfect illumination\n- Sleek black color matches any decor style\n\nCons:\n- Some users may prefer a larger mirror\n- Requires drilling for installation\n\nIn conclusion, the EDOSSA Bathroom Shaving Mirror is a must-have for anyone who wants to look their best. With its sensor technology, 360-degree rotation, and 3x magnification, it's the perfect addition to any bathroom or vanity. And with its sleek black color, it's sure to impress anyone who sees it. So why wait? Get yours today and start looking your best!",
+            "product": {
+                "id": 87,
+                "url": "https://www.amazon.com/dp/B0BVFKHR6Y?tag=dexterlabs-20",
+                "name": "EDOSSA Bathroom Shaving Mirror Wall Mounted Sensor Mirror Makeup Mirror Led Lighted Health Luxury For Hotel Vanity With Adjustable Extendable 8 Inch 3X Magnification Makeup And Shaving ( Color : Black",
+                "price": "$137.89",
+                "thumbnail": "https://m.media-amazon.com/images/I/51oR1ybs3nS.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 60,
+            "slug": "lipstick-lovers-rejoice-voitead-2pcs-lipstick-organizer-is-here-to-save-the-day",
+            "type": "review",
+            "title": "Lipstick Lovers Rejoice: Voitead 2Pcs Lipstick Organizer is Here to Save the Day!",
+            "content": "Are you tired of digging through your purse to find your favorite lipstick? Do you wish you had a cute and compact way to store your lip glosses? Look no further than the Voitead 2Pcs Lipstick Organizer! This luxury leather bag is the perfect solution for any makeup lover on the go. With its clever design and keychain attachment, you can easily keep your lipsticks, perfumes, and even fingernail polish organized and accessible.\n\nNot only is this lipstick organizer practical, but it's also stylish. The light green and white color scheme is both trendy and timeless, making it a great gift for any fashion-forward friend or family member. The exquisite patterns and high-quality leather material make it feel like a luxury item, without the luxury price tag. Plus, the mini size makes it easy to slip into any purse or travel bag.\n\nPros:\n- Clever design with keychain attachment for easy access\n- High-quality leather material and exquisite patterns\n- Compact size perfect for travel and on-the-go touch-ups\n\nCons:\n- Limited color options (only available in light green and white)\n\nOverall, the Voitead 2Pcs Lipstick Organizer is a must-have for any makeup lover. Its practicality and style make it a great addition to any purse or travel bag. Plus, at only $17.99, it's an affordable luxury item that anyone can enjoy. So go ahead and treat yourself (or a friend) to this cute and convenient lipstick organizer!",
+            "product": {
+                "id": 42,
+                "url": "https://www.amazon.com/dp/B0BVH5JNL2?tag=dexterlabs-20",
+                "name": "Voitead 2Pcs Lipstick Organizer, Luxury Leather Lip Gloss Bag, Mini Case with Keychain, Girls travel Lipgloss Makeup Storage Holder for Purse Perfume Fingernail Polish (Light Green and White)",
+                "price": "$17.99",
+                "thumbnail": "https://m.media-amazon.com/images/I/61OlPRL37NL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 61,
+            "slug": "get-insta-smooth-skin-with-elemis-pro-collagen-primer",
+            "type": "review",
+            "title": "Get Insta-Smooth Skin with ELEMIS Pro-Collagen Primer!",
+            "content": "If you're looking for a primer that will make your skin look like it's been filtered on Instagram, then ELEMIS Pro-Collagen Insta-Smooth Primer is the one for you! This primer is perfect for anyone who wants to smooth out their fine lines and pores before applying makeup. It's like a real-life Facetune!\n\nOne of the best things about this primer is that it's not just a temporary fix. It actually contains collagen, which helps to plump up your skin and reduce the appearance of fine lines over time. Plus, it's super lightweight and doesn't feel heavy or greasy on your skin.\n\nThis primer is perfect for anyone who wants to achieve a flawless, airbrushed look. It's especially great for those with oily skin, as it helps to control shine and keep your makeup in place all day. Plus, it's suitable for all skin types, so anyone can benefit from its smoothing effects.\n\n<strong>Pros:</strong>\n- Contains collagen to improve skin over time\n- Lightweight and non-greasy\n- Helps control shine and keep makeup in place\n\n<strong>Cons:</strong>\n- May not work for those with very dry skin\n- Only comes in one shade\n\nOverall, ELEMIS Pro-Collagen Insta-Smooth Primer is a great choice for anyone who wants to achieve a smooth, flawless complexion. Its lightweight formula and skin-improving benefits make it a must-have in any makeup bag. So go ahead and get your Insta-smooth on!",
+            "product": {
+                "id": 43,
+                "url": "https://www.amazon.com/dp/B07PCMJXLM?tag=dexterlabs-20",
+                "name": "ELEMIS Pro-Collagen Insta-Smooth Primer; Line and Pore Smoothing Primer, 1.6 Fl Oz",
+                "price": "$46.47",
+                "thumbnail": "https://m.media-amazon.com/images/I/3161sIm2fhL._SY445_SX342_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 74,
+            "slug": "nyx-bare-with-me-concealer-serum-a-skintervention-you-need",
+            "type": "review",
+            "title": "NYX Bare With Me Concealer Serum: A Skintervention You Need",
+            "content": "Are you tired of looking like a raccoon with those dark circles? Or maybe you're just over those pesky acne and blemishes? Say no more, fam! NYX PROFESSIONAL MAKEUP Bare With Me Concealer Serum is here to save the day. Infused with skin-loving ingredients like tremella mushroom, cica, and green tea, this concealer serum provides up to 24 hours of hydration. Plus, it's available in 13 ultra-hydrating shades with a medium coverage, non-cakey natural finish. \n\nThis concealer serum is perfect for anyone who wants to cover up their imperfections while keeping their skin hydrated. It's also 100% vegan and cruelty-free, so you can feel good about using it. Whether you want to use it for under-eye, face, or body, this concealer serum has got you covered. \n\nPros:\n- Provides up to 24 hours of hydration\n- Available in 13 ultra-hydrating shades\n- Medium coverage with a non-cakey natural finish\n- 100% vegan and cruelty-free formula\n\nCons:\n- The shade range may not be suitable for all skin tones\n\nOverall, NYX PROFESSIONAL MAKEUP Bare With Me Concealer Serum is a must-have for anyone who wants to cover up their imperfections while keeping their skin hydrated. With its skin-loving ingredients and long-lasting formula, this concealer serum is definitely worth the investment. So, what are you waiting for? Say goodbye to skin stress and hello to flawless skin with NYX Bare With Me Concealer Serum!",
+            "product": {
+                "id": 57,
+                "url": "https://www.amazon.com/dp/B09J8N96V7?tag=dexterlabs-20",
+                "name": "NYX PROFESSIONAL MAKEUP Bare With Me Concealer Serum, Up To 24Hr Hydration - Beige",
+                "price": "$10.97",
+                "thumbnail": "https://m.media-amazon.com/images/I/31YHV-P+9cL._SY300_SX300_.jpg"
+            }
+        },
+        {
+            "id": 128,
+            "slug": "olimy-checke-pouch-the-ultimate-makeup-bag-for-the-stylish-and-organized",
+            "type": "review",
+            "title": "OLIMY Checke Pouch: The Ultimate Makeup Bag for the Stylish and Organized",
+            "content": "Are you tired of digging through your purse for your favorite lipstick or losing your mascara in the depths of your backpack? Look no further than the OLIMY Checke Pouch Luxury for Women Gift Bag Prints Styles Cosmetic Makeup Bag Christmas Merry Cosmetic Walletstorage Bag Travel Portable BagChange Hard Makeup Case Clear. This multifunctional bag is perfect for anyone who wants to keep their makeup and personal belongings organized and easily accessible.\n\nOne of the best features of the OLIMY Checke Pouch is its large capacity. This roomy bag can hold not only your makeup, but also your phone, charging cables, and other personal items. Plus, with three different styles to choose from, you can easily categorize your belongings and keep everything in its place. And with its durable polyester material and reliable zippers, you can trust that your items will stay safe and secure.\n\nBut the OLIMY Checke Pouch isn't just practical - it's also stylish. The Christmas-themed pattern is perfect for the holiday season, but can be used year-round. And with a small black carry strap, you can easily take it on the go. It's the perfect gift for anyone who loves makeup or needs a little extra organization in their life.\n\nOf course, no product is perfect. One minor con of the OLIMY Checke Pouch is that the color may not be to everyone's taste. However, with its practicality and durability, this is a small price to pay for such a useful item.\n\nIn conclusion, the OLIMY Checke Pouch Luxury for Women Gift Bag Prints Styles Cosmetic Makeup Bag Christmas Merry Cosmetic Walletstorage Bag Travel Portable BagChange Hard Makeup Case Clear is a must-have for anyone who wants to stay organized and stylish. With its large capacity, durable material, and cute design, it's the perfect addition to any purse, backpack, or suitcase. So why wait? Treat yourself or a loved one to the ultimate makeup bag today!",
+            "product": {
+                "id": 109,
+                "url": "https://www.amazon.com/dp/B0C16T6CQS?tag=dexterlabs-20",
+                "name": "OLIMY Checke Pouch Luxury for Women Gift Bag Prints Styles Cosmetic Makeup Bag Christmas Merry Cosmetic Walletstorage Bag Travel Portable BagChange Hard Makeup Case Clear",
+                "price": "NoneNone",
+                "thumbnail": "https://m.media-amazon.com/images/I/71oR1BHa2AL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 62,
+            "slug": "cleaning-made-fun-rubbermaid-reveal-spray-microfiber-floor-cleaning-kit-review",
+            "type": "review",
+            "title": "Cleaning Made Fun: Rubbermaid Reveal Spray Microfiber Floor Cleaning Kit Review",
+            "content": "Are you tired of constantly buying new mop pads and cleaning solutions? Look no further than the Rubbermaid Reveal Spray Microfiber Floor Cleaning Kit! This kit includes a commercial-grade mop, three reusable microfiber pads, and two refillable bottles. Plus, the thick microfiber pad is washable and reusable, so you can save money and reduce waste.\n\nOne of the best features of this mop is the nonscratch scrubbing pad, which is perfect for tackling stubborn spots on your laminate or hardwood floors. And with the ability to fill the bottle with hot water and your favorite cleaning solution, you can customize your cleaning experience to your liking. Plus, the spray function allows for even distribution of the cleaning solution, so you don't have to worry about over-saturating your floors.\n\nThis mop is perfect for anyone who wants to save money and reduce waste while still achieving a clean home. It's also great for those who want a customizable cleaning experience, as you can choose your own cleaning solution. And with the commercial-grade quality, you can trust that this mop will last you a long time.\n\n<strong>Pros:</strong>\n- Reusable and washable microfiber pads\n- Nonscratch scrubbing pad for tough spots\n- Customizable cleaning solution with refillable bottles\n- Commercial-grade quality for long-lasting use\n\n<strong>Cons:</strong>\n- Only comes in one color (white and gray)\n- May not be suitable for larger cleaning jobs\n\nIn conclusion, the Rubbermaid Reveal Spray Microfiber Floor Cleaning Kit is a great investment for anyone who wants to save money and reduce waste while still achieving a clean home. With its customizable cleaning solution and commercial-grade quality, you can trust that this mop will last you a long time. So why not make cleaning a little more fun with this kit?",
+            "product": {
+                "id": 44,
+                "url": "https://www.amazon.com/dp/B00FEBARJE?tag=dexterlabs-20",
+                "name": "Rubbermaid Reveal Spray Microfiber Floor Cleaning Kit for Laminate & Hardwood Floors, Spray Mop with Reusable Washable Pads, Commercial",
+                "price": "$41.67",
+                "thumbnail": "https://m.media-amazon.com/images/I/51IuH0IJz0L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        },
+        {
+            "id": 63,
+            "slug": "get-earthy-with-laura-geller-new-york-s-delectables-palette-a-review",
+            "type": "review",
+            "title": "Get Earthy with LAURA GELLER NEW YORK's Delectables Palette: A Review",
+            "content": "If you're looking for a palette that's perfect for everyday wear, then LAURA GELLER NEW YORK's The Delectables Earthy Essentials Baked Eyeshadow Palette is the one for you. With 14 pigmented shades that are blendable and give a natural look, this palette is a must-have for anyone who wants to achieve a subtle yet stunning eye look.\n\nOne of the best features of this palette is its versatility. The shades range from light to dark, making it easy to create a variety of looks. Whether you're going for a natural daytime look or a smoky eye for a night out, this palette has got you covered. Plus, the shades are all earthy tones, which means they'll complement any skin tone.\n\nThis palette is perfect for anyone who's just starting out with makeup or for those who want a simple, everyday look. The shades are easy to work with and blend seamlessly, making it easy to achieve a polished look without spending hours in front of the mirror. Plus, the compact size of the palette makes it easy to take on-the-go, so you can touch up your look throughout the day.\n\n<strong>Pros:</strong>\n- Versatile shades that range from light to dark\n- Earthy tones that complement any skin tone\n- Compact size makes it easy to take on-the-go\n\n<strong>Cons:</strong>\n- Some shades may not be as pigmented as others\n\nOverall, LAURA GELLER NEW YORK's The Delectables Earthy Essentials Baked Eyeshadow Palette is a great addition to anyone's makeup collection. With its versatile shades, blendable formula, and natural look, it's perfect for anyone who wants to achieve a polished look without spending too much time on their makeup. So, go ahead and get earthy with this palette!",
+            "product": {
+                "id": 45,
+                "url": "https://www.amazon.com/dp/B0BGR4TG4R?tag=dexterlabs-20",
+                "name": "LAURA GELLER NEW YORK The Delectables Earthy Essentials Baked Eyeshadow Palette | 14 Pigmented Eyeshadows Blendable Natural Look",
+                "price": "$19.50",
+                "thumbnail": "https://m.media-amazon.com/images/I/41tvt-X6m9L._SX300_SY300_QL70_FMwebp_.jpg"
+            }
         }
+
     ]
 }
