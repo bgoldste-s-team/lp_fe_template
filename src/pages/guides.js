@@ -11,7 +11,7 @@ const GuideIndex = ({guides}) => {
     <div>
       <Navbar />
         <h1>Guides</h1>
-        { guides.map((g) => <p>{g.title}</p>)}
+        { guides.map((g) => <p key={g.title.slice(0,10)}>{g.title}</p>)}
         </div>
         )
 };

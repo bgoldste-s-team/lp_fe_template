@@ -60,7 +60,7 @@ export default function Post({ post }) {
                {
                     post.content.split('\n').map( (line) => 
                        
-                        <p>{line}</p>
+                        <p key={line.slice(0,10)}>{line}</p>
 
                        
 

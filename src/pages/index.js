@@ -13,12 +13,12 @@ const Index = () => {
            <h1>My BLog</h1>
            <ul>
            { posts.map((p) =>
-               <li>
-                  <a key={p.id} href={p.slug}>
+               <li key={p.id}>
+                  <a href={p.slug}>
                       <article class="prose lg:prose-xl">
                         <h1>i{p.title}</h1>
                         <img src={p.product.thumbnail} />
-                        <p>d: {p.id} pid" "{p.product.id} title: </p>
+                        <p>d:{p.id} pid:{p.product.id}  </p>
                         <p>{p.content.slice(0,1250)}...</p>
                     </article>
                     </a>
