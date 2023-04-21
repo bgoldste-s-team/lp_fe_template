@@ -12,7 +12,7 @@ const paths = combinedData.map((post) => ({
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-secondary-content text-neutral-content">
+        <footer className="footer p-10 bg-secondary text-neutral-content">
             <div>
                 <span className="footer-title">Reviews</span>
                 { posts.map( (p) => <Link key={p.slug} href={`/${p.slug}`} className="link link-hover">{p.title}</Link> )}
