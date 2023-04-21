@@ -11,6 +11,7 @@ const Index = () => {
        <div>
        <Navbar />
            <h1>My BLog23</h1>
+           <button class="btn btn-primary">hello</button>
            <ul>
            { posts.map((p) =>
                <li key={p.id}>

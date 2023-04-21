@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+import siteData from "./src/data/site_data.json";
+console.log("HI")
+console.log(siteData['color'])
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
@@ -19,24 +22,25 @@ module.exports = {
        themes: [
          {
            mytheme: {
-           
-            "primary": "#a6ea72",
-                     
-            "secondary": "#09016b",
-                     
-            "accent": "#cc6137",
-                     
-            "neutral": "#292B38",
-                     
-            "base-100": "#E8EEF2",
-                     
-            "info": "#3B84C9",
-                     
-            "success": "#198F6E",
-                     
-            "warning": "#F6BC6A",
-                     
-            "error": "#E44E62",
+      
+          
+ "primary": siteData['color'],
+          
+ "secondary": "#e2489a",
+          
+ "accent": "#9d02d1",
+          
+ "neutral": "#2A1E38",
+          
+ "base-100": "#F0ECF3",
+          
+ "info": "#4A7FF2",
+          
+ "success": "#289F67",
+          
+ "warning": "#F8B53A",
+          
+ "error": "#F4322F",
            },
          },
        ],
