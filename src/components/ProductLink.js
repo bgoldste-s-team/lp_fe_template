@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import reviewData from "@/data/review_data.json";
 export default function ProductLink({ product}) {
+    const review = reviewData.posts.find((r) => r.product.id === product.id)
+    const slug = review?.slug;
+    console.log(review)
     return (
 
 
@@ -15,7 +19,10 @@ export default function ProductLink({ product}) {
                 <div>
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{product.name}</h3>
                     {/*<p className="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>*/}
-                    <button  className='btn btn-primary'><Link href={product.url}>Buy Now for {product.price}</Link></button>
+                    { slug ?
+                    <Link className="p-4" href={slug}>Read review</Link>
+                        : null }
+                    <button  className='btn btn-primary'><Link href={product.url}>Buy Now {!product.price.includes("None") ? "for " + product.price: null}</Link></button>
                 </div>
         </div>
 
