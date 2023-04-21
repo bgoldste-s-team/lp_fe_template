@@ -4,6 +4,7 @@ import guideData from '../data/sc_data.json';
 import Link from 'next/link';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer"
+import ProductBank from "@/components/ProductBank";
 const SupportingContent = ({post}) => {
     // const reviews = reviewData.posts;
     // const guides = guideData.posts;
@@ -11,27 +12,20 @@ const SupportingContent = ({post}) => {
     // console.log(guides)
     console.log(post)
     return (
-        <div>
-            <Navbar/>
+
             <div className="flow-root">
                 <article className="prose md:prose-md p-4">
                     <h1>{post.title}</h1>
-                    <img src={post.products[0].product.thumbnail} />
+                    <img src={post.products[0]?.product.thumbnail} />
                     <div dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br>') }} />
+                    <ProductBank products={post.products}/>
 
-                    {/*{*/}
-                    {/*    post.content.split('\n').map((line) =>*/}
-
-                    {/*        <p key={line.slice(0, 10)}>{line}</p>*/}
-                    {/*    )*/}
-                    {/*}*/}
                         {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
                 </article>
 
 
             </div>
-            <Footer />
-        </div>
+
 
     )
 }

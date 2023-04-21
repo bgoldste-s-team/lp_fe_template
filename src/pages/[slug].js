@@ -2,7 +2,8 @@ import reviewData from '../data/review_data.json';
 import guideData from '../data/sc_data.json';
 import Navbar from "../components/Navbar";
 import SupportingContent from "../components/SupportingContent";
-
+import Layout  from "@/components/Layout";
+import Review from "@/components/Review";
 export async function getStaticPaths() {
     
     const guides = guideData.posts;
@@ -45,37 +46,40 @@ export async function getStaticProps(context) {
 }
 
 export default function Post({ post }) {
-    // Render post...
-    console.log(post)
-    if (post.type === "sc") {
-        return(
-           < SupportingContent post={post} />
-        )
-    }
+
 
     return(
         // post.title)
+    <Layout>
+        { post.type === "sc" ?  < SupportingContent post={post} /> :
+            <Review post={post} />
+        }
+    </Layout>
 
-    <div>
-    <Navbar />
-        <div class="flow-root">
-            <article class="prose md:prose-md">
-                <h1>{post.type} {post.title}</h1>
-                {/*<img src={post.product.thumbnail} />*/}
 
-               {
-                    post.content.split('\n').map( (line) => 
-                       
-                        <p key={line.slice(0,10)}>{line}</p>
-
-                       
-
-                    )
-                }
-            </article>
-            {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
-            
-        </div>
-    </div>
     )
 }
+//     </Layout>
+//     <div>
+//     <Navbar />
+//         <div class="flow-root">
+//             <article class="prose md:prose-md">
+//                 <h1>{post.type} {post.title}</h1>
+//                 {/*<img src={post.product.thumbnail} />*/}
+//
+//                {
+//                     post.content.split('\n').map( (line) =>
+//
+//                         <p key={line.slice(0,10)}>{line}</p>
+//
+//
+//
+//                     )
+//                 }
+//             </article>
+//             {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
+//
+//         </div>
+//     </div>
+//     )
+// }

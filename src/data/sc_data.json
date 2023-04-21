@@ -1,11 +1,101 @@
 {
     "posts": [
         {
-            "id": 1,
-            "slug": "the-ultimate-guide-to-looking-like-a-snack-5-products-that-will-have-you-feeling-your-best",
+            "id": 22,
+            "slug": "title-the-ultimate-guide-to-makeup-products-for-a-flawless-look-title",
             "type": "sc",
-            "title": "The Ultimate Guide to Looking Like a Snack: 5 Products That Will Have You Feeling Your Best",
-            "content": "<title>The Ultimate Makeup Guide: Products That Will Make You Look Like a Snack</title>\n\nAre you tired of your makeup routine? Do you want to up your game and look like a snack? Look no further! We've compiled a list of the best makeup products that will give you the flawless, glowing look you've always wanted. Whether you're a makeup newbie or a seasoned pro, these products are perfect for anyone who wants to look and feel their best. So, let's get started!\n\n1. <strong>By Terry Volume & Lengthening Mascara | Lash-Expert Twist Brush | Master Black | 8.3g (0.28 Oz) Review</strong>\n\nIf you're looking for a mascara that will give you the length, volume, and curl you've been dreaming of, then look no further than By Terry Volume & Lengthening Mascara. With its unique Lash-Expert Twist Brush and buildable formula, you can easily customize your look and get the lashes you've always wanted. While the price point may be a bit high for some users, the quality of the product is definitely worth it. So, what are you waiting for? Get your hands on this mascara and get ready to slay!\n\n2. <strong>Fièra Luxury Concealer & Skincare - 2-In-1 All Day Coverage With Anti-Aging Ingredients - 0.5 FL. OZ./ 15ml Light Color: A Concealer That Will Make You Look Like a Snack</strong>\n\nIf you want a concealer that will make you look like a snack, then Fièra Luxury Concealer & Skincare is the product for you. This 2-in-1 concealer and skincare product provides all-day coverage while also working to keep your skin looking flawless and prevent wrinkles. The only downside is that it has limited color options. But if you can find a color that matches your skin tone, then you're in luck. So go ahead and treat yourself to this concealer. You deserve to look like a snack.\n\n3. <strong>Borghese Superiore State-of-the-Art Mascara: The Ultimate Lash Game-Changer</strong>\n\nBorghese Superiore State-of-the-Art Mascara is the ultimate lash game-changer. This mascara will give you long, voluminous lashes that will make you the envy of all your friends. The formula is easy to apply and long-lasting, making it the perfect addition to your makeup bag. While it may be a bit pricey, the results are worth it. Give it a try and see for yourself!\n\n4. <strong>Plump & Prime Luxury Face Plumping Primer Serum: A Review</strong>\n\nLast but not least, we have Plump & Prime Luxury Face Plumping Primer Serum. This primer serum is a great investment for anyone looking to up their makeup game. It's easy to use, delivers amazing results, and is versatile enough to use in a variety of ways. While it may be a bit pricey, the results are worth it. So, go ahead and treat yourself to this primer serum. You won't regret it!\n\nIn conclusion, these makeup products are perfect for anyone who wants to look and feel their best. Whether you're a makeup newbie or a seasoned pro, these products will help you achieve the flawless, glowing look you've always wanted. So, go ahead and treat yourself to these products. You deserve to look like a snack!",
+            "title": "<title>The Ultimate Guide to Makeup Products for a Flawless Look</title>",
+            "content": "<title>The Ultimate Guide to Makeup Products for a Flawless Look</title>\n\nAre you tired of scrolling through Instagram and seeing perfect makeup looks that seem impossible to achieve? Well, fear not, because we've got you covered with the ultimate guide to makeup products that will give you a flawless look. Whether you're a makeup newbie or a seasoned pro, these products are sure to take your beauty game to the next level. So, grab your brushes and let's get started!\n\n1. <strong>BOOM! by Cindy Joseph Cosmetics Boomstick Trio - The Ultimate Makeup Hack for Mature Skin</strong>\nThis product is perfect for older women and those with mature skin, as it enhances natural beauty without settling into fine lines and wrinkles. The Boomstick Trio includes three versatile sticks that can be used on any skin tone. While there are some minor cons, such as the small size of the sticks, the pros far outweigh them, making this product a must-have for anyone looking to enhance their natural beauty.\n\n2. <strong>Shade and Illuminate Soft Radiance Foundation SPF 50 - Ivory Rose 3.5: A Radiant Glow for Your Skin</strong>\nIf you're looking for a foundation that not only provides coverage but also has skincare benefits, then Shade and Illuminate Soft Radiance Foundation is the way to go. Its SPF 50 protection and radiant finish make it perfect for a day in the sun. However, it is on the expensive side and has a limited shade range. Overall, if you're willing to splurge, this foundation is worth it for the glow it gives your skin.\n\n3. <strong>Stay All Day and Slay All Night with stila's Waterproof Liquid Eye Liner</strong>\nThis liquid eyeliner is perfect for those who want to add a little edge to their makeup routine. Its waterproof formula ensures that it stays put all day and all night, making it perfect for any occasion. While it may only come in black and may dry out quickly if not stored properly, these minor cons are easily outweighed by the liner's many pros. So go ahead and give it a try - your eyes will thank you!\n\n4. <strong>Borghese Superiore State-of-the-Art Mascara: The Blackest of the Black</strong>\nIf you're looking for a mascara that will give you long, voluminous lashes that last all day, Borghese Superiore State-of-the-Art Mascara is the way to go. Its state-of-the-art formula and unique brush design make it easy to apply and ensure that every lash is coated evenly. So go ahead and give it a try - your lashes will thank you!\n\nIn conclusion, these four products are sure to take your makeup game to the next level. Whether you're looking for a flawless foundation, a versatile stick for mature skin, a long-lasting eyeliner, or a volumizing mascara, these products have got you covered. So, go ahead and try them out - you won't be disappointed! Remember, makeup is all about having fun and expressing yourself, so don't be afraid to experiment and find what works best for you.",
+            "products": [
+                {
+                    "product": {
+                        "id": 4,
+                        "url": "https://www.amazon.com/dp/B08S49FM3C?tag=dexterlabs-20",
+                        "name": "BOOM! by Cindy Joseph Cosmetics Boomstick Trio - 3 Pack Boom Makeup Sticks for Older Women & Mature Skin - Blush Stick, Highlighter Stick & Moisturizer",
+                        "price": "$79.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41Ft1ELv0pL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 5,
+                        "url": "https://www.amazon.com/dp/B000AV1E5O?tag=dexterlabs-20",
+                        "name": "Borghese Superiore State-of-the-Art Mascara, Black , 0.3 Ounce (Pack of 1)",
+                        "price": "NoneNone",
+                        "thumbnail": "https://m.media-amazon.com/images/I/31QC4X08vTL._SY445_SX342_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 10,
+                        "url": "https://www.amazon.com/dp/B0031NNE56?tag=dexterlabs-20",
+                        "name": "stila Stay All Day Waterproof Liquid Eye Liner",
+                        "price": "$24.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/21KtmfhrCBL._SX342_SY445_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 12,
+                        "url": "https://www.amazon.com/dp/B08DCZTK3R?tag=dexterlabs-20",
+                        "name": "Shade and Illuminate Soft Radiance Foundation SPF 50 - Ivory Rose 3.5",
+                        "price": "$143.17",
+                        "thumbnail": "https://m.media-amazon.com/images/I/21hV0yZggFL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "slug": "title-4-must-have-beauty-products-for-a-flawless-beat-title",
+            "type": "sc",
+            "title": "<title>4 Must-Have Beauty Products for a Flawless Beat</title>",
+            "content": "<title>4 Must-Have Beauty Products for a Flawless Beat</title>\n\nAre you tired of your makeup looking dull and lackluster? Do you want to achieve a flawless beat every time? Look no further! We've rounded up the top 4 must-have beauty products that will take your makeup game to the next level. Whether you're a makeup newbie or a seasoned pro, these products are perfect for anyone who wants to achieve a radiant, flawless look. So, get ready to slay with these beauty essentials!\n\n<strong>1. Shade and Illuminate Soft Radiance Foundation SPF 50 - Ivory Rose 3.5: A Radiant Glow for Your Skin</strong>\n\nIf you're looking for a foundation that not only provides coverage but also has skincare benefits, then the Shade and Illuminate Soft Radiance Foundation is perfect for you. This foundation has an SPF of 50, which means it protects your skin from the harmful effects of the sun. Plus, it gives your skin a radiant glow that will make you look like you just stepped off the runway. However, it is on the expensive side and has a limited shade range. But, if you're willing to splurge, this foundation is worth it for the glow it gives your skin.\n\n<strong>2. Larimar Luxury Black Makeup Brush Set: The Ultimate Tool for a Flawless Beat</strong>\n\nNo makeup look is complete without the right tools, and the Larimar Luxury Black Makeup Brush Set is the ultimate tool for achieving a flawless beat. With ultra-soft vegan and cruelty-free synthetic hair and versatile brush shapes, you'll be able to achieve a flawless beat every time. Plus, the neat angled brush holder makes organization a breeze. Don't hesitate to add this set to your makeup collection!\n\n<strong>3. Get Your Makeup Game on Point with the Rotating Organizer 360!</strong>\n\nIf you're tired of digging through a cluttered makeup bag to find your favorite products, then the Rotating Organizer 360 is perfect for you. This organizer is both functional and stylish, and it rotates 360 degrees, making it easy to find what you need. While the limited color options may be a downside for some, the pros far outweigh the cons. So, what are you waiting for? Get your hands on the Rotating Organizer 360 and take your makeup game to the next level!\n\n<strong>4. Get Your Face Pumped with Plump & Prime Luxury Face Plumping Primer Serum!</strong>\n\nA flawless makeup look starts with a flawless base, and the Plump & Prime Luxury Face Plumping Primer Serum is the perfect product for achieving just that. This lightweight serum is easy to use and gives you a flawless base for your makeup. Plus, it plumps and primes your skin, making it look youthful and radiant. While it may be a bit pricey, the results are worth it. So go ahead and treat yourself to this luxury face plumping primer serum - your skin will thank you!\n\nIn conclusion, these 4 must-have beauty products are perfect for anyone who wants to achieve a flawless beat. From the Shade and Illuminate Soft Radiance Foundation to the Plump & Prime Luxury Face Plumping Primer Serum, these products will take your makeup game to the next level. So, what are you waiting for? Get ready to slay with these beauty essentials!",
+            "products": [
+                {
+                    "product": {
+                        "id": 3,
+                        "url": "https://www.amazon.com/dp/B08JCLDW3C?tag=dexterlabs-20",
+                        "name": "Plump & Prime Luxury Face Plumping Primer Serum",
+                        "price": "NoneNone",
+                        "thumbnail": "https://m.media-amazon.com/images/I/31clCiVI-kL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 6,
+                        "url": "https://www.amazon.com/dp/B09V7FQDJB?tag=dexterlabs-20",
+                        "name": "Rotating organizer 360 makeup rotating organizer,luxury Tempered Glass dressing table Makeup Brush Lipstick Storage Desktop Skin Care Product Organizing Box with free pearls.",
+                        "price": "$48.99",
+                        "thumbnail": "https://m.media-amazon.com/images/I/81CRErfArJL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 11,
+                        "url": "https://www.amazon.com/dp/B0B72B6WZ1?tag=dexterlabs-20",
+                        "name": "Larimar Luxury Black Makeup Brush set (Bling Black Edition), Ultra Soft Vegan & Cruelty-Free Premium Synthetic Hair Brushes for Foundation, Concealer, Eyeliner, Eyeshadow, Eye Contour, Blending Fluff 14 Pcs Brush Set with a Neat Angled Brush Holder",
+                        "price": "NoneNone",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41LBbt-gqfL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 12,
+                        "url": "https://www.amazon.com/dp/B08DCZTK3R?tag=dexterlabs-20",
+                        "name": "Shade and Illuminate Soft Radiance Foundation SPF 50 - Ivory Rose 3.5",
+                        "price": "$143.17",
+                        "thumbnail": "https://m.media-amazon.com/images/I/21hV0yZggFL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "slug": "title-the-ultimate-guide-to-makeup-products-that-will-make-you-slay-all-day-and-night-title",
+            "type": "sc",
+            "title": "<title>The Ultimate Guide to Makeup Products That Will Make You Slay All Day and Night</title>",
+            "content": "<title>The Ultimate Guide to Makeup Products That Will Make You Slay All Day and Night</title>\n\nAre you tired of your makeup routine feeling stale and boring? Do you want to add some edge and excitement to your look? Look no further than these four amazing makeup products that will have you slaying all day and night. Whether you're a mature woman looking to enhance your natural beauty or a makeup enthusiast looking for the latest and greatest products, these items are sure to become staples in your collection.\n\n<strong>1. BOOM! by Cindy Joseph Cosmetics Boomstick Trio - The Ultimate Makeup Hack for Mature Skin</strong>\nThis trio of sticks is the ultimate makeup hack for mature skin. The sticks are versatile enough to be used on any skin tone, and they're perfect for adding a natural, youthful glow to your complexion. While there are some minor cons, such as the sticks being a bit small and the colors being a bit sheer, the pros far outweigh them. This product is a must-have for anyone looking to enhance their natural beauty.\n\n<strong>2. Stay All Day and Slay All Night with stila's Waterproof Liquid Eye Liner</strong>\nThis waterproof liquid eyeliner is perfect for adding a little edge to your makeup routine. It comes in black and is easy to apply, making it perfect for both beginners and experts. While it may dry out quickly if not stored properly, this minor con is easily outweighed by the liner's many pros. So go ahead and give it a try - your eyes will thank you!\n\n<strong>3. Larimar Luxury Black Makeup Brush Set: The Ultimate Tool for a Flawless Beat</strong>\nThis black makeup brush set is the ultimate tool for achieving a flawless beat. With ultra-soft vegan and cruelty-free synthetic hair and versatile brush shapes, you'll be able to achieve a flawless beat every time. Plus, the neat angled brush holder makes organization a breeze. Don't hesitate to add this set to your makeup collection!\n\n<strong>4. Mascara that'll make you go \"By Terry, this is amazing!\"</strong>\nThis mascara is truly amazing. It has great features that make it stand out from other mascaras on the market, such as its ability to lengthen and volumize lashes without clumping. It delivers on its promises and will have your lashes looking like they could conquer the world. Just be prepared to shell out a little extra cash for it. But hey, isn't it worth it to have lashes that look amazing?\n\nIn conclusion, these four makeup products are sure to become staples in your collection. Whether you're a mature woman looking to enhance your natural beauty or a makeup enthusiast looking for the latest and greatest products, these items are sure to make you slay all day and night. So go ahead and give them a try - you won't be disappointed!",
             "products": [
                 {
                     "product": {
@@ -15,15 +105,95 @@
                         "price": "$30.00",
                         "thumbnail": "https://m.media-amazon.com/images/I/313xqZhEJzL._SY445_SX342_QL70_FMwebp_.jpg"
                     }
+                },
+                {
+                    "product": {
+                        "id": 4,
+                        "url": "https://www.amazon.com/dp/B08S49FM3C?tag=dexterlabs-20",
+                        "name": "BOOM! by Cindy Joseph Cosmetics Boomstick Trio - 3 Pack Boom Makeup Sticks for Older Women & Mature Skin - Blush Stick, Highlighter Stick & Moisturizer",
+                        "price": "$79.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41Ft1ELv0pL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 10,
+                        "url": "https://www.amazon.com/dp/B0031NNE56?tag=dexterlabs-20",
+                        "name": "stila Stay All Day Waterproof Liquid Eye Liner",
+                        "price": "$24.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/21KtmfhrCBL._SX342_SY445_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 11,
+                        "url": "https://www.amazon.com/dp/B0B72B6WZ1?tag=dexterlabs-20",
+                        "name": "Larimar Luxury Black Makeup Brush set (Bling Black Edition), Ultra Soft Vegan & Cruelty-Free Premium Synthetic Hair Brushes for Foundation, Concealer, Eyeliner, Eyeshadow, Eye Contour, Blending Fluff 14 Pcs Brush Set with a Neat Angled Brush Holder",
+                        "price": "NoneNone",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41LBbt-gqfL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
                 }
             ]
         },
         {
-            "id": 2,
-            "slug": "the-ultimate-makeup-guide-products-that-will-make-you-look-like-a-snack",
+            "id": 25,
+            "slug": "title-the-ultimate-guide-to-products-that-will-make-your-life-slimy-and-satisfying",
             "type": "sc",
-            "title": "The Ultimate Makeup Guide: Products That Will Make You Look Like a Snack",
-            "content": "The Ultimate Makeup Guide: Products That Will Make You Look Like a Snack\n\nAre <strong>you</strong> tired of your <a href=\"https://example.com\">makeup routine</a> feeling lackluster? Do you want to up your game and look like a snack? Look no further than these four products that will take your makeup routine to the next level. Whether you're a makeup newbie or a seasoned pro, these products are versatile, easy to use, and deliver amazing results. So, treat yourself and get ready to slay!\n\n1. Plump & Prime Luxury Face Plumping Primer Serum: A Review\nThis primer serum is a great investment for anyone looking to up their makeup game. It's easy to use, delivers amazing results, and is versatile enough to use in a variety of ways. Not only does it plump and prime your skin, but it also helps to reduce the appearance of fine lines and wrinkles. While it may be a bit pricey, the results are worth it. Give it a try and see for yourself!\n\n2. Fi\u00e8ra Luxury Concealer & Skincare - 2-In-1 All Day Coverage With Anti-Aging Ingredients - 0.5 FL. OZ./ 15ml Light Color: A Concealer That Will Make You Look Like a Snack\nThis concealer is a game-changer. Not only does it provide all-day coverage, but it also contains anti-aging ingredients to help keep your skin looking flawless and prevent wrinkles. The only downside is that it has limited color options. But if you can find a color that matches your skin tone, then you're in luck. So go ahead and treat yourself to this concealer. You deserve to look like a snack.\n\n3. BOOM! by Cindy Joseph Cosmetics Boomstick Trio - 3 Pack Boom Makeup Sticks for Older Women & Mature Skin - Blush Stick, Highlighter Stick & Moisturizer: A Boomtastic Review\nThis makeup trio is perfect for anyone who wants to look fabulous without trying too hard. While it is a bit pricey, the quality of the product is definitely worth it. Plus, the multi-purpose sticks and hydrating moisturizer make it a great addition to any makeup routine. So go ahead and treat yourself, sis! You deserve it.\n\n4. Borghese Superiore State-of-the-Art Mascara: The Ultimate Lash Game-Changer\nThis mascara will give you the length, volume, and curl you've been dreaming of. Plus, it's easy to apply and long-lasting, making it the perfect addition to your makeup bag. So, what are you waiting for? Get your hands on this mascara and get ready to slay!\n\nIn conclusion, these four products are must-haves for anyone who wants to up their makeup game and look like a snack. From the plumping primer serum to the ultimate lash game-changer mascara, these products are versatile, easy to use, and deliver amazing results. So, treat yourself and get ready to slay!",
+            "title": "Title: The Ultimate Guide to Products That Will Make Your Life Slimy and Satisfying",
+            "content": "Title: The Ultimate Guide to Products That Will Make Your Life Slimy and Satisfying\n\nAre you tired of living a dry, boring life? Do you crave the slimy satisfaction of a good slime session? Look no further, because we've got the ultimate guide to products that will make your life slimy and satisfying. Whether you're a slime enthusiast or just looking to add some excitement to your daily routine, these products are sure to do the trick. So grab your slime and let's get started!\n\n1. Slugs: \nSlugs may not be the first thing that comes to mind when you think of slimy products, but hear us out. These little guys are the perfect addition to any slime creation. Not only do they add a unique texture, but they also come in a variety of colors and sizes. Plus, they're a great way to add some extra fun to your slime sessions. Just be sure to handle them with care, as they can be a bit slimy.\n\n2. Glitter: \nWhat's a slime session without a little sparkle? Glitter is the perfect way to add some pizzazz to your slime creations. Whether you prefer chunky or fine glitter, there's a variety out there for everyone. Plus, glitter comes in a rainbow of colors, so you can mix and match to your heart's content. Just be prepared for a little bit of a mess, as glitter has a tendency to get everywhere.\n\n3. Foam Beads: \nFoam beads are a must-have for any slime enthusiast. These little beads add a satisfying crunch to your slime creations, and they come in a variety of colors and sizes. Plus, they're a great way to add some extra texture to your slime. Just be sure to mix them in well, as they can sometimes clump together.\n\n4. Scented Oils: \nWhy settle for plain old slime when you can have slime that smells amazing? Scented oils are the perfect way to add some extra sensory stimulation to your slime sessions. Whether you prefer fruity or floral scents, there's an oil out there for everyone. Just be sure to use them sparingly, as a little goes a long way.\n\nIn conclusion, these products are sure to make your life slimy and satisfying. Whether you're a seasoned slime enthusiast or just looking to add some excitement to your daily routine, these products are sure to do the trick. So grab your slime and get ready to have some fun! And remember, as the great philosopher Spongebob Squarepants once said, \"I'm ready, I'm ready, I'm ready!\"",
+            "products": []
+        },
+        {
+            "id": 26,
+            "slug": "strong-the-ultimate-guide-to-enhancing-your-natural-beauty-strong",
+            "type": "sc",
+            "title": "<strong>The Ultimate Guide to Enhancing Your Natural Beauty</strong>",
+            "content": "<strong>The Ultimate Guide to Enhancing Your Natural Beauty</strong>\n\nAre you tired of spending hours on your makeup routine, only to end up feeling like you're hiding behind a mask? Look no further than these four products, which will help you enhance your natural beauty and feel confident in your own skin. Whether you're a mature woman looking for makeup that works with your skin, or a makeup lover looking to add some edge to your routine, there's something here for everyone.\n\n<strong>1. BOOM! by Cindy Joseph Cosmetics Boomstick Trio - The Ultimate Makeup Hack for Mature Skin</strong>\n\nAs we age, our skin changes, and so should our makeup routine. That's where the BOOM! by Cindy Joseph Cosmetics Boomstick Trio comes in. This trio of sticks includes a sheer, shimmery color that can be used as a highlighter, a rosy color that can be used as a blush, and a bronze color that can be used as a bronzer. The sticks are versatile enough to be used on any skin tone, and the sheer formula allows your natural beauty to shine through. While there are some minor cons, such as the price and the fact that the sticks can be a bit greasy, the pros far outweigh them, making this product a must-have for anyone looking to enhance their natural beauty.\n\n<strong>2. Spray Your Way to Glowing Skin: A Review of Mario Badescu Facial Spray</strong>\n\nIf you're looking for a quick and easy way to refresh your skin, look no further than Mario Badescu Facial Spray. This face mist hydrates, rejuvenates, and clarifies your skin, leaving you with a healthy, glowing complexion. The versatile formula can be used as a toner, a setting spray, or just a quick pick-me-up throughout the day. With soothing ingredients like aloe vera and rosewater, this spray is sure to become a staple in your skincare routine. While there are some minor cons, such as the strong scent and the fact that the mist can be a bit too fine, the pros far outweigh them, making this product a great choice for anyone looking for a quick and easy way to refresh their skin.\n\n<strong>3. Stay All Day and Slay All Night with stila's Waterproof Liquid Eye Liner</strong>\n\nLooking to add a little edge to your makeup routine? Look no further than stila's Waterproof Liquid Eye Liner. This liner stays put all day and all night, no matter what you're doing. The fine tip allows for precise application, and the intense black color adds drama to any look. While it may only come in black and may dry out quickly if not stored properly, these minor cons are easily outweighed by the liner's many pros. So go ahead and give it a try - your eyes will thank you!\n\n<strong>4. Get a Flawless Look with the Ogee Face Stick Trio - Certified Organic Bronzer, Blush, and Highlighter Sticks</strong>\n\nLooking for a high-quality, organic option for your makeup routine? Look no further than the Ogee Face Stick Trio. This trio of sticks includes a bronzer, a blush, and a highlighter, all made with certified organic ingredients. The versatile shades make it a great option for any skin tone, and the travel-friendly packaging makes it perfect for on-the-go touch-ups. While it may be a bit pricey, the convenience and quality make it worth the investment.\n\nIn conclusion, enhancing your natural beauty doesn't have to be complicated or time-consuming. With these four products, you can achieve a flawless, glowing look in no time. Whether you're a mature woman looking for makeup that works with your skin, or a makeup lover looking to add some edge to your routine, there's something here for everyone. So go ahead and give them a try - you won't be disappointed!",
+            "products": [
+                {
+                    "product": {
+                        "id": 4,
+                        "url": "https://www.amazon.com/dp/B08S49FM3C?tag=dexterlabs-20",
+                        "name": "BOOM! by Cindy Joseph Cosmetics Boomstick Trio - 3 Pack Boom Makeup Sticks for Older Women & Mature Skin - Blush Stick, Highlighter Stick & Moisturizer",
+                        "price": "$79.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41Ft1ELv0pL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 7,
+                        "url": "https://www.amazon.com/dp/B00172O9NO?tag=dexterlabs-20",
+                        "name": "Mario Badescu Facial Spray with Aloe, Herbs and Rosewater for All Skin Types | Face Mist that Hydrates, Rejuvenates & Clarifies",
+                        "price": "$1.50",
+                        "thumbnail": "https://m.media-amazon.com/images/I/31YVu3msm7L._SY445_SX342_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 8,
+                        "url": "https://www.amazon.com/dp/B0B57D3V1F?tag=dexterlabs-20",
+                        "name": "Ogee Face Stick Trio - Contour Stick Makeup Collection - Certified Organic Bronzer Stick, Blush Stick, and Highlighter Stick for a Flawless Look",
+                        "price": "$126.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41fyugcDjQL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
+                {
+                    "product": {
+                        "id": 10,
+                        "url": "https://www.amazon.com/dp/B0031NNE56?tag=dexterlabs-20",
+                        "name": "stila Stay All Day Waterproof Liquid Eye Liner",
+                        "price": "$24.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/21KtmfhrCBL._SX342_SY445_QL70_FMwebp_.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "slug": "title-the-ultimate-guide-to-flawless-makeup-products-for-every-beauty-need-title",
+            "type": "sc",
+            "title": "<title>The Ultimate Guide to Flawless Makeup: Products for Every Beauty Need</title>",
+            "content": "<title>The Ultimate Guide to Flawless Makeup: Products for Every Beauty Need</title>\n\nAre you tired of spending hours on your makeup routine, only to end up with a mediocre look? Look no further, because we've got the ultimate guide to achieving a flawless beat every time. Whether you're a makeup newbie or a seasoned pro, these products are sure to take your beauty game to the next level. So sit back, relax, and get ready to slay!\n\n1. <strong>Borghese Superiore State-of-the-Art Mascara: The Blackest of the Black</strong>\nIf you're looking for a mascara that will give you all-day volume and length, look no further than Borghese Superiore State-of-the-Art Mascara. Its state-of-the-art formula and unique brush design make it easy to apply and ensure that every lash is coated evenly. Plus, the blackest of the black shade will make your eyes pop like never before. Trust us, your lashes will thank you.\n\n2. <strong>BOOM! by Cindy Joseph Cosmetics Boomstick Trio - The Ultimate Makeup Hack for Mature Skin</strong>\nMature skin requires a different approach to makeup, and that's where BOOM! by Cindy Joseph Cosmetics Boomstick Trio comes in. This versatile set includes three sticks that can be used as lipstick, blush, and highlighter, making it the ultimate makeup hack for older women and those with mature skin. And the best part? The sticks are versatile enough to be used on any skin tone. While there are some minor cons, the pros far outweigh them, making this product a must-have for anyone looking to enhance their natural beauty.\n\n3. <strong>Fi\u00e8ra Luxury Concealer & Skincare: The Holy Grail of Coverage and Anti-Aging</strong>\nIf you're looking for a concealer that will not only cover up imperfections but also provide anti-aging benefits, look no further than Fi\u00e8ra Luxury Concealer & Skincare. This product is a game-changer that will leave you looking flawless and youthful. While the limited color options and coverage may be a downside for some, the pros far outweigh the cons. So go ahead and give it a try - your skin will thank you!\n\n4. <strong>Larimar Luxury Black Makeup Brush Set: The Ultimate Tool for a Flawless Beat</strong>\nNo makeup routine is complete without the right tools, and the Larimar Luxury Black Makeup Brush Set is the ultimate tool for achieving a flawless beat. With its ultra-soft vegan and cruelty-free synthetic hair and versatile brush shapes, you'll be able to achieve a flawless beat every time. Plus, the neat angled brush holder makes organization a breeze. Don't hesitate to add this set to your makeup collection!\n\nIn conclusion, achieving a flawless beat doesn't have to be a daunting task. With the right products, you can enhance your natural beauty and feel confident in your own skin. So go ahead and give these products a try - your beauty routine will never be the same! Remember, as the famous meme says, \"You're not ugly, you're just not using the right products.\"",
             "products": [
                 {
                     "product": {
@@ -33,16 +203,16 @@
                         "price": "$39.97",
                         "thumbnail": "https://m.media-amazon.com/images/I/31wCUp-ZHSL._SX300_SY300_QL70_FMwebp_.jpg"
                     }
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "slug": "the-ultimate-guide-to-slaying-your-makeup-game-with-these-products",
-            "type": "sc",
-            "title": "The Ultimate Guide to Slaying Your Makeup Game with These Products",
-            "content": "The Ultimate Guide to Slaying Your Makeup Game with These Products\n\nAre you tired of feeling like your makeup routine is lacking that extra oomph? Look no further, because we've got the ultimate guide to taking your makeup game to the next level. Whether you're a makeup newbie or a seasoned pro, these products are sure to give you the confidence to slay all day. So, grab your brushes and let's get started!\n\n1. Borghese Superiore State-of-the-Art Mascara: The Ultimate Lash Game-Changer\nIf you're looking for a mascara that will give you the length, volume, and curl you've been dreaming of, look no further than Borghese Superiore State-of-the-Art Mascara. This mascara is easy to apply and long-lasting, making it the perfect addition to your makeup bag. Say goodbye to clumpy lashes and hello to a flawless finish. With this mascara, you'll be ready to slay any look.\n\n2. Anastasia Beverly Hills Dipbrow Pomade: The Brow Game-Changer\nYour brows are the frame to your face, so it's important to make sure they're on point. Anastasia Beverly Hills Dipbrow Pomade is the perfect product to help you achieve that. This pomade is smudge-proof and waterproof, so you don't have to worry about your brows fading throughout the day. Plus, it comes in a variety of shades to match any hair color. With this pomade, your brows will be on fleek.\n\n3. Fenty Beauty Pro Filt'r Soft Matte Longwear Foundation: The Skin Game-Changer\nFinding the perfect foundation can be a struggle, but Fenty Beauty Pro Filt'r Soft Matte Longwear Foundation is here to save the day. This foundation is available in 50 shades, so you're sure to find the perfect match for your skin tone. It's also long-lasting and provides a soft matte finish, so you don't have to worry about your makeup melting off throughout the day. With this foundation, your skin will be flawless and ready to slay.\n\nIn conclusion, with these game-changing products, you'll be ready to slay your makeup game like a boss. Whether you're looking for the perfect mascara, brow pomade, or foundation, these products have got you covered. So, go ahead and add them to your makeup bag, and get ready to slay all day. Remember, confidence is key, and with these products, you'll be feeling like a queen in no time.",
-            "products": [
+                },
+                {
+                    "product": {
+                        "id": 4,
+                        "url": "https://www.amazon.com/dp/B08S49FM3C?tag=dexterlabs-20",
+                        "name": "BOOM! by Cindy Joseph Cosmetics Boomstick Trio - 3 Pack Boom Makeup Sticks for Older Women & Mature Skin - Blush Stick, Highlighter Stick & Moisturizer",
+                        "price": "$79.00",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41Ft1ELv0pL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
+                },
                 {
                     "product": {
                         "id": 5,
@@ -51,16 +221,17 @@
                         "price": "NoneNone",
                         "thumbnail": "https://m.media-amazon.com/images/I/31QC4X08vTL._SY445_SX342_QL70_FMwebp_.jpg"
                     }
+                },
+                {
+                    "product": {
+                        "id": 11,
+                        "url": "https://www.amazon.com/dp/B0B72B6WZ1?tag=dexterlabs-20",
+                        "name": "Larimar Luxury Black Makeup Brush set (Bling Black Edition), Ultra Soft Vegan & Cruelty-Free Premium Synthetic Hair Brushes for Foundation, Concealer, Eyeliner, Eyeshadow, Eye Contour, Blending Fluff 14 Pcs Brush Set with a Neat Angled Brush Holder",
+                        "price": "NoneNone",
+                        "thumbnail": "https://m.media-amazon.com/images/I/41LBbt-gqfL._SX300_SY300_QL70_FMwebp_.jpg"
+                    }
                 }
             ]
-        },
-        {
-            "id": 4,
-            "slug": "title-10-products-that-will-make-your-life-easier-and-more-fun",
-            "type": "sc",
-            "title": "Title: 10 Products That Will Make Your Life Easier and More Fun",
-            "content": "Title: 10 Products That Will Make Your Life Easier and More Fun\n\nAre you tired of feeling like you're drowning in responsibilities and stress? Do you want to add some excitement and convenience to your daily routine? Look no further! We've compiled a list of 10 products that will make your life easier and more fun. Whether you're a busy professional, a student, or just someone who wants to add some spice to their life, these products are for you. So sit back, relax, and get ready to upgrade your life!\n\n1. AirPods Pro - These wireless earbuds are perfect for anyone who loves music or podcasts. With noise-cancellation technology and a comfortable fit, you can listen to your favorite tunes without any distractions. Plus, the wireless design means you can move around freely without getting tangled up in cords.\n\n2. Instant Pot - This multi-functional kitchen gadget is a game-changer for anyone who loves to cook. With the ability to pressure cook, slow cook, saut\u00e9, and more, you can make delicious meals in a fraction of the time. Plus, the easy-to-clean design means you won't have to spend hours scrubbing pots and pans.\n\n3. Kindle Paperwhite - If you're a bookworm, you need a Kindle Paperwhite in your life. With a glare-free display and weeks-long battery life, you can read your favorite books anywhere, anytime. Plus, the lightweight design means you can take it with you on the go.\n\n4. Tile Mate - Do you constantly lose your keys or phone? The Tile Mate is here to save the day. This small, Bluetooth-enabled device attaches to your keys, phone, or anything else you frequently misplace. Then, you can use the Tile app to locate your lost item with ease.\n\n5. Philips Hue Smart Bulbs - These smart bulbs allow you to control your home lighting with your voice or smartphone. You can set schedules, change colors, and even sync your lights to your music. Plus, the energy-efficient design means you'll save money on your electricity bill.\n\n6. Roomba Robot Vacuum - Say goodbye to the days of dragging a heavy vacuum around your house. The Roomba Robot Vacuum does the work for you, cleaning your floors while you relax. Plus, the smart mapping technology means it won't miss a spot.\n\n7. Hydro Flask Water Bottle - Stay hydrated in style with a Hydro Flask Water Bottle. These insulated bottles keep your drinks cold for up to 24 hours and hot for up to 12 hours. Plus, the durable design means you can take it with you on all your adventures.\n\n8. Nintendo Switch - Whether you're a hardcore gamer or just looking for some fun, the Nintendo Switch has something for everyone. With a variety of games and the ability to play on the go or on your TV, you'll never be bored.\n\n9. Apple Watch - This smartwatch is perfect for anyone who wants to stay connected and organized. With the ability to make calls, send texts, and track your fitness, you'll wonder how you ever lived without it.\n\n10. Anker PowerCore Portable Charger - Don't let a dead phone ruin your day. The Anker PowerCore Portable Charger allows you to charge your phone on the go, so you never have to worry about running out of battery.\n\nIn conclusion, these 10 products are sure to make your life easier and more fun. From wireless earbuds to a robot vacuum, there's something for everyone on this list. So why not treat yourself to a little upgrade? You deserve it!",
-            "products": null
         }
     ]
 }
