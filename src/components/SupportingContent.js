@@ -14,16 +14,17 @@ const SupportingContent = ({post}) => {
         <div>
             <Navbar/>
             <div className="flow-root">
-                <article className="prose md:prose-md">
+                <article className="prose md:prose-md p-4">
                     <h1>{post.title}</h1>
                     <img src={post.products[0].product.thumbnail} />
+                    <div dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br>') }} />
 
-                    {
-                        post.content.split('\n').map((line) =>
+                    {/*{*/}
+                    {/*    post.content.split('\n').map((line) =>*/}
 
-                            <p key={line.slice(0, 10)}>{line}</p>
-                        )
-                    }
+                    {/*        <p key={line.slice(0, 10)}>{line}</p>*/}
+                    {/*    )*/}
+                    {/*}*/}
                         {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
                 </article>
 
