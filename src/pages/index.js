@@ -10,7 +10,7 @@ const Index = () => {
     return (
        <div>
        <Navbar />
-           <h1>My BLog</h1>
+           <h1>My BLog23</h1>
            <ul>
            { posts.map((p) =>
                <li key={p.id}>
