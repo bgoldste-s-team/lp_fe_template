@@ -24,23 +24,25 @@ module.exports = {
            mytheme: {
       
           
- "primary": siteData['color'],
-          
- "secondary": "#e2489a",
-          
- "accent": "#9d02d1",
-          
- "neutral": "#2A1E38",
-          
- "base-100": "#F0ECF3",
-          
- "info": "#4A7FF2",
-          
- "success": "#289F67",
-          
- "warning": "#F8B53A",
-          
- "error": "#F4322F",
+ // "primary": siteData['color'],
+
+               "primary": "#1aad1c",
+
+               "secondary": "#b5e554",
+
+               "accent": "#91b9ea",
+
+               "neutral": "#23242F",
+
+               "base-100": "#F6EEF7",
+
+               "info": "#A7C3EC",
+
+               "success": "#16C06E",
+
+               "warning": "#F6CB4C",
+
+               "error": "#F13B72",
            },
          },
        ],

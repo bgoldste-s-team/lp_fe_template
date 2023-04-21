@@ -1,7 +1,7 @@
 import reviewData from '../data/review_data.json';
 import guideData from '../data/sc_data.json';
 import Navbar from "../components/Navbar";
-
+import SupportingContent from "../components/SupportingContent";
 
 export async function getStaticPaths() {
     
@@ -47,6 +47,12 @@ export async function getStaticProps(context) {
 export default function Post({ post }) {
     // Render post...
     console.log(post)
+    if (post.type === "sc") {
+        return(
+           < SupportingContent post={post} />
+        )
+    }
+
     return(
         // post.title)
 
@@ -54,7 +60,7 @@ export default function Post({ post }) {
     <Navbar />
         <div class="flow-root">
             <article class="prose md:prose-md">
-                <h1>{post.title}</h1>
+                <h1>{post.type} {post.title}</h1>
                 {/*<img src={post.product.thumbnail} />*/}
 
                {

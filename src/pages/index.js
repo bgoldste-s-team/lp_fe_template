@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 const Index = () => {
     const posts = reviewData.posts
     return (
-       <div>
+       <div >
        <Navbar />
            <h1>My BLog23</h1>
            <button class="btn btn-primary">hello</button>
