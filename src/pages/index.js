@@ -2,14 +2,15 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import reviewData from '../data/review_data.json';
 import Navbar from '../components/Navbar'
-
+import Layout from "../components/Layout"
 const inter = Inter({ subsets: ['latin'] })
 
 const Index = () => {
     const posts = reviewData.posts
     return (
-       <div >
-       <Navbar />
+        <Layout>
+
+
            <h1>My BLog23</h1>
            <button class="btn btn-primary">hello</button>
            <ul>
@@ -27,7 +28,8 @@ const Index = () => {
 
            )}
            </ul>
-       </div>
+
+        </Layout>
     )
 };
 export default Index;
