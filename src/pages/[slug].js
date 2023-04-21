@@ -1,8 +1,15 @@
-import blogData from '../data/blog_data.json';
+import reviewData from '../data/review_data.json';
+import guideData from '../data/sc_data.json';
+import Navbar from "../components/navbar";
+
 
 export async function getStaticPaths() {
-    const posts = blogData.posts
-    const paths = posts.map((post) => ({
+    
+    const guides = guideData.posts;
+    const posts = reviewData.posts;
+    const combinedData = posts.concat(guides);
+
+    const paths = combinedData.map((post) => ({
         params: {slug: post.slug, data: "hello"},
     }))
 
@@ -19,10 +26,13 @@ export async function getStaticPaths() {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context) {
-    // console.log(context)
+    const guides = guideData.posts;
+    const posts = reviewData.posts;
+    const combinedData = posts.concat(guides);
+
     const slug = context.params.slug;
-    // console.log(context)
-    const post = blogData.posts.find((post) => post.slug === slug)
+    
+    const post = combinedData.find((post) => post.slug === slug)
     // console.log(slug)
     // // console.log(posts)
     console.log("slug", slug, "post", post)
@@ -40,24 +50,26 @@ export default function Post({ post }) {
     return(
         // post.title)
 
+    <div>
+    <Navbar />
+        <div class="flow-root">
+            <article class="prose md:prose-md">
+                <h1>{post.title}</h1>
+                {/*<img src={post.product.thumbnail} />*/}
 
-    <div class="flow-root">
-        <article class="prose md:prose-md">
-            <h1>{post.title}</h1>
-            <img src={post.product.thumbnail} />
+               {
+                    post.content.split('\n').map( (line) => 
+                       
+                        <p>{line}</p>
 
-           {
-                post.content.split('\n').map( (line) => 
-                   
-                    <p>{line}</p>
+                       
 
-                   
-
-                )
-            }
-        </article>
-        <button class="btn btn-primary"><a href={post.product.url} target='blank'>{post.product.name}</a></button>
-        
+                    )
+                }
+            </article>
+            {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
+            
+        </div>
     </div>
     )
 }

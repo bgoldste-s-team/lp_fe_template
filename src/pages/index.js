@@ -1,13 +1,15 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import blogData from '../data/blog_data.json';
+import reviewData from '../data/review_data.json';
+import Navbar from '../components/navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 const Index = () => {
-    const posts = blogData.posts
+    const posts = reviewData.posts
     return (
        <div>
+       <Navbar />
            <h1>My BLog</h1>
            <ul>
            { posts.map((p) =>
