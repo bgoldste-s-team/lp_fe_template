@@ -1,6 +1,6 @@
 import reviewData from '../data/review_data.json';
 import guideData from '../data/sc_data.json';
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 
 
 export async function getStaticPaths() {

@@ -1,7 +1,7 @@
 import reviewData from '../data/review_data.json';
 import siteData from '../data/site_data.json';
 import guideData from '../data/sc_data.json';
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar';
 
 const GuideIndex = ({guides}) => {
   const reviews = reviewData.posts;
