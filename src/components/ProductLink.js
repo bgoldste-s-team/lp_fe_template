@@ -3,9 +3,19 @@ import Link from "next/link";
 import reviewData from "@/data/review_data.json";
 import formatSlug from "@/lib/formatSlug"
 export default function ProductLink({ product}) {
+
+
+
+
     const review = reviewData.posts.find((r) => r.product.id === product.id)
     const slug = review?.slug;
-    console.log(review)
+    if (!slug) {
+
+
+        return null;
+
+    }
+
     return (
 
 

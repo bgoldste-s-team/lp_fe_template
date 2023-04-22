@@ -7,10 +7,11 @@ import ContentCard from "@/components/ContentCard";
 const inter = Inter({ subsets: ['latin'] })
 import siteData from "@/data/site_data.json";
 const Index = () => {
-    const posts = reviewData.posts;
-    const siteName = siteData.name;
-    const siteDescription = siteData.description;
+    const posts = reviewData?.posts;
+    const siteName = siteData?.name;
+    const siteDescription = siteData?.description;
     return (
+
         <Layout>
 
             <div className="text-center" >
@@ -21,7 +22,7 @@ const Index = () => {
             <div>
 
            <ul>
-           { posts.map((p) =>
+           { posts?.map((p) =>
                <ContentCard key={p.id} content={p} />
            )}
            </ul>

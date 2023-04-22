@@ -5,13 +5,16 @@ import Image from "next/image";
 import formatSlug from "@/lib/formatSlug"
 
 export default function ContentCard({content  }) {
-    // console.log(content)
+    console.log(content)
 
     let thumbnail = content?.products?.[0]?.product?.thumbnail;
     if (!thumbnail) {
         thumbnail = content?.product?.thumbnail;
+        if (!thumbnail) {
+            return null;
+        }
     }
-    console.log("THUMBNAIL?", thumbnail)
+
     // console.log(content.products[0])
     const guides = guideData.posts;
     return (
