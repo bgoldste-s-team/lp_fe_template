@@ -52,8 +52,8 @@ export default function Post({ post }) {
         // post.title)
     <Layout>
         { post.type === "sc" ?  < SupportingContent post={post} /> :
-null
-            // <Review post={post} />
+
+            <Review post={post} />
         }
     </Layout>
 
