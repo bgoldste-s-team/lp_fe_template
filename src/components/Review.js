@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer"
 import ProductBank from "@/components/ProductBank";
 import RelatedContent from "@/components/RelatedContent";
+import Image from "next/image";
 const Review = ({post}) => {
 
     // const reviews = reviewData.posts;
@@ -15,17 +16,25 @@ const Review = ({post}) => {
     console.log(post)
     return (
 
-        <div className="flow-root">
-            <article className="prose md:prose-md p-4">
+        <div className=" flex flex-col items-center ">
+            <article className="prose md:prose-md space-y-4">
                 <h1>REVIEW {post.title}</h1>
-                <img src={post.product?.thumbnail} />
+
+                <Image src={post.product?.thumbnail}
+                       alt={post.product?.name}
+                       width="0"
+                       height="0"
+                       sizes="100vw"
+                       className="h-80 w-80  m-2 "></Image>
                 <div dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br>') }} />
-                <ProductBank products={[{product: post.product},]}/>
-                <RelatedContent />
+
 
                 {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
             </article>
-
+            <div className="flex flex-col  space-y-4">
+                <ProductBank products={[{product: post.product},]}/>
+                <RelatedContent />
+            </div>
 
         </div>
 

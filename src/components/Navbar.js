@@ -7,7 +7,7 @@ const Navbar = () => {
   const guides = guideData.posts;
   console.log(guides)
   return (
-    <div className="navbar  bg-base-100">
+    <div className="navbar  bg-primary">
       <div className="navbar-start">
           <div className="flex-1">
             <Link href="/" className="btn btn-ghost normal-case text-xl">{siteData.name}</Link>

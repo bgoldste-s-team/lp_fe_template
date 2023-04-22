@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     return (
         <>
             <Navbar />
-                <main className="p-4 flex items-center " >{children}</main>
+                <main className=" p-2" >{children}</main>
             <Footer />
         </>
     )

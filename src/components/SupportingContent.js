@@ -14,15 +14,18 @@ const SupportingContent = ({post}) => {
     console.log(post)
     return (
 
-            <div className="flow-root">
-                <article className="prose md:prose-md p-4">
+        <div className=" flex flex-col items-center ">
+            <article className="prose md:prose-md space-y-4">
                     <h1>{post.title}</h1>
                     <img src={post.products[0]?.product.thumbnail} />
                     <div dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br>') }} />
-                    <ProductBank products={post.products}/>
-                    <RelatedContent />
+
                         {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
                 </article>
+            <div className="flex flex-col  space-y-4">
+                <ProductBank products={post.products}/>
+                <RelatedContent />
+            </div>
 
 
             </div>
