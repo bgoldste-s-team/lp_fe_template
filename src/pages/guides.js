@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 import ContentCard from "@/components/ContentCard";
 const inter = Inter({ subsets: ['latin'] })
 import siteData from "@/data/site_data.json";
-const Index = () => {
+const guides = () => {
     const posts = reviewData.posts;
     const siteName = siteData.name;
     const siteDescription = siteData.description;
@@ -29,4 +29,4 @@ const Index = () => {
         </Layout>
     )
 };
-export default Index;
+export default guides;
