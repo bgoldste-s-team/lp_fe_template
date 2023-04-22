@@ -50,7 +50,7 @@ export default function Post({ post }) {
 
     return(
         // post.title)
-    <Layout pageTitle={post.title}>
+    <Layout pageTitle={post.title} pageDescription={post.content.slice(0,150)}>
         { post.type === "sc" ?  < SupportingContent post={post} /> :
 
             <Review post={post} />

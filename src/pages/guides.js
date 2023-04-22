@@ -13,7 +13,7 @@ const guides = () => {
     const siteName = siteData.name;
     const siteDescription = siteData.description;
     return (
-        <Layout pageTitle="Guides">
+        <Layout pageTitle="Guides" pageDescription={siteName + " Guides to help you out."}>
 
             <div className="text-center" >
                 <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Guides</h1>
