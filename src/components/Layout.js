@@ -26,7 +26,7 @@ export default function Layout({ children, pageTitle, pageDescription }) {
           gtag('config', '${measurementId}');
         `}
       </Script>
-      {/*<Navbar />*/}
+      <Navbar />
       <main className="">{children}</main>
       <Footer />
     </>

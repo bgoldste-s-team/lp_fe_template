@@ -3,10 +3,12 @@ import siteData from "./src/data/site_data.json";
 console.log("HI");
 console.log(siteData["color"]);
 module.exports = {
+  darkMode: 'mytheme',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
-    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}"
+
   ],
   theme: {
     extend: {
@@ -19,30 +21,35 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
-    themes: [
-      {
-        mytheme: {
-          primary: "#36e2c3",
-
-          secondary: "#065770",
-
-          accent: "#a4fcb7",
-
-          neutral: "#292E33",
-
-          "base-100": "#EDEDED",
-
-          info: "#3388F0",
-
-          success: "#2AD5C4",
-
-          warning: "#CD6904",
-
-          error: "#E83B69",
-
-          // "primary": siteData['color'],
-        },
-      },
-    ],
+    themes: [ "emerald"],
   },
+  // daisyui: {
+  //   themes: [
+  //
+  //     {
+  //       mytheme: {
+  //
+  //         "primary": "#a8bcea",
+  //
+  //         "secondary": "#c067ea",
+  //
+  //         "accent": "#5329a0",
+  //
+  //         "neutral": "#242D33",
+  //
+  //         "base-100": "#2C3149",
+  //
+  //         "info": "#265AE8",
+  //
+  //         "success": "#19E173",
+  //
+  //         "warning": "#C48508",
+  //
+  //         "error": "#F24640",
+  //
+  //         // "primary": siteData['color'],
+  //       },
+  //     },
+  //   ],
+  // },
 };
