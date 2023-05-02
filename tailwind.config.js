@@ -1,52 +1,48 @@
 /** @type {import('tailwindcss').Config} */
 import siteData from "./src/data/site_data.json";
-console.log("HI")
-console.log(siteData['color'])
+console.log("HI");
+console.log(siteData["color"]);
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/app/**/*.{js,ts,jsx,tsx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-   plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
-       themes: [
-         {
-           mytheme: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#36e2c3",
 
+          secondary: "#065770",
 
-             "primary": "#36e2c3",
+          accent: "#a4fcb7",
 
-             "secondary": "#065770",
+          neutral: "#292E33",
 
-             "accent": "#a4fcb7",
+          "base-100": "#EDEDED",
 
-             "neutral": "#292E33",
+          info: "#3388F0",
 
-             "base-100": "#EDEDED",
+          success: "#2AD5C4",
 
-             "info": "#3388F0",
+          warning: "#CD6904",
 
-             "success": "#2AD5C4",
+          error: "#E83B69",
 
-             "warning": "#CD6904",
-
-             "error": "#E83B69",
-          
- // "primary": siteData['color'],
-
-
-           },
-         },
-       ],
-     },
-}
+          // "primary": siteData['color'],
+        },
+      },
+    ],
+  },
+};
