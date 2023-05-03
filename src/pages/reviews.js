@@ -6,31 +6,46 @@ import Layout from "../components/Layout";
 import ContentCard from "@/components/ContentCard";
 const inter = Inter({ subsets: ["latin"] });
 import siteData from "@/data/site_data.json";
+import Link from "next/link";
 const reviews = () => {
-  const posts = reviewData.posts;
+  const guides = reviewData.posts;
   const siteName = siteData.name;
   const siteDescription = siteData.description;
   return (
-    <Layout
-      pageTitle={siteName + " Reviews"}
-      pageDescription={siteName + " Reviews"}
-    >
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          Reviews
-        </h1>
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-          We got your back.
-        </p>
-      </div>
-      <div>
-        <ul>
-          {posts.map((p) => (
-            <ContentCard key={p.id} content={p} />
-          ))}
-        </ul>
-      </div>
-    </Layout>
+      <Layout
+          pageTitle={siteName + " " + siteDescription}
+          pageDescription={siteDescription}
+      >
+
+        <div className={" bg-base-100"}>
+
+          <div className="hero pt-3 ">
+            <div className="hero-content text-center text-base-content">
+              <div className="max-w-md ">
+                <h1 className="text-5xl font-extrabold"> Reviews</h1>
+                <p className="py-6 text-lg">{siteName} - All the Best Reviews.</p>
+                <div className=" grid gap-4">
+                  <Link className="btn btn-secondary "href="/guides">
+                    Guides
+                  </Link>
+                  {/*<Link className="btn btn-primary "href="/reviews">Reviews</Link>*/}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ul className={"grid gap-4 px-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"}>
+            {guides?.map((p) => (
+                <ContentCard key={p.id} content={p} />
+            ))}
+          </ul>
+          {/*<ul className={"grid gap-4 px-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"}>*/}
+          {/*  {posts?.slice(0,10).map((p) => (*/}
+          {/*      <ContentCard key={p.id} content={p} />*/}
+          {/*  ))}*/}
+          {/*</ul>*/}
+        </div>
+      </Layout>
   );
 };
 export default reviews;

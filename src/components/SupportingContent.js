@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductBank from "@/components/ProductBank";
 import RelatedContent from "@/components/RelatedContent";
+import ProductCarousel from "@/components/ProductCarousel"
 const SupportingContent = ({ post }) => {
   // const reviews = reviewData.posts;
   // const guides = guideData.posts;
@@ -16,12 +17,14 @@ const SupportingContent = ({ post }) => {
   const products = post?.products;
 
   return (
-    <div className=" flex flex-col items-center ">
+  <div>
+    <div className=" flex flex-col items-center p-4 bg-base-100 text-base-content ">
       <article className="prose md:prose-md space-y-4">
         <h1>{post.title}</h1>
-        {thumbnail ? <img src={thumbnail} /> : null}
-
+        {/*{thumbnail ? <img src={thumbnail} /> : null}*/}
+        <ProductCarousel products={products} />
         <div
+            className="text-base-content"
           dangerouslySetInnerHTML={{
             __html: post.content.replace(/\n/g, "<br>"),
           }}
@@ -29,10 +32,12 @@ const SupportingContent = ({ post }) => {
 
         {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
       </article>
-      <div className="flex flex-col  space-y-4">
+    </div>
+      <div className="">
         {products ? <ProductBank products={products} /> : null}
         <RelatedContent />
       </div>
+
     </div>
   );
 };

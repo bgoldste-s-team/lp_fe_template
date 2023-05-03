@@ -2,12 +2,15 @@ import reviewData from "../data/review_data.json";
 import siteData from "../data/site_data.json";
 import guideData from "../data/sc_data.json";
 import Link from "next/link";
+import Search from "@/components/Search"
 const Navbar = () => {
   const reviews = reviewData.posts;
   const guides = guideData.posts;
+  const siteNameLength = siteData.name.split(" ").length;
   console.log(guides);
   return (
-      <div className="navbar bg-primary">
+
+      <div className="navbar bg-primary sticky top-0 z-50">
             {/*Hidden on mobile*/}
           {/*<div className="navbar-start hidden lg:flex">*/}
           {/*    <ul className="menu menu-horizontal px-1">*/}
@@ -27,10 +30,14 @@ const Navbar = () => {
           {/*</div>*/}
 
           <div className="navbar-start">
-              <Link href="/"className="btn btn-ghost normal-case text-on text-xl text-accent "> {siteData.name}</Link>
+
+              <Link href="/"className="btn btn-ghost normal-case text-on text-xl text-primary-content "> <p>{ siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-accent italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></p></Link>
           </div>
           <div className="navbar-end">
+                <Search />
+
               <div className="dropdown dropdown-end">
+
                   <label tabIndex={0} className="btn btn-ghost">
                       {/*<svg width="64px" height="64px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#000000" fill-rule="evenodd" d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"></path> </g></svg>*/}
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5  fill-primary stroke-accent" stroke-width='1.3'  viewBox="0 0 20 20"  ><g id="SVGRepo_iconCarrier"> <path fill="" className= "" fill-rule="evenodd" d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"></path> </g></svg>
@@ -50,9 +57,11 @@ const Navbar = () => {
                             <a href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</a>
                           </li>
                         ))}
+                      <Link href={'/guides'}>
                       <li className="menu-title">
                           <span>Guides</span>
                       </li>
+                      </Link>
                       {guides.slice(0,3).map((guide) => (
                           <li key={guide.id}>
                               <a href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</a>

@@ -1,13 +1,17 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import reviewData from "../data/review_data.json";
+import guideData from "../data/sc_data.json";
 import Navbar from "../components/Navbar";
 import Layout from "../components/Layout";
 import ContentCard from "@/components/ContentCard";
+import Search from "@/components/Search";
 const inter = Inter({ subsets: ["latin"] });
 import siteData from "@/data/site_data.json";
+import Link from "next/link";
 const Index = () => {
   const posts = reviewData?.posts;
+  const guides = guideData?.posts;
   const siteName = siteData?.name;
   const siteDescription = siteData?.description;
   return (
@@ -15,17 +19,31 @@ const Index = () => {
       pageTitle={siteName + " " + siteDescription}
       pageDescription={siteDescription}
     >
-      <div className="text-center pt-2 px-2">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">
-          {siteName}
-        </h1>
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-          {siteDescription}
-        </p>
-      </div>
-      <div>
+
+      <div className={" bg-base-100"}>
+
+        <div className="hero pt-3 ">
+          <div className="hero-content text-center text-base-content">
+            <div className="max-w-md ">
+              <h1 className="text-5xl font-extrabold"> {siteName}</h1>
+              <p className="py-6 text-lg">{siteDescription}</p>
+              <div className=" grid gap-4">
+                <Link className="btn btn-secondary "href="/guides">
+              Guides
+                </Link>
+                <Link className="btn btn-primary "href="/reviews">Reviews</Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <ul className={"grid gap-4 px-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"}>
-          {posts?.slice(0,50).map((p) => (
+          {guides?.slice(0,10).map((p) => (
+              <ContentCard key={p.id} content={p} />
+          ))}
+        </ul>
+        <ul className={"grid gap-4 px-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"}>
+          {posts?.slice(0,10).map((p) => (
             <ContentCard key={p.id} content={p} />
           ))}
         </ul>
