@@ -20,7 +20,9 @@ const Review = ({ post }) => {
           <div className=" p-2 bg-base-100 text-base-content ">
               <article className="prose md:prose-md space-y-4 mx-auto">
                   <h1>{post.title}</h1>
+
                   {post.product.thumbnail ? <img src={post.product.thumbnail} /> : null}
+                  <h4>As an Amazon Associate I earn from qualifying purchases.</h4>
                   {/*<ProductCarousel products={products} />*/}
                   <div
                       className="text-base-content"

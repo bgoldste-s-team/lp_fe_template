@@ -23,6 +23,7 @@ const SupportingContent = ({ post }) => {
         <h1>{post.title}</h1>
         {/*{thumbnail ? <img src={thumbnail} /> : null}*/}
         <ProductCarousel products={products} />
+        <h4>As an Amazon Associate I earn from qualifying purchases.</h4>
         <div
             className="text-base-content"
           dangerouslySetInnerHTML={{
