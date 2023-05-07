@@ -10,7 +10,7 @@ export default function ProductLink({ product }) {
   }
 
   return (
-    <div className="bg-neutral-content text-secondary card card-compact bg-base-100 shadow-xl ">
+    <div className="bg-neutral-content  card card-compact bg-base-100 shadow-xl ">
       <figure>
         <Image
           src={product.thumbnail}
@@ -21,10 +21,10 @@ export default function ProductLink({ product }) {
           className="h-48 w-48 "
         ></Image>
       </figure>
-        <div className="card-body">
-            <div className="card-title">
-              <h2 className="prose-md ">
-                <Link href={product.url}>{product.name}</Link>
+        <div className="card-body ">
+            <div className="card-title ">
+              <h2 className="prose-md text-neutral-content">
+                <Link className="text-neutral" href={product.url}>{product.name}</Link>
               </h2>
             </div>
             <div className="card-actions grid grid-cols-2">

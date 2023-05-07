@@ -5,6 +5,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductBank from "@/components/ProductBank";
+import ProductLink from "@/components/ProductLink"
 import RelatedContent from "@/components/RelatedContent";
 import Image from "next/image";
 import ProductCarousel from "@/components/ProductCarousel";
@@ -21,7 +22,8 @@ const Review = ({ post }) => {
               <article className="prose md:prose-md space-y-4 mx-auto">
                   <h1>{post.title}</h1>
 
-                  {post.product.thumbnail ? <img src={post.product.thumbnail} /> : null}
+                  {/*{post.product.thumbnail ? <img src={post.product.thumbnail} /> : null}*/}
+                  <ProductLink product={post.product} />
                   <h4>As an Amazon Associate I earn from qualifying purchases.</h4>
                   {/*<ProductCarousel products={products} />*/}
                   <div
