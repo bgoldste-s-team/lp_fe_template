@@ -10,32 +10,18 @@ const Navbar = () => {
   console.log(guides);
   return (
 
-      <div className="navbar bg-primary sticky top-0 z-50">
-            {/*Hidden on mobile*/}
-          {/*<div className="navbar-start hidden lg:flex">*/}
-          {/*    <ul className="menu menu-horizontal px-1">*/}
-          {/*        <li><a>Item 1</a></li>*/}
-          {/*        <li tabIndex={0}>*/}
-          {/*            <a>*/}
-          {/*                Parent*/}
-          {/*                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>*/}
-          {/*            </a>*/}
-          {/*            <ul className="p-2">*/}
-          {/*                <li><a>Submenu 1</a></li>*/}
-          {/*                <li><a>Submenu 2</a></li>*/}
-          {/*            </ul>*/}
-          {/*        </li>*/}
-          {/*        <li><a>Item 3</a></li>*/}
-          {/*    </ul>*/}
-          {/*</div>*/}
+      <div className="navbar bg-primary sticky text-primary-content p-4  top-0 z-50">
 
-          <div className="navbar-start">
 
-              <Link href="/"className="btn btn-ghost normal-case text-on text-xl text-primary-content "> <p>{ siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-accent italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></p></Link>
+          <div className="navbar-start ">
+
+              <Link href="/"className="btn-md   btn-ghost self-end  text-lg text-primary-content break-words px-0 mx-0 align-e"> { siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-accent italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></Link>
           </div>
           <div className="navbar-end">
-                <Search />
-
+                {/*<Search />*/}
+              <div className="dropdown dropdown-end">
+                  <Link href="/search" className="btn btn-small border-primary-content btn-ghost">Search</Link>
+              </div>
               <div className="dropdown dropdown-end">
 
                   <label tabIndex={0} className="btn btn-ghost">
