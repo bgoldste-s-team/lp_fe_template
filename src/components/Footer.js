@@ -11,7 +11,7 @@ const paths = combinedData.map((post) => ({
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-secondary text-neutral-content">
+    <footer className="footer p-10 bg-secondary text-secondary-content">
       <div>
         <span className="footer-title">Reviews</span>
         {posts.map((p) => (
