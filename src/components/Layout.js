@@ -26,6 +26,17 @@ export default function Layout({ children, pageTitle, pageDescription }) {
           gtag('config', '${measurementId}');
         `}
       </Script>
+        <Script type="text/javascript" strategy="lazyOnload">
+            {`
+            amzn_assoc_ad_type = "link_enhancement_widget";
+            amzn_assoc_tracking_id = "dexterlabs-20";
+            amzn_assoc_linkid = "4d7ad7aad1d2f07afbfbd4de67812deb";
+            amzn_assoc_placement = "";
+            amzn_assoc_marketplace = "amazon";
+            amzn_assoc_region = "US";
+               `}
+        </Script>
+        <Script strategy="lazyOnload" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></Script>
       <Navbar />
       <main className="">{children}</main>
       <Footer />
