@@ -36,6 +36,7 @@ export default function Layout({ children, pageTitle, pageDescription }) {
             amzn_assoc_region = "US";
                `}
         </Script>
+
         <Script strategy="lazyOnload" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></Script>
       <Navbar />
       <main className="">{children}</main>
