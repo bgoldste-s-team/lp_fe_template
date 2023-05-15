@@ -1,6 +1,8 @@
 import guideData from "@/data/sc_data.json";
 import reviewData from "@/data/review_data.json";
+import networkFooter from "@/components/NetworkFooter";
 import Link from "next/link";
+import NetworkFooter from "@/components/NetworkFooter";
 const guides = guideData.posts;
 const posts = reviewData.posts;
 const combinedData = posts.concat(guides);
@@ -12,7 +14,9 @@ const paths = combinedData.map((post) => ({
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-secondary text-secondary-content">
+
       <div>
+
         <span className="footer-title">Reviews</span>
         {posts.map((p) => (
           <Link key={p.slug} href={`/${p.slug}`} className="link link-hover">
@@ -44,6 +48,7 @@ const Footer = () => {
           Cookie policy
         </Link>
       </div>
+        <NetworkFooter />
     </footer>
   );
 };
