@@ -10,18 +10,22 @@ const Navbar = () => {
   console.log(guides);
   return (
 
-      <div className="navbar bg-primary sticky text-primary-content p-4  top-0 z-50">
+      <div className="navbar bg-primary sticky text-primary-content p-2  top-0 z-50">
 
 
           <div className="navbar-start ">
-
-              <Link href="/"className="btn-md   btn-ghost self-end  text-lg text-primary-content break-words px-0 mx-0 align-e"> { siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-secondary italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></Link>
+              <img src={siteData.site_image} className="w-16 rounded-full mr-2" />
+              <Link href="/"className="btn-md  hidden sm:block btn-ghost self-center text-lg lg:text-2xl text-primary-content break-words px-0 mx-0 ">     { siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-secondary italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></Link>
+          </div>
+          <div className="navbar-center sm:hidden ">
+              {/*<img src={siteData.site_image} className="w-16 rounded-full mr-2" />*/}
+              <Link href="/"className="btn-md   btn-ghost self-center text-2xl text-primary-content break-words px-0 mx-0 ">     { siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-secondary italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></Link>
           </div>
           <div className="navbar-end">
                 {/*<Search />*/}
-              <div className="dropdown dropdown-end">
-                  <Link href="/search" className="btn btn-small border-primary-content btn-ghost">Search</Link>
-              </div>
+              {/*<div className="dropdown dropdown-end">*/}
+              {/*    <Link href="/search" className="btn btn-small border-primary-content btn-ghost">Search</Link>*/}
+              {/*</div>*/}
               <div className="dropdown dropdown-end">
 
                   <label tabIndex={0} className="btn btn-ghost  ">
