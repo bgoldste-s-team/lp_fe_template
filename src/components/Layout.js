@@ -6,7 +6,7 @@ import siteData from "@/data/site_data.json";
 
 export default function Layout({ children, pageTitle, pageDescription }) {
   const measurementId = siteData["ga_measurement_id"];
-  const amazonId = siteData[""]
+  const amazonId = siteData["referral_tag"]
   return (
     <>
       <Head>
@@ -30,7 +30,7 @@ export default function Layout({ children, pageTitle, pageDescription }) {
         <Script id="az-b1" type="text/javascript" strategy="lazyOnload">
             {`
             amzn_assoc_ad_type = "link_enhancement_widget";
-            amzn_assoc_tracking_id = "dexterlabs-20";
+            amzn_assoc_tracking_id = "${amazonId}";
             amzn_assoc_linkid = "4d7ad7aad1d2f07afbfbd4de67812deb";
             amzn_assoc_placement = "";
             amzn_assoc_marketplace = "amazon";
