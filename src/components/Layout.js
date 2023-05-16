@@ -6,6 +6,7 @@ import siteData from "@/data/site_data.json";
 
 export default function Layout({ children, pageTitle, pageDescription }) {
   const measurementId = siteData["ga_measurement_id"];
+  const amazonId = siteData[""]
   return (
     <>
       <Head>
