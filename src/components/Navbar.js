@@ -53,7 +53,7 @@ const Navbar = () => {
                       </Link>
                         {reviews.slice(0,3).map((guide) => (
                           <li key={guide.id}>
-                            <a href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</a>
+                            <Link href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</Link>
                           </li>
                         ))}
                       <Link href={'/guides'}>
@@ -63,7 +63,7 @@ const Navbar = () => {
                       </Link>
                       {guides.slice(0,3).map((guide) => (
                           <li key={guide.id}>
-                              <a href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</a>
+                              <Link href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</Link>
                           </li>
                       ))}
                       <li className="menu-title">
@@ -71,7 +71,7 @@ const Navbar = () => {
                       </li>
 
                           <li key="99999">
-                              <a href={`/about`}>About</a>
+                              <Link href={`/about`}>About</Link>
                           </li>
 
                       </ul>
