@@ -9,11 +9,23 @@ import Search from "@/components/Search";
 const inter = Inter({ subsets: ["latin"] });
 import siteData from "@/data/site_data.json";
 import Link from "next/link";
+import { useTheme } from 'next-themes'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 const Index = () => {
   const posts = reviewData?.posts;
   const guides = guideData?.posts;
   const siteName = siteData?.name;
   const siteDescription = siteData?.description;
+
+  const router = useRouter()
+  const { setTheme } = useTheme()
+
+  useEffect(() => {
+    if (router.query.theme) {
+      setTheme(router.query.theme)
+    }
+  }, [router.query.theme])
   return (
     <Layout
       pageTitle={siteName + " " + siteDescription}

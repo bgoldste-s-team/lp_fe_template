@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 import siteData from "./src/data/site_data.json";
-console.log("HI");
-console.log(siteData["color"]);
+
 module.exports = {
-  darkMode: 'mytheme',
+  darkMode: 'class',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
@@ -21,7 +20,7 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
-    themes: [ siteData['theme'], "emerald"],
+    themes: [ siteData['theme'], "light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
   },
   // daisyui: {
   //   themes: [
