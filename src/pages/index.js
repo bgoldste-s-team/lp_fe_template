@@ -12,9 +12,13 @@ import Link from "next/link";
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import { useContext } from 'react';
+import { AppContext } from '../pages/_app';
 const Index = () => {
   const posts = reviewData?.posts;
   const guides = guideData?.posts;
+
+  const { siteDesc }  = useContext(AppContext);
   const siteName = siteData?.name;
   const siteDescription = siteData?.description;
 
@@ -28,8 +32,8 @@ const Index = () => {
   }, [router.query.theme])
   return (
     <Layout
-      pageTitle={siteName + " " + siteDescription}
-      pageDescription={siteDescription}
+      pageTitle={siteName + " " + siteDesc}
+      pageDescription={siteDesc}
     >
 
       <div className={" bg-base-100"}>
@@ -38,7 +42,7 @@ const Index = () => {
           <div className="hero-content text-center text-base-content">
             <div className="max-w-md ">
               <h1 className="text-5xl font-extrabold"> {siteName}</h1>
-              <p className="py-6 text-lg">{siteDescription}</p>
+              <p className="py-6 text-lg">{siteDesc}</p>
               <div className=" grid gap-4">
                 <Link className="btn btn-secondary "href="/guides">
               Guides

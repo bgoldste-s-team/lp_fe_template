@@ -2,10 +2,16 @@ import reviewData from "../data/review_data.json";
 import siteData from "../data/site_data.json";
 import guideData from "../data/sc_data.json";
 import Link from "next/link";
+import { useContext } from 'react';
+import SiteContext from "@/contexts/SiteContext";
+import { AppContext } from '../pages/_app';
+
 import Search from "@/components/Search"
 const Navbar = () => {
   const reviews = reviewData.posts;
   const guides = guideData.posts;
+
+  const { siteName, siteImgUrl }  = useContext(AppContext);
   const siteNameLength = siteData.name.split(" ").length;
   console.log(guides);
   return (
@@ -14,12 +20,15 @@ const Navbar = () => {
 
 
           <div className="navbar-start ">
-              <img src={siteData.site_image} className="w-16 rounded-full mr-2" />
-              <Link href="/"className="btn-md  hidden sm:block btn-ghost self-center text-lg lg:text-2xl text-primary-content break-words px-0 mx-0 ">     { siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-secondary italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></Link>
+              <img src={siteImgUrl} className="w-16 rounded-full mr-2" />
+              <Link href="/"className="btn-md  hidden sm:block btn-ghost self-center text-lg lg:text-2xl text-primary-content break-words px-0 mx-0 ">     { siteName.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-secondary italic"}>{ siteName.split(" ")[siteNameLength-1] } </span></Link>
           </div>
           <div className="navbar-center sm:hidden ">
               {/*<img src={siteData.site_image} className="w-16 rounded-full mr-2" />*/}
-              <Link href="/"className="btn-md   btn-ghost self-center text-2xl text-primary-content break-words px-0 mx-0 ">     { siteData.name.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-secondary italic"}>{ siteData.name.split(" ")[siteNameLength-1] } </span></Link>
+              <Link href="/"className="btn-md   btn-ghost self-center text-2xl text-primary-content break-words px-0 mx-0 ">
+                  { siteName.split(" ").slice(0, siteNameLength-1).join(" ") }
+                  <span className={"text-secondary italic"}> { siteName.split(" ")[siteNameLength-1] } </span>
+              </Link>
           </div>
           <div className="navbar-end">
                 {/*<Search />*/}
