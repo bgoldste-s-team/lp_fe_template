@@ -18,8 +18,8 @@ const Index = () => {
   const posts = reviewData?.posts;
   const guides = guideData?.posts;
 
-  const { siteDesc }  = useContext(AppContext);
-  const siteName = siteData?.name;
+  const { siteDesc, siteName }  = useContext(AppContext);
+  // const siteName = siteData?.name;
   const siteDescription = siteData?.description;
 
   const router = useRouter()
