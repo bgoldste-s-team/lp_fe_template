@@ -4,7 +4,7 @@ import Head from "next/head";
 import Script from "next/script";
 import siteData from "@/data/site_data.json";
 
-export default function Layout({ children, pageTitle, pageDescription }) {
+export default function Layout({ children, pageTitle, pageDescription, site }) {
   const measurementId = siteData["ga_measurement_id"];
   const amazonId = siteData["referral_tag"]
   return (
@@ -39,9 +39,9 @@ export default function Layout({ children, pageTitle, pageDescription }) {
         </Script>
 
         <Script id="az-b2"  strategy="lazyOnload" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></Script>
-      <Navbar />
+      <Navbar site={site} />
       <main className="">{children}</main>
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }

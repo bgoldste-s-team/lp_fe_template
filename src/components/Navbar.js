@@ -1,40 +1,35 @@
-import reviewData from "../data/review_data.json";
-import siteData from "../data/site_data.json";
-import guideData from "../data/sc_data.json";
+
 import Link from "next/link";
-import { useContext } from 'react';
-import SiteContext from "@/contexts/SiteContext";
-import { AppContext } from '../pages/_app';
 
-import Search from "@/components/Search"
-const Navbar = () => {
-  const reviews = reviewData.posts;
-  const guides = guideData.posts;
 
-  const { siteName, siteImgUrl }  = useContext(AppContext);
-  const siteNameLength = siteData.name.split(" ").length;
-  console.log(guides);
+const Navbar = ({site}) => {
+
+
+  // const { siteName, siteImgUrl }  = useContext(AppContext);
+  const siteName = site.name
+
+    console.log(site)
+    console.log(site.pages)
+    const pages = site.pages;
+    console.log(pages)
   return (
 
       <div className="navbar bg-primary sticky text-primary-content p-2  top-0 z-50">
 
 
           <div className="navbar-start ">
-              <img src={siteImgUrl} className="w-16 rounded-full mr-2" />
-              <Link href="/"className="btn-md  hidden sm:block btn-ghost self-center text-lg lg:text-2xl text-primary-content break-words px-0 mx-0 ">     { siteName.split(" ").slice(0, siteNameLength-1).join(" ") }  <span className={"text-secondary italic"}>{ siteName.split(" ")[siteNameLength-1] } </span></Link>
+              {/*<img src={siteImgUrl} className="w-16 rounded-full mr-2" />*/}
+              <Link href="/"className="btn-md  hidden sm:block btn-ghost self-center text-lg lg:text-2xl text-primary-content break-words px-0 mx-0 ">     {siteName}</Link>
           </div>
           <div className="navbar-center sm:hidden ">
               {/*<img src={siteData.site_image} className="w-16 rounded-full mr-2" />*/}
               <Link href="/"className="btn-md   btn-ghost self-center text-2xl text-primary-content break-words px-0 mx-0 ">
-                  { siteName.split(" ").slice(0, siteNameLength-1).join(" ") }
-                  <span className={"text-secondary italic"}> { siteName.split(" ")[siteNameLength-1] } </span>
+
+                  {siteName}
               </Link>
           </div>
           <div className="navbar-end">
-                {/*<Search />*/}
-              {/*<div className="dropdown dropdown-end">*/}
-              {/*    <Link href="/search" className="btn btn-small border-primary-content btn-ghost">Search</Link>*/}
-              {/*</div>*/}
+
               <div className="dropdown dropdown-end">
 
                   <label tabIndex={0} className="btn btn-ghost  ">
@@ -43,38 +38,19 @@ const Navbar = () => {
                       {/*className="h-5 w-5 stroke-current" fill="none" viewBox="0 0 64 64"  stroke-width="2"*/}
                   </label>
                   {/*<label tabIndex={0} className="btn btn-ghost rounded-btn">Dropdown</label>*/}
-                  <ul tabIndex={0} className="menu dropdown-content    bg-primary-content text-primary  shadow bg-base-100 rounded-box mx-auto w-72 mt-4 p-0">
-                      {/*<ul className="p-2 bg-base-100">*/}
+                  {/*<ul tabIndex={0} className="menu dropdown-content    bg-primary-content text-primary  shadow bg-base-100 rounded-box mx-auto w-72 mt-4 p-0">*/}
 
-                      <Link href={'/reviews'}>
-                          <li className="menu-title">
-                          <span>Reviews</span>
-                      </li>
-                      </Link>
-                        {reviews.slice(0,3).map((guide) => (
-                          <li key={guide.id}>
-                            <Link href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</Link>
-                          </li>
-                        ))}
-                      <Link href={'/guides'}>
-                      <li className="menu-title">
-                          <span>Guides</span>
-                      </li>
-                      </Link>
-                      {guides.slice(0,3).map((guide) => (
-                          <li key={guide.id}>
-                              <Link href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</Link>
+                  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+
+                      {pages.map( (p) => (
+                          <li key={p.id}>
+                              <Link href={p.slug}>{p.title}</Link>
                           </li>
                       ))}
-                      <li className="menu-title">
-                          <span>About</span>
-                      </li>
 
-                          <li key="99999">
-                              <Link href={`/about`}>About</Link>
-                          </li>
 
-                      </ul>
+
+                  </ul>
               </div>
           </div>
       </div>
@@ -84,72 +60,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-//
-//
-//
-// return (
-//     <div className="navbar  bg-primary">
-//         <div className="navbar-start">
-//             <div className="flex-1">
-//                 <Link href="/" className="btn btn-ghost normal-case text-lg">
-//                     {siteData.name}
-//                 </Link>
-//             </div>
-//         </div>
-//
-//         <div className="navbar-center lg:flex">
-//             <ul className="menu menu-horizontal px-1">
-//                 {/*<li><a>Item 1</a></li>*/}
-//                 <li tabIndex={0}>
-//                     <Link href="/reviews">
-//                         Reviews
-//                         <svg
-//                             className="fill-current"
-//                             xmlns="http://www.w3.org/2000/svg"
-//                             width="20"
-//                             height="20"
-//                             viewBox="0 0 24 24"
-//                         >
-//                             <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-//                         </svg>
-//                     </Link>
-//                     <ul className="p-2 bg-base-100">
-//                         {reviews.slice(0, 5).map((review) => (
-//                             <li key={review.id}>
-//                                 <a href={`/${review.slug}`}>{review.title.slice(0, 75)}</a>
-//                             </li>
-//                         ))}
-//                     </ul>
-//                 </li>
-//
-//                 <li tabIndex={1}>
-//                     <Link href="/guides">
-//                         Guides
-//                         {/*<svg*/}
-//                         {/*  className="fill-current"*/}
-//                         {/*  xmlns="http://www.w3.org/2000/svg"*/}
-//                         {/*  width="20"*/}
-//                         {/*  height="20"*/}
-//                         {/*  viewBox="0 0 24 24"*/}
-//                         {/*>*/}
-//                         {/*  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />*/}
-//                         {/*</svg>*/}
-//                     </Link>
-//                     {/*<ul className="p-2 bg-base-100">*/}
-//                     {/*  {guides.map((guide) => (*/}
-//                     {/*    <li key={guide.id}>*/}
-//                     {/*      <a href={`/${guide.slug}`}>{guide.title.slice(0, 75)}</a>*/}
-//                     {/*    </li>*/}
-//                     {/*  ))}*/}
-//                     {/*</ul>*/}
-//                 </li>
-//                 <li tabIndex={2}>
-//                     <Link href="/about">
-//                         Guides
-//                     </Link>
-//                 </li>
-//             </ul>
-//         </div>
-//     </div>
-// );
