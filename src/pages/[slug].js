@@ -41,23 +41,39 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-    console.log(siteId, baseUrl)
-  // const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
-    const res = await fetch('https://csbe.onrender.com/api/sites/5/')
-  console.log('res', res.json())
-  const data = await res.json();
-    console.log('data', data)
-  const paths = data.pages
-      .filter((p) => !p.is_homepage)
-      .map((p) => ({
-        params: {
-          slug: p.slug,
-        },
-      }));
-console.log('paths', paths)
-  return {
-    paths,
-    fallback: true,
+    console.log(siteId, baseUrl);
+
+    try {
+        const res = await fetch('https://csbe.onrender.com/api/sites/5/');
+        console.log('res', res);
+
+        if (!res.ok) {
+            throw new Error('Response not OK');
+        }
+
+        const data = await res.json();
+        console.log('data', data);
+
+        const paths = data.pages
+            .filter((p) => !p.is_homepage)
+            .map((p) => ({
+                params: {
+                    slug: p.slug,
+                },
+            }));
+
+        console.log('paths', paths);
+
+        return {
+            paths,
+            fallback: true,
+        };
+    } catch (error) {
+        console.error(error);
+        return {
+            paths: [],
+            fallback: true
+        }
   };
 }
 
