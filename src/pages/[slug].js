@@ -46,7 +46,7 @@ export async function getStaticPaths() {
     console.log(siteId, baseUrl);
 
     try {
-        const res = await fetch('https://csbe.onrender.com/api/sites/5/');
+        const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
         console.log('res', res);
 
         if (!res.ok) {
