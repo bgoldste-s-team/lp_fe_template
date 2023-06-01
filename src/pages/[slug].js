@@ -1,81 +1,62 @@
-import reviewData from "../data/review_data.json";
-import guideData from "../data/sc_data.json";
-import Navbar from "../components/Navbar";
-import SupportingContent from "../components/SupportingContent";
-import Layout from "@/components/Layout";
-import Review from "@/components/Review";
-export async function getStaticPaths() {
-  const guides = guideData.posts;
-  const posts = reviewData.posts;
-  const combinedData = posts.concat(guides);
+import React from 'react';
+import { useRouter } from 'next/router';
+import Layout from  "@/components/Layout"
+import PageBuilder from "@/components/PageBuilder";
+const SlugPage = ({ page, site }) => {
+  const router = useRouter();
+  const { slug } = router.query;
 
-  const paths = combinedData.map((post) => ({
-    params: { slug: post.slug, data: "hello" },
-  }));
+  if (router.isFallback) {
+    return <div>Loading...</div>;
+  }
 
-  // console.log(posts)
-  // console.log("asdfasdf", paths)
-  // debugger;
-  // const paths =
-  return {
-    // paths: [{ params: { slug: '1' } }, { params: { slug: '2' } }],
-    paths: paths,
-    fallback: false, // can also be true or 'blocking'
-  };
-}
-
-// `getStaticPaths` requires using `getStaticProps`
-export async function getStaticProps(context) {
-  const guides = guideData.posts;
-  const posts = reviewData.posts;
-  const combinedData = posts.concat(guides);
-
-  const slug = context.params.slug;
-
-  const post = combinedData.find((post) => post.slug === slug);
-  // console.log(slug)
-  // // console.log(posts)
-  console.log("slug", slug, "post", post);
-
-  return {
-    // Passed to the page component as props
-    props: { post: post },
-  };
-}
-
-export default function Post({ post }) {
   return (
-    // post.title)
-    <Layout pageTitle={post.title} pageDescription={post.content.slice(0, 150)}>
-      {post.type === "sc" ? (
-        <SupportingContent post={post} />
-      ) : (
-        <Review post={post} />
-      )}
-    </Layout>
+      <Layout site={site}>
+        <h1>{page.title}</h1>
+        <p>{page.body} {page.content_blocks.length}</p>
+        <PageBuilder page={page}/>
+      </Layout>
   );
+};
+
+export async function getStaticProps({ params }) {
+    const siteId = process.env.NEXT_PUBLIC_SITE_ID;
+    const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
+
+
+  const { slug } = params;
+  const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
+  const data = await res.json();
+
+  const page = data.pages.find((p) => p.slug === slug);
+  const site = data;
+  return {
+    props: {
+      page,
+    site
+    },
+  };
 }
-//     </Layout>
-//     <div>
-//     <Navbar />
-//         <div class="flow-root">
-//             <article class="prose md:prose-md">
-//                 <h1>{post.type} {post.title}</h1>
-//                 {/*<img src={post.product.thumbnail} />*/}
-//
-//                {
-//                     post.content.split('\n').map( (line) =>
-//
-//                         <p key={line.slice(0,10)}>{line}</p>
-//
-//
-//
-//                     )
-//                 }
-//             </article>
-//             {/*<button class="btn btn-primary"><a href={post.product.url} target='blank'>Buy on Amazon for {post.product.price}</a></button>*/}
-//
-//         </div>
-//     </div>
-//     )
-// }
+
+export async function getStaticPaths() {
+    const siteId = process.env.NEXT_PUBLIC_SITE_ID;
+    const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
+
+  const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
+  const data = await res.json();
+
+  const paths = data.pages
+      .filter((p) => !p.is_homepage)
+      .map((p) => ({
+        params: {
+          slug: p.slug,
+        },
+      }));
+
+  return {
+    paths,
+    fallback: true,
+  };
+}
+
+export default SlugPage;
