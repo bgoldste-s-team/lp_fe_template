@@ -32,9 +32,11 @@ export async function getStaticProps({ params }) {
   const site = data;
   return {
     props: {
-      page,
-    site
+        page,
+        site
     },
+      revalidate: 10, // In seconds
+
   };
 }
 

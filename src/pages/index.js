@@ -31,5 +31,7 @@ export async function getStaticProps() {
            homePage: homePage,
             site: site
         },
+        revalidate: 10, // In seconds
+
     };
 }
