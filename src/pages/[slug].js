@@ -22,7 +22,7 @@ const SlugPage = ({ page, site }) => {
 export async function getStaticProps({ params }) {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-
+    console.log(siteId, baseUrl)
 
   const { slug } = params;
   const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
@@ -41,7 +41,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-
+    console.log(siteId, baseUrl)
   const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
   console.log(res)
   const data = await res.json();

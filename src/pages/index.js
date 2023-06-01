@@ -17,7 +17,7 @@ export async function getStaticProps() {
 
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-
+    console.log(siteId, baseUrl)
     const response = await fetch(`${baseUrl}/api/sites/${siteId}`);
     const site = await response.json();
 
