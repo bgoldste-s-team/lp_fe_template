@@ -43,6 +43,7 @@ export async function getStaticPaths() {
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
 
   const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
+  console.log(res)
   const data = await res.json();
 
   const paths = data.pages
