@@ -68,8 +68,8 @@ function MyApp({ Component , pageProps  }) {
         }
         const fetchSiteData = async ()=>{
             try {
-                const siteId = "25";
-                const baseUrl = "https://csbe.onrender.com";
+                const siteId = "71";
+                const baseUrl = "http://127.0.0.1:8000";
                 const response = await fetch(`${baseUrl}/api/sites/${siteId}`);
                 // console.log(process.env)
                 // const response = await fetch(`${baseUrl}/api/sites/${siteId}/`); // Replace with your API endpoint

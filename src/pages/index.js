@@ -18,9 +18,15 @@ export async function getStaticProps() {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
     console.log(siteId, baseUrl)
-    const response = await fetch(`${baseUrl}/api/sites/${siteId}/`);
-    const site = await response.json();
+    const response = await fetch(`${baseUrl}/api/sites/public/`);
 
+    const sites = await response.json()
+    console.log(sites)
+    const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
+    console.log("~~~?",typeof(sites), siteId, site)
+    console.log(site.pages)
+
+    console.log("~~~~", "PAGES", site)
     const homePage = site.pages.filter((p) => p.is_homepage === true)[0]
     console.log('IS HOMEPAGE', homePage)
     // Replace undefined values with null

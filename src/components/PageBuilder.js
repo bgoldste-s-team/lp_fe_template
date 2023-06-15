@@ -1,91 +1,156 @@
-// import HeroBlock from "@/components/HeroBlock";
-// import TextBlock from "@/components/TextBlock";
-//
-// export default function PageBuilder({page}){
-//     return(
-//         <div>
-//         <h1>Page builder</h1>
-//
-//             {page.content_blocks.map((c) => {
-//                 if (c.type === 'HeroBlock') {
-//                     return (
-//                         <HeroBlock
-//                             key={c.id}
-//                             contentBlockId={c.id}
-//                             header={c.header}
-//                             subheader={c.subheader}
-//                             body={c.body}
-//                             cta1_text={c.cta1_text}
-//                             cta2_text={c.cta2_text}
-//                             cta1_link={c.cta1_link}
-//                             cta2_link={c.cta2_link}
-//                             image_link={c.image_url}
-//                         />
-//                     );
-//                 } else {
-//                     // Render other block component
-//                     return (
-//                         <TextBlock
-//                             key={c.id}
-//                             contentBlockId={c.id}
-//                             header={c.header}
-//                             subheader={c.subheader}
-//                             body={c.body}
-//                             cta1_text={c.cta1_text}
-//                             cta2_text={c.cta2_text}
-//                             cta1_link={c.cta1_link}
-//                             cta2_link={c.cta2_link}
-//                             image_link={c.image_url}
-//                         />
-//                     );
-//                 }
-//             })}
-//         </div>
-//     )
-// }
+
 import React from 'react';
 import HeroBlock from '@/components/HeroBlock';
 import TextBlock from '@/components/TextBlock';
+import ProductCardBlock from "@/components/ProductCardBlock";
+import TableOfContentsBlock from "@/components/TableOfContentsBlock";
+import CaseStudyBlock from "@/components/CaseStudyBlock";
+import ContactBlock from "@/components/ContactBlock";
+import SubscribeBlock from "@/components/SubscribeBlock";
 
 export default function PageBuilder({ page }) {
     return (
         <div>
-            <h1>Page builder</h1>
+
             {page.content_blocks.map((c, index) => {
-                if (c.type === 'HeroBlock') {
-                    return (
-                        <div key={c.id}>
-                            <HeroBlock
-                                contentBlockId={c.id}
-                                header={c.header}
-                                subheader={c.subheader}
-                                body={c.body}
-                                cta1_text={c.cta1_text}
-                                cta2_text={c.cta2_text}
-                                cta1_link={c.cta1_link}
-                                cta2_link={c.cta2_link}
-                                image_link={c.image_url}
-                            />
-                            {index !== page.content_blocks.length - 1 && <hr className=" border border-gray-300" />} {/* Add divider */}
-                        </div>
-                    );
-                } else {
-                    return (
-                        <div key={c.id}>
-                            <TextBlock
-                                contentBlockId={c.id}
-                                header={c.header}
-                                subheader={c.subheader}
-                                body={c.body}
-                                cta1_text={c.cta1_text}
-                                cta2_text={c.cta2_text}
-                                cta1_link={c.cta1_link}
-                                cta2_link={c.cta2_link}
-                                image_link={c.image_url}
-                            />
-                            {index !== page.content_blocks.length - 1 && <hr className=" border border-gray-300" />} {/* Add divider */}
-                        </div>
-                    );
+
+
+                switch (c.type) {
+                    case 'HeroBlock':
+                        return (
+                            <div className={"scroll-mt-16"}  key={c.id} id={0}>
+                                <HeroBlock
+
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                />
+                                {/*{index !== page.content_blocks.length - 1 && <hr className=" border border-gray-300" />} /!* Add divider *!/*/}
+                            </div>
+                        )
+                    case 'TextBlock':
+                        return(
+                            <div className={"scroll-mt-16"} key={c.id} id={c.order}>
+                                <TextBlock
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                />
+                            </div>
+                        )
+                    case 'ProductCardBlock':
+                        return(
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
+                                <ProductCardBlock
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                />
+                            </div>
+                        )
+                    case 'TableOfContentsBlock':
+                        return(
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
+                                <TableOfContentsBlock
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                    page={page}
+                                />
+                            </div>
+                        )
+                    case 'TableOfContentsBlock':
+                        return(
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
+                                <TableOfContentsBlock
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                />
+                            </div>
+                        )
+                    case 'CaseStudyBlock':
+                        return(
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
+                                <CaseStudyBlock
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                />
+                            </div>
+                        )
+                    case 'SubscribeBlock':
+                        return(
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
+                                <SubscribeBlock
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                />
+                            </div>
+                        )
+                    case 'ContactBlock':
+                        return(
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
+                                <ContactBlock
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                />
+                            </div>
+                        )
+                    default:
+                        return(
+                            <h1>Type Not supported {c.type}</h1>
+                        )
                 }
             })}
         </div>
