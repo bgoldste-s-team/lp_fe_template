@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const HeroBlock = ({ header, subheader, cta1_text, cta2_text, cta1_link, cta2_link, image_link }) => {
+const HeroBlock = ({ header, subheader, body, cta1_text, cta2_text, cta1_link, cta2_link, image_link }) => {
     const imageContainerClasses = "w-full h-auto mx-auto";
     const headerClasses = "text-3xl font-bold mb-4 text-center";
     const subheaderClasses = "text-lg mb-6 text-center";
@@ -17,6 +17,7 @@ const HeroBlock = ({ header, subheader, cta1_text, cta2_text, cta1_link, cta2_li
             )}
             <h2   className={headerClasses}>{header}</h2>
             <p className={subheaderClasses}>{subheader}</p>
+            <p className={subheaderClasses}>{body}</p>
             <div className={buttonContainerClasses}>
                 {cta1_link && (
                     <Link href={cta1_link}>

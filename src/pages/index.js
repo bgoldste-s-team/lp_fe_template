@@ -5,9 +5,10 @@ import Layout from "@/components/Layout"
 export default function Home({ homePage, site}) {
 
     return (
+
         <Layout site={site}>
-       <PageBuilder page={homePage} />
-        </Layout>
+        <PageBuilder page={homePage} />
+       </Layout>
     );
 }
 
@@ -28,7 +29,7 @@ export async function getStaticProps() {
 
     console.log("~~~~", "PAGES", site)
     const homePage = site.pages.filter((p) => p.is_homepage === true)[0]
-    console.log('IS HOMEPAGE', homePage)
+    console.log('IS HOMEPAGE', homePage, site)
     // Replace undefined values with null
     const cleanedSite = JSON.parse(JSON.stringify(site).replace(/undefined/g, null));
 

@@ -25,11 +25,19 @@ export async function getStaticProps({ params }) {
     console.log(siteId, baseUrl)
 
   const { slug } = params;
-  const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
-  const data = await res.json();
+    const response = await fetch(`${baseUrl}/api/sites/public/`);
+
+    const sites = await response.json()
+    console.log(sites)
+    const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
+
+
+
+
+  const data = site;
 
   const page = data.pages.find((p) => p.slug === slug);
-  const site = data;
+
   return {
     props: {
         page,
@@ -46,14 +54,18 @@ export async function getStaticPaths() {
     console.log(siteId, baseUrl);
 
     try {
-        const res = await fetch(`${baseUrl}/api/sites/${siteId}/`);
-        console.log('res', res);
+        const response = await fetch(`${baseUrl}/api/sites/public/`);
 
-        if (!res.ok) {
+        const sites = await response.json()
+        console.log(sites)
+        const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
+
+
+        if (!site) {
             throw new Error('Response not OK');
         }
 
-        const data = await res.json();
+        const data = site;
         console.log('data', data);
 
         const paths = data.pages

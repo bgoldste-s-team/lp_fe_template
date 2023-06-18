@@ -13,7 +13,7 @@ const TableOfContentsBlock = ({ header, subheader, cta1_text, cta2_text, cta1_li
     return (
         <div className={'text-center'}>
             <h1>TABLE OF CONTENTS</h1>
-            <ul>
+            <ul className={'p-4 space-y-2'}>
             {page.content_blocks.map((c) => (
 
                 <li key={c.id}>
