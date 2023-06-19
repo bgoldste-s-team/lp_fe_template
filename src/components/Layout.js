@@ -41,7 +41,7 @@ export default function Layout({ children, pageTitle, pageDescription, site }) {
         <Script id="az-b2"  strategy="lazyOnload" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></Script>
       <Navbar site={site} />
       <main className="">{children}</main>
-      {/*<Footer />*/}
+      <Footer site={site} pages={site.pages} />
     </>
   );
 }

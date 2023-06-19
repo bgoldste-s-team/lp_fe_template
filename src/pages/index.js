@@ -2,11 +2,13 @@
 
 import PageBuilder from "@/components/PageBuilder";
 import Layout from "@/components/Layout"
+import FeaturedPages from "@/components/FeaturedPages";
 export default function Home({ homePage, site}) {
-
+    console.log(site.pages)
     return (
 
         <Layout site={site}>
+            <FeaturedPages pages={site.pages} />
         <PageBuilder page={homePage} />
        </Layout>
     );
