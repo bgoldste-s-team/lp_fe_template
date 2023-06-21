@@ -14,7 +14,7 @@ const SlugPage = ({ page, site }) => {
       <Layout site={site}>
         <h1>{page.title}</h1>
         <p>{page.body} {page.content_blocks.length}</p>
-        <PageBuilder page={page}/>
+        <PageBuilder page={page } site={site}/>
       </Layout>
   );
 };

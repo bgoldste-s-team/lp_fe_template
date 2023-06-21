@@ -9,7 +9,7 @@ export default function Home({ homePage, site}) {
 
         <Layout site={site}>
             <FeaturedPages pages={site.pages} />
-        <PageBuilder page={homePage} />
+        <PageBuilder page={homePage} site={site} />
        </Layout>
     );
 }

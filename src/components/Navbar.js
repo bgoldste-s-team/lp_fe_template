@@ -42,7 +42,7 @@ const Navbar = ({site}) => {
 
                   <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
 
-                      {pages.map( (p) => (
+                      {pages.filter(p => p.show_in_navbar === true).map( (p) => (
                           <li key={p.id}>
                               <Link href={p.slug}>{p.title}</Link>
                           </li>

@@ -7,8 +7,9 @@ import TableOfContentsBlock from "@/components/TableOfContentsBlock";
 import CaseStudyBlock from "@/components/CaseStudyBlock";
 import ContactBlock from "@/components/ContactBlock";
 import SubscribeBlock from "@/components/SubscribeBlock";
+import FeaturedPages from "@/components/FeaturedPages";
 
-export default function PageBuilder({ page }) {
+export default function PageBuilder({ page, site }) {
     return (
         <div>
 
@@ -144,6 +145,23 @@ export default function PageBuilder({ page }) {
                                     cta1_link={c.cta1_link}
                                     cta2_link={c.cta2_link}
                                     image_link={c.image_url}
+                                />
+                            </div>
+                        )
+                    case 'FeaturedPagesBlock':
+                        return(
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
+                                <FeaturedPages
+                                    contentBlockId={c.id}
+                                    header={c.header}
+                                    subheader={c.subheader}
+                                    body={c.body}
+                                    cta1_text={c.cta1_text}
+                                    cta2_text={c.cta2_text}
+                                    cta1_link={c.cta1_link}
+                                    cta2_link={c.cta2_link}
+                                    image_link={c.image_url}
+                                    pages={site.pages.filter((p) => p.slug !== page.page_group && p.page_group === page.page_group)}
                                 />
                             </div>
                         )
