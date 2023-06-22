@@ -41,8 +41,10 @@ const Navbar = ({site}) => {
                   {/*<ul tabIndex={0} className="menu dropdown-content    bg-primary-content text-primary  shadow bg-base-100 rounded-box mx-auto w-72 mt-4 p-0">*/}
 
                   <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-
-                      {pages.filter(p => p.show_in_navbar === true).map( (p) => (
+                      <li key={'home'}>
+                          <Link href="/">Home</Link>
+                      </li>
+                      {pages.filter(p => p.show_in_navbar === true && !p.is_homepage).map( (p) => (
                           <li key={p.id}>
                               <Link href={p.slug}>{p.title}</Link>
                           </li>
