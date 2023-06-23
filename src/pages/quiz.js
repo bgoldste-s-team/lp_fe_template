@@ -3,9 +3,9 @@ import Layout from "@/components/Layout"
 
 export default function Home({site}) {
     return (
-        // <Layout site={site}>
+        <Layout site={site}>
             <P5Game />
-        // </Layout>
+        </Layout>
     )
 }
 
