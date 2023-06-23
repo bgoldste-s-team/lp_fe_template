@@ -1,54 +1,39 @@
-import { useState } from 'react';
-import { useRouter } from 'next/router';
-import siteData from "@/data/site_data.json";
+import P5Game from '../components/P5Game';
+import Layout from "@/components/Layout"
 
-
-export default function Quiz() {
-    const router = useRouter();
-    const initialState = siteData.quiz_traits.reduce((obj, trait) => ({ ...obj, [trait]: false }), {});
-
-    const [traits, setTraits] = useState(initialState);
-    const [currentTraitIndex, setCurrentTraitIndex] = useState(0);
-
-    const handleTraitChange = (event) => {
-        setTraits({ ...traits, [event.target.name]: event.target.checked });
-    };
-
-    const handleNext = () => {
-        if (currentTraitIndex < siteData.quiz_traits.length - 1) {
-            setCurrentTraitIndex(currentTraitIndex + 1);
-        } else {
-            handleSubmit();
-        }
-    };
-
-    const handleSubmit = (event) => {
-        event?.preventDefault();
-        const selectedTraits = Object.keys(traits).filter((trait) => traits[trait]);
-        router.push(`/results?traits=${selectedTraits.join(',')}`);
-    };
-
+export default function Home({site}) {
     return (
-        <div>
-            <h1>Quiz</h1>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <input
-                        type="checkbox"
-                        id={siteData.quiz_traits[currentTraitIndex]}
-                        name={siteData.quiz_traits[currentTraitIndex]}
-                        checked={traits[siteData.quiz_traits[currentTraitIndex]]}
-                        onChange={handleTraitChange}
-                    />
-                    <label htmlFor={siteData.quiz_traits[currentTraitIndex]}>
-                        Are you {siteData.quiz_traits[currentTraitIndex]}?
-                    </label>
-                </div>
-                <button type="button" onClick={handleNext}>Next</button>
-                {currentTraitIndex === siteData.quiz_traits.length - 1 && (
-                    <button type="submit">Submit</button>
-                )}
-            </form>
-        </div>
-    );
+        <Layout site={site}>
+            <P5Game />
+        </Layout>
+    )
+}
+
+
+export async function getStaticProps({ params }) {
+    const siteId = process.env.NEXT_PUBLIC_SITE_ID;
+    const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
+    console.log(siteId, baseUrl)
+
+
+    const response = await fetch(`${baseUrl}/api/sites/public/`);
+
+    const sites = await response.json()
+    console.log(sites)
+    const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
+
+
+
+
+
+
+
+    return {
+        props: {
+
+            site
+        },
+        revalidate: 10, // In seconds
+
+    };
 }

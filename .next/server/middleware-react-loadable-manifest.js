@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"../components/P5Game.js -> p5":{"id":"../components/P5Game.js -> p5","files":["static/chunks/node_modules_p5_lib_p5_min_js.js"]}}
