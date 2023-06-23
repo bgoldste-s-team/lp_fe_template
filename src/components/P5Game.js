@@ -33,6 +33,7 @@ export default function P5Game() {
                 let score = 0;
                 let scoreP;
                 let canvas;
+                let alreadyHandled = false;
 
                 const shapes = ['rectangle',
                     'square',
@@ -94,8 +95,7 @@ export default function P5Game() {
                     }
                     p.endShape(p.CLOSE);
                 };
-
-                p.mousePressed = function () {
+                p.createShape = function() {
                     let shape = p.random(shapes);
                     let size = Math.random() * 40 + 10;
                     let body;
@@ -122,6 +122,19 @@ export default function P5Game() {
                         color: p.color(Math.random() * 255, Math.random() * 255, Math.random() * 255),
                         size
                     });
+                }
+                p.touchStarted = function () {
+                    p.createShape();
+                    alreadyHandled = true;
+                    return false; // prevent default behavior
+                };
+                p.mousePressed = function () {
+                    if (alreadyHandled) {
+                        alreadyHandled = false;
+                        return false; // prevent default behavior
+                    }
+                    p.createShape();
+
                 };
             };
 
