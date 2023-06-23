@@ -162,6 +162,7 @@ export default function PageBuilder({ page, site }) {
                                     cta2_link={c.cta2_link}
                                     image_link={c.image_url}
                                     pages={site.pages.filter((p) => p.slug !== page.page_group && p.page_group === page.page_group)}
+                                    pageGroupName={ page.page_group}
                                 />
                             </div>
                         )
@@ -171,6 +172,9 @@ export default function PageBuilder({ page, site }) {
                         )
                 }
             })}
+            <h1>Debug Info:Title: {page.title} Slug: {page.slug}</h1>
+            <p>Total Content Blocks: {page.content_blocks.length}</p>
+
         </div>
     );
 }

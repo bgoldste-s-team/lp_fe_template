@@ -8,8 +8,9 @@ export default function Home({ homePage, site}) {
     return (
 
         <Layout site={site}>
-            <FeaturedPages pages={site.pages} />
+
         <PageBuilder page={homePage} site={site} />
+        <FeaturedPages pages={site.pages} />
        </Layout>
     );
 }
