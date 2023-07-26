@@ -25,7 +25,7 @@ const TextBlock = ({
                     <img src={image_link} alt="Hero Image" className={'w-250 h-250'}/> {/* Add alt and layout props */}
                 </div>
             }
-            {/*{body && <ReactMarkdown components={components}>{body}</ReactMarkdown>} /!* Nest body as children *!/*/}
+            {body && <p>{body}</p>}
             <div className="flex justify-center space-x-4  py-4">
                 {cta1_link && (
                     <a className={'btn btn-primary'} href={cta1_link}>
