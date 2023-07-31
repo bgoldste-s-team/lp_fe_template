@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
-const AdBlock = () => {
-
+const AdBlock = ({name, page, site, index}) => {
+    console.log('adblock', page, site, index, name)
 
     return (
         <div className="hero  bg-gradient-to-r from-black via-purple-800 to-black text-white p-8 text-center">
@@ -13,7 +13,7 @@ const AdBlock = () => {
                     <img src="https://dexterlabs-public.s3.us-west-1.amazonaws.com/pagesake_logo.png"
                          className =" bg-stone-300 max-w-sm rounded-lg shadow-2xl h-16 w-16 "
                     />
-                    <h4 className={'text-xl '}>Pagesake</h4>
+                    <h4 className={'text-xl '}>Pagesake {name}</h4>
                 </div>
                 <div>
                     <h1 className="text-4xl ">Don&apos;t Just Browse The Web. <br />
