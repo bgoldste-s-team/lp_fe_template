@@ -21,26 +21,35 @@ export default function PageBuilder({ page, site }) {
     const engagementBlocksLength = engagementBlocks.length;
     const contentBlocks = page.content_blocks;
     const contentBlocksLength = contentBlocks.length;
+    console.log(engagementBlocks)
 
-
-    const pageTop = 1;
+    const pageTop = 0;
     const pageMiddle = Math.floor(contentBlocksLength/2);
     const pageBottom = contentBlocksLength -1;
 
+
     function getEngagementBlock(index) {
-        if (index === pageTop ) {
-            return engagementBlocks.filter(eb => eb.position === 'top')
+        let position;
+        if (index === pageTop) {
+            position = 1;  // For top
+        } else if (index === pageMiddle) {
+            position = 2;  // For middle
+        } else if (index === pageBottom) {
+            position = 3;  // For bottom
         }
-        if (index === pageMiddle ) {
-            return engagementBlocks.filter(eb => eb.position === 'middle')
-        }
-        if (index === pageBottom ) {
-            return engagementBlocks.filter(eb => eb.position === 'bottom')
-        }
-        else {
-            return null;
+
+        if (position !== undefined) {
+            return engagementBlocks.filter(eb => eb.position === position);
+        } else {
+            return [];
         }
     }
+
+
+
+
+
+
 
 
     return (
@@ -69,6 +78,12 @@ export default function PageBuilder({ page, site }) {
                             cta2_link={c.cta2_link}
                             image_link={c.image_url}
                         />
+                        {engagementBlocks && engagementBlocks.map(eb => (
+                            <EngagementBlock engagementBlock={eb} />
+                        ))
+
+
+                        }
                         {SecondComponent &&
 
                             <SecondComponent
@@ -79,54 +94,17 @@ export default function PageBuilder({ page, site }) {
                             />
 
                         }
-                        {engagementBlocks && engagementBlocks.map(eb => (
-                            <EngagementBlock engagementBlock={eb} />
-                            ))
 
-
-                        }
                     </div>
                 );
 
                 switch (c.type) {
                     case 'HeroBlock':
                         return commonDiv(HeroBlock, AdBlock, {name:'cocka'});
-                        // return (
-                        //     <div className={"scroll-mt-16"}  key={c.id} id={0}>
-                        //
-                        //         <HeroBlock
-                        //
-                        //             contentBlockId={c.id}
-                        //             header={c.header}
-                        //             subheader={c.subheader}
-                        //             body={c.body}
-                        //             cta1_text={c.cta1_text}
-                        //             cta2_text={c.cta2_text}
-                        //             cta1_link={c.cta1_link}
-                        //             cta2_link={c.cta2_link}
-                        //             image_link={c.image_url}
-                        //         />
-                        //
-                        //         {/*{index !== page.content_blocks.length - 1 && <hr className=" border border-gray-300" />} /!* Add divider *!/*/}
-                        //     </div>
-                        // )
+
                     case 'TextBlock':
                         return commonDiv(TextBlock, AdBlock);
-                        return(
-                            <div className={"scroll-mt-16"} key={c.id} id={c.order}>
-                                <TextBlock
-                                    contentBlockId={c.id}
-                                    header={c.header}
-                                    subheader={c.subheader}
-                                    body={c.body}
-                                    cta1_text={c.cta1_text}
-                                    cta2_text={c.cta2_text}
-                                    cta1_link={c.cta1_link}
-                                    cta2_link={c.cta2_link}
-                                    image_link={c.image_url}
-                                />
-                            </div>
-                        )
+
                     case 'ProductCardBlock':
                         return(
                             <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
