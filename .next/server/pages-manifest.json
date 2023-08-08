@@ -2,5 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js"
+  "/results": "pages/results.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.js",
+  "/[slug]": "pages/[slug].js",
+  "/sitemap.xml": "pages/sitemap.xml.js"
 }

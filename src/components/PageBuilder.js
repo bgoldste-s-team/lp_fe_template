@@ -79,7 +79,7 @@ export default function PageBuilder({ page, site }) {
                             image_link={c.image_url}
                         />
                         {engagementBlocks && engagementBlocks.map(eb => (
-                            <EngagementBlock engagementBlock={eb} />
+                            <EngagementBlock key ={eb.id} engagementBlock={eb} />
                         ))
 
 
