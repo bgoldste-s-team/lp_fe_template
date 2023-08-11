@@ -18,7 +18,13 @@ const Navbar = ({site}) => {
 
 
           <div className="navbar-start ">
-              {/*<img src={siteImgUrl} className="w-16 rounded-full mr-2" />*/}
+              {
+                  site.logo_image_url ?
+                  <img src={site.logo_image_url} className="w-20 h-20 rounded-full mr-2 bg-neutral-content" />
+                      :
+                      <img src={'https://dexterlabs-public.s3.amazonaws.com/images/pagesake_logo.png'} className="w-20 h-20 rounded-full mr-2 bg-neutral-content" />
+              }
+
               <Link href="/"className="btn-md  hidden sm:block btn-ghost self-center text-lg lg:text-2xl text-primary-content break-words px-0 mx-0 ">     {siteName}</Link>
           </div>
           <div className="navbar-center sm:hidden ">
