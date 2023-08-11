@@ -5,7 +5,7 @@ import Script from "next/script";
 import siteData from "@/data/site_data.json";
 
 export default function Layout({ children, pageTitle, pageDescription, site }) {
-  const measurementId = siteData["ga_measurement_id"];
+  const measurementId = 'G-XYGCHM2B97'//hardcoding global ps analytics siteData["ga_measurement_id"];
   const amazonId = siteData["referral_tag"]
   return (
     <>
