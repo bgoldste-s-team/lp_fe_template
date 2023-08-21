@@ -11,7 +11,8 @@ import FeaturedPages from "@/components/FeaturedPages";
 import AdBlock from "@/components/AdBlock";
 import Link from "next/link";
 import EngagementBlock from "@/components/EngagementBlock";
-
+import AmazonProductCard from "@/components/AmazonProductCard";
+import ProductBank from "@/components/ProductBank"
 
 export default function PageBuilder({ page, site }) {
 
@@ -100,10 +101,11 @@ export default function PageBuilder({ page, site }) {
 
                 switch (c.type) {
                     case 'HeroBlock':
-                        return commonDiv(HeroBlock, AdBlock, {name:'cocka'});
+                        {/*return commonDiv(HeroBlock, AmazonProductCard, {product:site.amazon_products[0]});*/}
+                        return commonDiv(HeroBlock, ProductBank, {products:site.amazon_products});
 
                     case 'TextBlock':
-                        return commonDiv(TextBlock, AdBlock);
+                        return commonDiv(TextBlock, AdBlock, {product:site.amazon_products[0]});
 
                     case 'ProductCardBlock':
                         return(

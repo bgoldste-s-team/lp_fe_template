@@ -14,6 +14,10 @@ const AdBlock = ({name, page, site, index}) => {
                          className =" bg-stone-300 max-w-sm rounded-lg shadow-2xl h-16 w-16 "
                     />
                     <h4 className={'text-xl '}>Pagesake {name}</h4>
+                    <h5>AZ: {site.amazon_products[0].product_name}</h5>
+                    <img src={site.amazon_products[0].thumbnail_image}
+                         className =" bg-stone-300 max-w-sm rounded-lg shadow-2xl h-16 w-16 "
+                    />
                 </div>
                 <div>
                     <h1 className="text-4xl ">Don&apos;t Just Browse The Web. <br />
