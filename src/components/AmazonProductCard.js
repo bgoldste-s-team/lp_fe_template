@@ -8,6 +8,11 @@ import {
 } from "react-icons/fa6";
 export default function AmazonProductCard({ product }) {
   console.log(product)
+
+
+  if (!product || !product.product_name || !product.url) {
+    return null;
+  }
   return (
 <div className="card card-compact  bg-base-100 shadow-xl">
   <figure><img src={product.thumbnail_image} alt="Album" className=' p-4'/></figure>

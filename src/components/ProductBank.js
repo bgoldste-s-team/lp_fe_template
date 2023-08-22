@@ -2,6 +2,9 @@ import AmazonProductCard from "@/components/AmazonProductCard";
 
 export default function ProductBank({ products }) {
   console.log(products);
+  if (products.length < 1) {
+    return null;
+  }
   return (
     <div className="bg-primary-content py-2">
       <h2 className="text-center text-3xl p-2">You Might Like..</h2>
