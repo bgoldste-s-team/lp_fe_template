@@ -17,6 +17,7 @@ import ProductBank from "@/components/ProductBank"
 export default function PageBuilder({ page, site }) {
 
     console.log(site)
+    console.log(page)
 
     const adRules = {
 
@@ -63,10 +64,11 @@ export default function PageBuilder({ page, site }) {
     // const sortedAmazonProducts = amazonProducts.sort((a,b) => a.id - b.id);
 
 
-
+    const seed = (13 * page.id) % 37;
 
     function shuffleArrayWithSeed(array) {
-        const seed = page.id;
+
+
         const shuffled = [...array];
         for (let i = 0; i < array.length; i++) {
             const newIndex = (i + seed) % array.length;
@@ -135,6 +137,7 @@ export default function PageBuilder({ page, site }) {
             <p>showPagesakeAds: {showPagesakeAds.toString()}</p>
             <p>showContentNetwork: {showContentNetwork.toString()}</p>
             <p>showMiscReferralAds: {showMiscReferralAds.toString()}</p>
+            <p>Pagebuilder Seed: {seed}</p>
 
             {page.content_blocks.map((c, index) => {
                 let engagementBlocks = getEngagementBlock(index);
@@ -180,7 +183,7 @@ export default function PageBuilder({ page, site }) {
                         {/*return commonDiv(HeroBlock, AmazonProductCard, {product:site.amazon_products[0]});*/}
                         return commonDiv(HeroBlock, ProductBank, 
                             {
-                                products:getNextThreeProducts(amazonProducts, (index*3)) 
+                                products:getNextThreeProducts(shuffledProducts, (index*3)) 
                             });
 
                     case 'TextBlock':
