@@ -24,8 +24,8 @@ export default function PageBuilder({ page, site }) {
         full_ads: {
             showAmazonAds: true,
             showPagesakeAds: true,
-            showContentNetwork: true,
-            showMiscReferralAds: true
+            showContentNetwork: true, //goes at the bottom, just before page footer.
+            showMiscReferralAds: true // not sure where this will go, maybe just don't bother for right now? 
         },
         light_ads:{
             showAmazonAds: false,
@@ -157,6 +157,7 @@ export default function PageBuilder({ page, site }) {
                             cta1_link={c.cta1_link}
                             cta2_link={c.cta2_link}
                             image_link={c.image_url}
+                            page={page}
                         />
                         {engagementBlocks && engagementBlocks.map(eb => (
                             <EngagementBlock key ={eb.id} engagementBlock={eb} />
@@ -181,36 +182,29 @@ export default function PageBuilder({ page, site }) {
                 switch (c.type) {
                     case 'HeroBlock':
                         {/*return commonDiv(HeroBlock, AmazonProductCard, {product:site.amazon_products[0]});*/}
-                        return commonDiv(HeroBlock, ProductBank, 
+                        if (index % 2 === 0) {
+                            return commonDiv(HeroBlock, ProductBank, 
                             {
                                 products:getNextThreeProducts(shuffledProducts, (index*3)) 
                             });
+                        }
+                        return commonDiv(HeroBlock, AdBlock, );
+                        
 
                     case 'TextBlock':
-                        {/*return commonDiv(TextBlock, AdBlock, {product:site.amazon_products[0]});*/}
+                        if (index % 2 !== 0) {
                           return commonDiv(TextBlock, ProductBank, 
                             {
                                 products:getNextThreeProducts(amazonProducts, (index*3)) 
                             });
+                        }
+                        return commonDiv(TextBlock,AdBlock,{name:'tessts'});
+                        
 
-                    case 'ProductCardBlock':
-                        return(
-                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
-                                <ProductCardBlock
-                                    contentBlockId={c.id}
-                                    header={c.header}
-                                    subheader={c.subheader}
-                                    body={c.body}
-                                    cta1_text={c.cta1_text}
-                                    cta2_text={c.cta2_text}
-                                    cta1_link={c.cta1_link}
-                                    cta2_link={c.cta2_link}
-                                    image_link={c.image_url}
-                                />
-                            </div>
-                        )
+         
                     case 'TableOfContentsBlock':
-                        return(
+                        return commonDiv(TableOfContentsBlock, AdBlock)
+                        {/*return(
                             <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
                                 <TableOfContentsBlock
                                     contentBlockId={c.id}
@@ -225,23 +219,8 @@ export default function PageBuilder({ page, site }) {
                                     page={page}
                                 />
                             </div>
-                        )
-                    case 'TableOfContentsBlock':
-                        return(
-                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
-                                <TableOfContentsBlock
-                                    contentBlockId={c.id}
-                                    header={c.header}
-                                    subheader={c.subheader}
-                                    body={c.body}
-                                    cta1_text={c.cta1_text}
-                                    cta2_text={c.cta2_text}
-                                    cta1_link={c.cta1_link}
-                                    cta2_link={c.cta2_link}
-                                    image_link={c.image_url}
-                                />
-                            </div>
-                        )
+                        )*/}
+                
                   
                     default:
                         return(
@@ -251,8 +230,22 @@ export default function PageBuilder({ page, site }) {
 
 
             })}
-            
 
+
+            {showContentNetwork && 
+              <h1>CONTENT NETWORK</h1>
+            }
+            {showMiscReferralAds && 
+
+                 <div className="flex space-x-2">
+                    <h1>MISC REFERRAL</h1>
+
+                  <button className="btn btn-primary">Button 1</button>
+                  <button className="btn btn-secondary">Button 2</button>
+                  <button className="btn btn-accent">Button 3</button>
+                </div>
+                            }
+          
         </div>
     );
 }

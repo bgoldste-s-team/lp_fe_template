@@ -12,7 +12,9 @@ export default function ProductBank({ products }) {
       {products.map((p) => (
         <AmazonProductCard key={p.id} product={p} />
       ))}
+
     </div>
+
     </div>
   );
-}
+} 

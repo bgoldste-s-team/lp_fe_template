@@ -20,7 +20,66 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
-    themes: [ siteData['theme'], "light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
+     themes: [
+      {
+        'pagesake': {
+
+          "primary": "#5DD7AB",
+          "primary-content": "#1c1c1c",
+          "secondary": "#e6c3ff",
+
+          "accent": "#00ffff",
+
+          "neutral": "#ffffff", // becomes 'default'
+          // "neutral-content": "#2fffa9",  // becomes 'default' text
+
+          "base-100": "#1c1c1c", //base of application
+          "base-content": "#ffffff", //base of text on this
+
+          "info": "#3abff8",
+
+          "success": "#36d399",
+
+          "warning": "#fbbd23",
+          //
+          "error": "rgba(255,0,0,0.73)"
+
+
+          /* Add as many custom properties as you need */
+        },
+      },
+      "light",
+      "dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "valentine",
+      "halloween",
+      "garden",
+      "forest",
+      "aqua",
+      "lofi",
+      "pastel",
+      "fantasy",
+      "wireframe",
+      "black",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "acid",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+
+    ]
+
   },
   // daisyui: {
   //   themes: [
