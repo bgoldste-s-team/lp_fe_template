@@ -65,7 +65,7 @@ const AdBlock = ({name, page, site, index}) => {
          cta1_link:"https://pagesake.com",
             cta2_link:"https://pagesake.com",
             cta1_text:"Start FREE 🚀",
-            cta2_text:"💡 How It Works ",
+            cta2_text:" How It Works 💡",
             textArray: [
                 'Portfolio Websites 🎨',
               'Review Sites 🕵️‍♂️',
@@ -127,7 +127,7 @@ useEffect(() => {
 
  return (
 <div className=''>
-    <div className='p-8 bg-neutral-content' >
+    <div className='p-4 bg-neutral-content' >
        
         <div data-theme="pagesake" className={`hero rounded-2xl p-0  ${variants[variant].styling} `}>
                 {/*<div  className="scroll-p-0 bg-gradient-to-r from-primary to-secondary text-white py-10 px-4">*/}
@@ -163,7 +163,7 @@ useEffect(() => {
 
 
 
-            <div className={'flex justify-center gap-4 mt-4'}>
+            <div className={'flex flex-col md:flex-row justify-center gap-2 mt-4'}>
                 <button className="btn btn-primary btn-outline"><Link href={variants[variant].cta2_link}>{variants[variant].cta2_text}</Link></button>
                 <button className="btn btn-primary"><Link href={variants[variant].cta1_link}>{variants[variant].cta1_text}</Link></button>
             </div>
