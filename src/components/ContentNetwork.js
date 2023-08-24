@@ -65,7 +65,7 @@ return (
           <div className="card card-compact p-4 w-120 h-120 bg-base-100 shadow-xl overflow-hidden">
             <figure><img className='w-40 h-40' src={c.thumbnail_url} alt="Thumbnail for article" /></figure>
             <div className='card-body'>
-              <div className='h-12 overflow-hidden flex flex-row justify-between'>
+              <div className='h-24 overflow-hidden items-center flex flex-row justify-between' >
                 <h2 className="card-title  text-xl mb-2">{c.title}</h2>
                 <div className={`mr-4 badge badge-${c.accent}`}>{c.badgeCopy}</div>
               </div>

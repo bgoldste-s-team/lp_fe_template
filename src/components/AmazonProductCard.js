@@ -13,33 +13,34 @@ export default function AmazonProductCard({ product }) {
   if (!product || !product.product_name || !product.url) {
     return null;
   }
-  return (
-<div className="card card-compact  bg-base-100 shadow-xl">
-  <figure><img src={product.thumbnail_image} alt="Album" className=' p-4'/></figure>
-  <div className="card-body">
-    <h2 className="card-title">{product.product_name}</h2>
-    <p>{product.brand}</p>
-    {/*<p>{product.product_description?}</p>*/}
-    { product.price_value && 
-    <div className='badge badge-success'>${product.price_value}</div>
-  }
-    <div className="card-actions justify-end">
-      <Link href={product.url} className="btn btn-primary">
-     Buy Now
-        <span> 
-          <FaCartShopping className='mx-1'/>
-        </span >
+ return (
+  <div className="card card-compact bg-base-100 shadow-xl relative"> {/* Add relative here */}
+    <figure><img src={product.thumbnail_image} alt="Album" className='h-48 p-4' /></figure>
+    <div className="card-body flex flex-col justify-between"> {/* Adjusted here */}
+      <div>
+        <h2 className="card-title">{product.product_name}</h2>
        
-      </Link>
+        {/*<p>{product.product_description}</p>*/}
+      </div>
+      <div className="card-actions justify-between align-end "> {/* Adjusted here */}
+        <div className='space-y-1'>
+          <p>{product.brand}</p>
+          {product.price_value &&
+            <div className='badge badge-success'>${product.price_value}</div>
+          }
+
+        </div>
+
+        <Link href={product.url} className="btn btn-primary">
+          Buy Now
+          <span>
+            <FaCartShopping className='mx-1' />
+          </span>
+        </Link>
+      </div>
     </div>
   </div>
-</div>
-
-
-
-
-    
-  );
+)
 }
 
 
