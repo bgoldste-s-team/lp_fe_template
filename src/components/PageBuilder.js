@@ -186,7 +186,8 @@ export default function PageBuilder({ page, site }) {
                         if (index % 2 === 0) {
                             return commonDiv(HeroBlock, ProductBank, 
                             {
-                                products:getNextThreeProducts(shuffledProducts, (index*3)) 
+                                products:getNextThreeProducts(shuffledProducts, (index*3)) ,
+                                site:site
                             });
                         }
                         return commonDiv(HeroBlock, AdBlock, );
@@ -196,7 +197,8 @@ export default function PageBuilder({ page, site }) {
                         if (index % 2 !== 0) {
                           return commonDiv(TextBlock, ProductBank, 
                             {
-                                products:getNextThreeProducts(amazonProducts, (index*3)) 
+                                products:getNextThreeProducts(amazonProducts, (index*3)) ,
+                                 site:site
                             });
                         }
                         return commonDiv(TextBlock,AdBlock,{name:'tessts'});

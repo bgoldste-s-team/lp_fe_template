@@ -1,8 +1,12 @@
 import AmazonProductCard from "@/components/AmazonProductCard";
 
-export default function ProductBank({ products }) {
+export default function ProductBank({ products , site}) {
   console.log(products);
-  if (products.length < 1) {
+  if (products.length < 1 ) {
+    return null;
+  }
+
+  if (site.ad_level !== 'full_ads') {
     return null;
   }
   return (
