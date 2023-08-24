@@ -12,7 +12,8 @@ import AdBlock from "@/components/AdBlock";
 import Link from "next/link";
 import EngagementBlock from "@/components/EngagementBlock";
 import AmazonProductCard from "@/components/AmazonProductCard";
-import ProductBank from "@/components/ProductBank"
+import ProductBank from "@/components/ProductBank";
+import ContentNetwork from "@/components/ContentNetwork";
 
 export default function PageBuilder({ page, site }) {
 
@@ -233,9 +234,9 @@ export default function PageBuilder({ page, site }) {
 
 
             {showContentNetwork && 
-              <h1>CONTENT NETWORK</h1>
+             <ContentNetwork />
             }
-            {showMiscReferralAds && 
+            {/*{showMiscReferralAds && 
 
                  <div className="flex space-x-2">
                     <h1>MISC REFERRAL</h1>
@@ -244,7 +245,7 @@ export default function PageBuilder({ page, site }) {
                   <button className="btn btn-secondary">Button 2</button>
                   <button className="btn btn-accent">Button 3</button>
                 </div>
-                            }
+                            }*/}
           
         </div>
     );

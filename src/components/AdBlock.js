@@ -126,10 +126,10 @@ useEffect(() => {
 
 
  return (
-<div>
-    <div className='p-8' data-theme="pagesake">
+<div className=''>
+    <div className='p-8 bg-neutral-content' >
        
-        <div  className={`hero rounded-2xl p-0  ${variants[variant].styling} `}>
+        <div data-theme="pagesake" className={`hero rounded-2xl p-0  ${variants[variant].styling} `}>
                 {/*<div  className="scroll-p-0 bg-gradient-to-r from-primary to-secondary text-white py-10 px-4">*/}
             
                 
