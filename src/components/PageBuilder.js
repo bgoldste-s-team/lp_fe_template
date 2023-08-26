@@ -125,7 +125,7 @@ export default function PageBuilder({ page, site }) {
 
     return (
         <div>
-
+            <h1>theme: {site.theme}</h1>
             <h1>debug: engagement blocks: {engagementBlocksLength} {engagementBlocks.toString()}</h1>
             <h1>debug: content blocks: {contentBlocksLength}</h1>
             <h1>pageTop: {pageTop} pageMiddle {pageMiddle} pageBottom {pageBottom}</h1>
