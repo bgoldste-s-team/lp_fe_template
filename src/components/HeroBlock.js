@@ -9,7 +9,7 @@ const HeroBlock = ({ header, subheader, body, cta1_text, cta2_text, cta1_link, c
     const buttonContainerClasses = "flex justify-center gap-4 mt-4";
 
     return (
-        <div  className="scroll-p-0 bg-gradient-to-r from-primary to-secondary text-white py-10 px-4">
+        <div  className="scroll-p-0 bg-primary text-on-primary py-10 px-4">
             {image_link && (
                 <div className={imageContainerClasses}>
                     <img src={image_link} alt="Hero Image" className="object-cover max-h-96 mx-auto" />
@@ -22,7 +22,7 @@ const HeroBlock = ({ header, subheader, body, cta1_text, cta2_text, cta1_link, c
                 {cta1_link && (
                     <Link href={cta1_link}>
 
-                            <button className={buttonClasses}>{cta1_text}</button>
+                            <button className="btn btn-default">{cta1_text}</button>
 
                     </Link>
                 )}

@@ -125,20 +125,7 @@ export default function PageBuilder({ page, site }) {
 
     return (
         <div>
-            <h1>theme: {site.theme}</h1>
-            <h1>debug: engagement blocks: {engagementBlocksLength} {engagementBlocks.toString()}</h1>
-            <h1>debug: content blocks: {contentBlocksLength}</h1>
-            <h1>pageTop: {pageTop} pageMiddle {pageMiddle} pageBottom {pageBottom}</h1>
-            <h1>Debug Info:Title: {page.title} Slug: {page.slug}</h1>
-            <p>Total Content Blocks: {page.content_blocks.length}</p>
-            <h1>Debug Info: AMAazon products length {amazonProductsLength}</h1>
-            <h1>Debug Info: AD Level {adLevel}</h1>
 
-            <p>showAmazonAds: {showAmazonAds.toString()}</p>
-            <p>showPagesakeAds: {showPagesakeAds.toString()}</p>
-            <p>showContentNetwork: {showContentNetwork.toString()}</p>
-            <p>showMiscReferralAds: {showMiscReferralAds.toString()}</p>
-            <p>Pagebuilder Seed: {seed}</p>
 
             {page.content_blocks.map((c, index) => {
                 let engagementBlocks = getEngagementBlock(index);
@@ -247,6 +234,20 @@ export default function PageBuilder({ page, site }) {
                   <button className="btn btn-accent">Button 3</button>
                 </div>
                             }*/}
+            <h1>theme: {site.theme}</h1>
+            <h1>debug: engagement blocks: {engagementBlocksLength} {engagementBlocks.toString()}</h1>
+            <h1>debug: content blocks: {contentBlocksLength}</h1>
+            <h1>pageTop: {pageTop} pageMiddle {pageMiddle} pageBottom {pageBottom}</h1>
+            <h1>Debug Info:Title: {page.title} Slug: {page.slug}</h1>
+            <p>Total Content Blocks: {page.content_blocks.length}</p>
+            <h1>Debug Info: AMAazon products length {amazonProductsLength}</h1>
+            <h1>Debug Info: AD Level {adLevel}</h1>
+
+            <p>showAmazonAds: {showAmazonAds.toString()}</p>
+            <p>showPagesakeAds: {showPagesakeAds.toString()}</p>
+            <p>showContentNetwork: {showContentNetwork.toString()}</p>
+            <p>showMiscReferralAds: {showMiscReferralAds.toString()}</p>
+            <p>Pagebuilder Seed: {seed}</p>
           
         </div>
     );
