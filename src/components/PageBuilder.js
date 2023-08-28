@@ -125,6 +125,15 @@ export default function PageBuilder({ page, site }) {
 
     return (
         <div>
+       <div className="hero  bg-base-100">
+         <div className="hero-content text-center p-12">
+           <div className="">
+             <h1 className="text-4xl font-bold p-4">{page.title}</h1>
+             <p className="">Last Updated: {new Date(page.publish_date).toLocaleDateString()}</p>
+             {/*<button className="btn btn-primary">Get Started</button>*/}
+           </div>
+         </div>
+       </div>
 
 
             {page.content_blocks.map((c, index) => {
