@@ -11,9 +11,7 @@ import {
 const AdBlock = ({name, page, site, index}) => {
     console.log('adblock', page, site, index, name)
 
-     if (site.ad_level === 'no_ads') {
-        return null;
-    }
+     
     const textArray = [
       'First message',
       'Second message',
@@ -126,7 +124,10 @@ useEffect(() => {
     };
 }, []);
 
-
+    
+    if (site.ad_level === 'no_ads') {
+        return null;
+    }
 
  return (
 <div className=''>
