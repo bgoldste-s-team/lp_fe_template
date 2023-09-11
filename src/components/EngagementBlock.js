@@ -47,7 +47,7 @@ const EngagementBlock = ({ engagementBlock}) => {
     const bodyClasses = "text-md text-center";
 
     return (
-        <div data-theme="garden" className={containerClasses}>
+        <div className={containerClasses}>
             <div className={cardClasses}>
                 {image_url && (
                     <div className={imageContainerClasses}>
