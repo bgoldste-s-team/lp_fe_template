@@ -29,8 +29,8 @@ const Navbar = ({site}) => {
 
   <div className="navbar-start">
     <div className='break-words'>
-    <p className={`text-left btn btn-ghost normal-case ${dynamicFontSize}  `}>
-    {siteName}</p>
+    <Link href="/" className={`text-left btn btn-ghost normal-case ${dynamicFontSize}  `}>
+    {siteName}</Link>
     </div>
   </div>
   <div className="navbar-end">

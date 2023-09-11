@@ -24,11 +24,15 @@ export async function getStaticProps({ params }) {
     console.log(siteId, baseUrl)
 
   const { slug } = params;
-    const response = await fetch(`${baseUrl}/api/sites/public/`);
 
-    const sites = await response.json()
-    console.log(sites)
-    const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
+
+  const response  = await fetch(`${baseUrl}/api/sites/${siteId}`)
+  const site = await response.json()
+    // const response = await fetch(`${baseUrl}/api/sites/public/`);
+
+    // const sites = await response.json()
+    // console.log(sites)
+    // const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
 
 
 
@@ -50,14 +54,18 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-    console.log(siteId, baseUrl);
+    console.log("CREATING SLUG FOR PAGE😀😀",siteId, baseUrl);
 
     try {
-        const response = await fetch(`${baseUrl}/api/sites/public/`);
 
-        const sites = await response.json()
-        console.log(sites)
-        const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
+        const response  = await fetch(`${baseUrl}/api/sites/${siteId}`)
+        const site = await response.json()
+
+        // const response = await fetch(`${baseUrl}/api/sites/public/`);
+
+        // const sites = await response.json()
+        // console.log(sites)
+        // const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
 
 
         if (!site) {

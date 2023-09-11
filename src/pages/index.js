@@ -22,11 +22,17 @@ export async function getStaticProps() {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
     console.log("ENVIRONMENT VARIABLES!", siteId, baseUrl)
-    const response = await fetch(`${baseUrl}/api/sites/public/`);
 
-    const sites = await response.json()
-    console.log(sites)
-    const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
+
+
+
+    const response  = await fetch(`${baseUrl}/api/sites/${siteId}`)
+    const site = await response.json()
+    // const response = await fetch(`${baseUrl}/api/sites/public/`);
+
+    // const sites = await response.json()
+    // console.log(sites)
+    // const site = await sites.filter((s) => s.id === parseInt(siteId))[0]
     console.log("~~~?",typeof(sites), siteId, site)
     console.log(site.pages)
 
