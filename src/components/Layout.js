@@ -7,10 +7,12 @@
   export default function Layout({ children,  site , page}) {
     const measurementId = 'G-XYGCHM2B97'//hardcoding global ps analytics siteData["ga_measurement_id"];
     const amazonId = siteData["referral_tag"]
-    const firstImageUrl = page.content_blocks?.find(block =>  block.image_url)?.image_url || '';
+    const firstImageUrl = page.content_blocks?.find(block =>  block.image_url !== '')?.image_url || '';
 
     const pageTitle = page.title;
-     const pageDescription = page.page_description;
+   const pageDescription = page.page_description;
+     console.log("LAYOUT:", pageTitle, "~", pageDescription, "~", firstImageUrl,  site , page)
+     console.log(page)
     return (
       <>
         <Head>
