@@ -11,7 +11,7 @@ const SlugPage = ({ page, site }) => {
   }
 
   return (
-      <Layout site={site}>
+      <Layout site={site} page={page}>
 
         <PageBuilder page={page } site={site}/>
       </Layout>

@@ -4,14 +4,28 @@ import Head from "next/head";
 import Script from "next/script";
 import siteData from "@/data/site_data.json";
 
-export default function Layout({ children, pageTitle, pageDescription, site }) {
+export default function Layout({ children, pageTitle, pageDescription, site , page}) {
   const measurementId = 'G-XYGCHM2B97'//hardcoding global ps analytics siteData["ga_measurement_id"];
   const amazonId = siteData["referral_tag"]
+  const firstImageUrl = page.content_blocks?.find(block =>  block.image_url)?.image_url || '';
   return (
     <>
       <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:image" content={firstImageUrl} />
+        {/* If you can compute the current URL, add the following line */}
+        {/* <meta property="og:url" content={currentURL} /> */}
+        <meta property="og:type" content="website" />
+        
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={firstImageUrl} />
       </Head>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}

@@ -7,7 +7,7 @@ export default function Home({ homePage, site}) {
     console.log(site.pages)
     return (
 
-        <Layout site={site}>
+        <Layout site={site} page={homePage}>
 
         <PageBuilder page={homePage} site={site} />
         <FeaturedPages pages={site.pages} />
