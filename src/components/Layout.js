@@ -11,6 +11,7 @@
 
     const pageTitle = page.title;
    const pageDescription = page.page_description;
+   const currentUrl = `https://${site.slug}.pagesake.com/${page.slug}`
      console.log("LAYOUT:", pageTitle, "~", pageDescription, "~", firstImageUrl,  site , page)
      console.log(page)
     return (
