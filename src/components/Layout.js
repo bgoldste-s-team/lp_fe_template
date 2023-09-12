@@ -10,8 +10,8 @@
     const firstImageUrl = page.content_blocks?.find(block =>  block.image_url !== '')?.image_url || '';
 
     const pageTitle = page.title;
-   const pageDescription = page.page_description;
-   const currentUrl = `https://${site.slug}.pagesake.com/${page.slug}`
+   const pageDescription = page.page_description + "-" + page.content_blocks?.find(block => block.body.length > 20).body.slice(0, 300) || '';
+   const currentUrl = `https://${site.deployment_url}/${page.slug}`
      console.log("LAYOUT:", pageTitle, "~", pageDescription, "~", firstImageUrl,  site , page)
      console.log(page)
     return (
@@ -24,7 +24,7 @@
           <meta property="og:description" content={pageDescription} />
           <meta property="og:image" content={firstImageUrl} />
           {/* If you can compute the current URL, add the following line */}
-          {/* <meta property="og:url" content={currentURL} /> */}
+           <meta property="og:url" content={currentUrl} /> 
           <meta property="og:type" content="website" />
           
           {/* Twitter Card Tags */}
