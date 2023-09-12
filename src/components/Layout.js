@@ -10,7 +10,7 @@
     const firstImageUrl = page.content_blocks?.find(block =>  block.image_url)?.image_url || '';
 
     const pageTitle = page.title;
-     const pageDescription = page.description;
+     const pageDescription = page.page_description;
     return (
       <>
         <Head>
