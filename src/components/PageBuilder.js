@@ -173,6 +173,9 @@ export default function PageBuilder({ page, site }) {
                 switch (c.type) {
                     case 'HeroBlock':
                         {/*return commonDiv(HeroBlock, AmazonProductCard, {product:site.amazon_products[0]});*/}
+                          if (index  === 0) {
+                            return commonDiv(HeroBlock, null);
+                        }
                         if (index % 2 === 0) {
                             return commonDiv(HeroBlock, ProductBank, 
                             {
@@ -196,22 +199,15 @@ export default function PageBuilder({ page, site }) {
          
                     case 'TableOfContentsBlock':
                         return commonDiv(TableOfContentsBlock, AdBlock)
-                        {/*return(
-                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>
-                                <TableOfContentsBlock
-                                    contentBlockId={c.id}
-                                    header={c.header}
-                                    subheader={c.subheader}
-                                    body={c.body}
-                                    cta1_text={c.cta1_text}
-                                    cta2_text={c.cta2_text}
-                                    cta1_link={c.cta1_link}
-                                    cta2_link={c.cta2_link}
-                                    image_link={c.image_url}
-                                    page={page}
-                                />
-                            </div>
-                        )*/}
+                    
+                     case 'FeaturedPagesBlock':
+                        return (
+                            <FeaturedPages 
+                                pages={site.pages}
+
+                                pageGroupName={page.page_group}
+                            />
+                            )
                 
                   
                     default:
