@@ -4,7 +4,8 @@ function getBaseUrl(site) {
     const deploymentUrl = site.deployment_url;
     const customDomainUrl = site.custom_domain_status === 'live' ? `https://${site.custom_domain_url}` : null;
     const publicInfo =  process.env.NEXT_PUBLIC_SITE_URL ?? process.env.NEXT_PUBLIC_VERCEL_URL;
-    return process.env.NEXT_PUBLIC_SITE_URL ?? process.env.NEXT_PUBLIC_VERCEL_URL ?? customDomainUrl   ?? `https://${deploymentUrl}`;
+    // remove next since i cant really count on it?
+    return  customDomainUrl   ?? `https://${deploymentUrl}`;
 }
 
 
