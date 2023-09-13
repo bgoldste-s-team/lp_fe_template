@@ -4,6 +4,7 @@ const TitleBlock = ({page}) => {
             <div className="hero-content text-center p-12 flex flex-col">
           
 	  			<h1 className="text-4xl font-bold pt-4">{page.title}</h1>
+	  			<h1 className="text-xl pt-4">{page.page_description}</h1>
 		  		<p className="">Last Updated: {new Date(page.publish_date).toLocaleDateString()}</p>
 
 			</div>
