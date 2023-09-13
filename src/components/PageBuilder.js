@@ -124,7 +124,7 @@ export default function PageBuilder({ page, site }) {
 
 
     return (
-        <div>
+        <div className=''>
       
           <TitleBlock page={page} />
  

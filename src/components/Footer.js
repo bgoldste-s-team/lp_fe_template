@@ -13,6 +13,7 @@ const Footer = ({site, pages}) => {
       <p>{page.page_description}</p>
       </li>
     ))}
+    <Link href={'/sitemap.xml'}>Sitemap</Link>
   </ul>
 
     </footer>
