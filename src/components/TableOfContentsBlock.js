@@ -10,7 +10,7 @@ const TableOfContentsBlock = ({ header, subheader, cta1_text, cta2_text, cta1_li
     return (
         <div className={'card card-compact items-center py-2  '}>
         <div className='card-body '>
-            <h2 className='text-2xl card-title'>On This Page...</h2>
+            <h2 className='text-2xl card-title'>{header}</h2>
             <ul className={'p-4 space-y-2 border-l-2 border-primary'}>
 
             {page.content_blocks.filter(c => c.type === 'HeroBlock' || c.type === 'TextBlock').map((c) => (

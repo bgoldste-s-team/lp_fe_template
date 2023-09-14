@@ -12,13 +12,13 @@ const HeroBlock = ({ header, subheader, body, cta1_text, cta2_text, cta1_link, c
     const bodyClasses = "text-lg mb-6 text-center whitespace-pre-line";
 
     return (
-<div className="hero min-h-[50vh]" style={{backgroundImage: `url(${image_link})`}}>
+<div className="hero min-h-[50vh] " style={{backgroundImage: `url(${image_link})`}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold ">{header}</h1>
       <p className="mb-5">{subheader}</p>
-   
+
       <button className="btn btn-primary">Get Started</button>
       <button className="btn btn-primary">Get Started</button>
     </div>

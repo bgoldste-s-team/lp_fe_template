@@ -187,6 +187,9 @@ export default function PageBuilder({ page, site }) {
                         
 
                     case 'TextBlock':
+                           if (index  === 0) {
+                            return commonDiv(TextBlock, null);
+                        }
                         if (index % 2 === 0) {
                           return commonDiv(TextBlock, ProductBank, 
                             {

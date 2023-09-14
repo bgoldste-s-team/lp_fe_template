@@ -15,10 +15,14 @@ const FeaturedPages = ({pages, pageGroupName}) => {
               </div>
           </div>
       </div>
-      <div className={'grid grid-cols-1 md:grid-cols-2 place-items-center gap-2'}>
+      <div className={'grid grid-cols-1 text-white md:grid-cols-2 place-items-center gap-2'}>
           {pages.map((page) => (
-                <div  key={page.id} className="card w-96 bg-neutral text-neutral-content h-full w-full">
-                      <div className="card-body items-center text-center">
+
+                <div  key={page.id} className="hero  min-h-[60vh] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary to-secondary" style={{backgroundImage: `${page.image_url ? `url(${page.image_url})`: ''}`}}>
+
+                           <div className="hero-overlay bg-opacity-60"></div>
+    <div className="hero-content flex flex-col text-center text-neutral-content">
+
                           <h2 className="card-title">{page.title}</h2>
                           <p>{page.page_description?.slice(0,150)}..</p>
                           <div className="card-actions justify-end">

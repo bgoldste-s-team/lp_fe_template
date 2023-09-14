@@ -2,7 +2,7 @@ const TitleBlock = ({page}) => {
 	return (
 
 
-		<div className="hero min-h-[50vh]" style={{backgroundImage: `url(${page.image_url})`}}>
+		<div className="hero min-h-[60vh] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary to-secondary" style={{backgroundImage: `${page.image_url ? `url(${page.image_url})`: ''}`}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
