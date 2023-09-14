@@ -12,35 +12,21 @@ const HeroBlock = ({ header, subheader, body, cta1_text, cta2_text, cta1_link, c
     const bodyClasses = "text-lg mb-6 text-center whitespace-pre-line";
 
     return (
-        <div   className="scroll-p-0 bg-primary text-primary-content py-10 px-4 space-y-4">
-            {image_link && (
-                <div className={imageContainerClasses}>
-                    <img src={image_link} alt="Hero Image" className="object-cover max-h-96 mx-auto" />
-                </div>
-            )}
-            <h2   className={headerClasses}>{header}</h2>
-            <p className={subheaderClasses}>{subheader}</p>
-            <p className={subheaderClasses}>{body}</p>
-             <ReactMarkdown className={bodyClasses}>{body}</ReactMarkdown>
+<div className="hero min-h-[50vh]" style={{backgroundImage: `url(${image_link})`}}>
+  <div className="hero-overlay bg-opacity-60"></div>
+  <div className="hero-content text-center text-neutral-content">
+    <div className="max-w-md">
+      <h1 className="mb-5 text-5xl font-bold ">{header}</h1>
+      <p className="mb-5">{subheader}</p>
+   
+      <button className="btn btn-primary">Get Started</button>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
 
-            <div className={buttonContainerClasses}>
-                
-                {cta2_link && (
-                    <Link href={cta2_link}>
 
-                            <button className={button2Classes}>{cta2_text}</button>
 
-                    </Link>
-                )}
-                {cta1_link && (
-                    <Link href={cta1_link}>
-
-                            <button className={button1Classes}>{cta1_text}</button>
-
-                    </Link>
-                )}
-            </div>
-             </div>
     );
 };
 
