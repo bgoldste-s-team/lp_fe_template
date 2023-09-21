@@ -108,7 +108,7 @@
 
 
 import React from "react";
-
+import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 const TextBlock = ({
@@ -129,34 +129,36 @@ const TextBlock = ({
   const bodyClasses = "text-lg prose space-y-2";
   const bodyContainerClasses = "max-w-2xl"; // Adjust this width as needed
   const buttonClasses =
-    "bg-white text-blue-500 py-2 px-4 rounded-md hover:bg-blue-100";
+    " rounded-md";
   const buttonContainerClasses = "flex justify-center gap-4 mt-4";
 
   return (
     <div key={key} contentBlockId={contentBlockId} className="scroll-p-0 py-10 px-4 space-y-4 flex flex-col items-center">
-      {header && <ReactMarkdown className={headerClasses}>{header}</ReactMarkdown>}
-      {subheader && <h3 className={subheaderClasses}>{subheader}</h3>}
-      {image_link && (
+         {image_link && (
         <div className="flex justify-center">
           <img src={image_link} alt="Hero Image" className="w-250 h-250" />
         </div>
       )}
+      {header && <ReactMarkdown className={headerClasses}>{header}</ReactMarkdown>}
+      {subheader && <h3 className={subheaderClasses}>{subheader}</h3>}
+   
 
       <div className={bodyContainerClasses}>
         <ReactMarkdown plugins={[remarkGfm]} className={bodyClasses}>{body}</ReactMarkdown>
       </div>
 
       <div className={buttonContainerClasses}>
-        {cta1_link && (
-          <a className="btn btn-primary" href={cta1_link}>
-            <button className={buttonClasses}>{cta1_text}</button>
-          </a>
-        )}
         {cta2_link && (
-          <a className="btn btn-secondary" href={cta2_link}>
-            <button className={buttonClasses}>{cta2_text}</button>
-          </a>
+          <Link className="btn btn-secondary" href={cta2_link}>
+            {cta2_text}
+          </Link>
         )}
+        {cta1_link && (
+          <Link className="btn btn-primary" href={cta1_link}>
+            {cta1_text}
+          </Link>
+        )}
+      
       </div>
     </div>
   );
