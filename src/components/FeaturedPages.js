@@ -2,7 +2,7 @@
 import Link from "next/link";
 
 
-const FeaturedPages = ({pages, pageGroupName}) => {
+const FeaturedPages = ({pages, pageGroupName, header}) => {
     console.log(pages, pageGroupName)
     return (
   <div className=" bg-primary text-primary-content p-2">
@@ -10,7 +10,7 @@ const FeaturedPages = ({pages, pageGroupName}) => {
           <div className="hero-content text-center">
               <div className="max-w-md">
                    {/*<h1 className="text-5xl font-bold">{pageGroupName ? pageGroupName : 'Pages'} num pages: {pages.length} pg group ={pageGroupName}</h1>*/}
-                  <h1 className="text-3xl font-bold py-2 ">More For You</h1>
+                  <h1 className="text-3xl font-bold py-2 ">{header ? header : "More For You"}</h1>
                   {/*<p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>*/}
 
               </div>

@@ -207,7 +207,7 @@ export default function PageBuilder({ page, site }) {
                         return (
                             <FeaturedPages 
                                 pages={site.pages}
-                         
+                                header={c.header}
                                 pageGroupName={page.page_group}
                             />
                             )

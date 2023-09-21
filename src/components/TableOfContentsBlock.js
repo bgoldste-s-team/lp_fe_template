@@ -13,7 +13,7 @@ const TableOfContentsBlock = ({ header, subheader, cta1_text, cta2_text, cta1_li
             <h2 className='text-2xl card-title'>{header}</h2>
             <ul className={'p-4 space-y-2 border-l-2 border-primary'}>
 
-            {page.content_blocks.filter(c => c.type === 'HeroBlock' || c.type === 'TextBlock').map((c) => (
+            {page.content_blocks.filter(c => c.type === 'HeroBlock' || c.type === 'TextBlock' || c.type === 'FeaturedPagesBlock').map((c) => (
 
                 <li key={c.id}>
                     <Link href={`#${c.order}`} className='flex flex-row' >
