@@ -33,9 +33,9 @@ const Footer = ({site, pages}) => {
 
 
   { site.ad_level === "no_ads" || site.ad_level === "no_ads_with_amazon" ? null :
-<div className='p-2'>
+<div  className='p-2 self-center  '>
   
-        <div data-theme='pagesake' className='card max-w-2xl self-center p-4'>
+        <div data-theme='pagesake' className='card max-w-2xl p-4 bg-black'>
           <figure><img className='w-64 p-4' src="/pagesake_logo.png" /></figure>
           <div className='card-body'>
             <h4 className='card-title'>Built With Pagesake </h4>
