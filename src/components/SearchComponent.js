@@ -22,7 +22,7 @@ const highlightText = (text, query) => {
     
     if (!match) break;
     
-    highlighted += `...${match[1]}<span class='bg-yellow-200'>${match[2]}</span>${match[3]}... `;
+    highlighted += `...${match[1]}<span class='bg-primary text-primary-content'>${match[2]}</span>${match[3]}... `;
     const indexAfterMatch = match.index + match[0].length;
     remainingText = remainingText.slice(indexAfterMatch);
 
