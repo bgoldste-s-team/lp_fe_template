@@ -23,7 +23,7 @@ const Footer = ({site, pages}) => {
           </li>
         ))}
      <li key="search">
-            <Link href={'/sitemap.xml'}>Search</Link>
+            <Link href={'/search'}>Search</Link>
             </li>
             <li key="sitemap">
          <Link href={'/sitemap.xml'}>Sitemap</Link>
