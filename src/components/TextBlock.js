@@ -126,7 +126,7 @@ const TextBlock = ({
   const imageContainerClasses = "w-full h-auto mx-auto";
   const headerClasses = "text-3xl font-bold mb-4 text-center";
   const subheaderClasses = "text-xl mb-6 text-center";
-  const bodyClasses = "text-lg prose space-y-2";
+  const bodyClasses = "text-lg prose space-y-2 px-2";
   const bodyContainerClasses = "max-w-2xl"; // Adjust this width as needed
   const buttonClasses =
     " rounded-md";
@@ -134,12 +134,14 @@ const TextBlock = ({
 
   return (
     <div key={key} contentBlockId={contentBlockId} className="scroll-p-0 py-10 px-4 space-y-4 flex flex-col items-center">
+         
+      {header && <ReactMarkdown className={headerClasses}>{header}</ReactMarkdown>}
+      
          {image_link && (
         <div className="flex justify-center">
-          <img src={image_link} alt="Hero Image" className="w-250 h-250" />
+          <img src={image_link} alt="Hero Image" className="md:w-3/4" />
         </div>
       )}
-      {header && <ReactMarkdown className={headerClasses}>{header}</ReactMarkdown>}
       {subheader && <h3 className={subheaderClasses}>{subheader}</h3>}
    
 

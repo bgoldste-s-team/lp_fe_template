@@ -18,9 +18,19 @@ const HeroBlock = ({ header, subheader, body, cta1_text, cta2_text, cta1_link, c
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold ">{header}</h1>
       <p className="mb-5">{subheader}</p>
-
-      <button className="btn btn-primary">Get Started</button>
-      <button className="btn btn-primary">Get Started</button>
+        <div className={buttonContainerClasses}>
+        {cta2_link && (
+          <Link className="btn btn-secondary" href={cta2_link}>
+            {cta2_text}
+          </Link>
+        )}
+        {cta1_link && (
+          <Link className="btn btn-primary" href={cta1_link}>
+            {cta1_text}
+          </Link>
+        )}
+      
+      </div>
     </div>
   </div>
 </div>

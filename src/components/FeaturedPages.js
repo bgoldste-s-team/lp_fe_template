@@ -16,7 +16,7 @@ const FeaturedPages = ({pages, pageGroupName, header}) => {
               </div>
           </div>
       </div>
-      <div className={'grid grid-cols-1 text-white md:grid-cols-3 place-items-center gap-2'}>
+      <div className={'grid grid-cols-1 text-white md:grid-cols-2 lg:grid-cols-3 place-items-center gap-2'}>
           {pages.filter((p) => !p.is_homepage ).sort((a,b) => b.title.length - a.title.length).map((page) => (
 
               <div key={page.id} className="card  bg-base-100 shadow-xl image-full ">

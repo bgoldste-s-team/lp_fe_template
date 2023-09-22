@@ -205,11 +205,14 @@ export default function PageBuilder({ page, site }) {
                     
                      case 'FeaturedPagesBlock':
                         return (
-                            <FeaturedPages 
-                                pages={site.pages}
-                                header={c.header}
-                                pageGroupName={page.page_group}
-                            />
+                            <div className={"scroll-mt-16"}  key={c.id} id={c.order}>  
+                                <FeaturedPages 
+                                
+                                    pages={site.pages}
+                                    header={c.header}
+                                    pageGroupName={page.page_group}
+                                />
+                            </div>
                             )
                 
                   

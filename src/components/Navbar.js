@@ -48,6 +48,9 @@ const Navbar = ({site}) => {
                               <Link href={p.slug}>{p.title}</Link>
                           </li>
                       ))}
+                        <li key={'search'}>
+                          <Link href="/search">Search</Link>
+                      </li>
 
 
 
