@@ -15,25 +15,33 @@ const Footer = ({site, pages}) => {
      
   
     <nav>
-      <header className="footer-title">Content</header> 
+      <header className="footer-title space-y-2">Content</header> 
     {pages.map((page) => (
           <li key={page.id}>
           <Link className="link link-hover" href={page.slug}>{page.title}</Link>
           {/*<p>{page.page_description}</p>*/}
           </li>
         ))}
-     <li key="search">
-            <Link href={'/search'}>Search</Link>
-            </li>
-            <li key="sitemap">
-         <Link href={'/sitemap.xml'}>Sitemap</Link>
-         </li>
+    
     </nav>
+ <nav>
+ <header className="footer-title space-y-2">{site.name}</header> 
+    <li key="search">
+           <Link href={'/search'}>Search</Link>
+           </li>
+
+         { site.show_contact_form &&  <li key={'contact'}>
+             <Link href="/contact">Contact</Link>
+         </li> }
+           <li key="sitemap">
+        <Link href={'/sitemap.xml'}>Sitemap</Link>
+        </li>
+         </nav>
   </footer> 
 
 
   { site.ad_level === "no_ads" || site.ad_level === "no_ads_with_amazon" ? null :
-<div  className='p-2 self-center  '>
+<div  className='p-12 self-center  '>
   
         <div data-theme='pagesake' className='card max-w-2xl p-4 bg-black'>
           <figure><img className='w-64 p-4' src="/pagesake_logo.png" /></figure>

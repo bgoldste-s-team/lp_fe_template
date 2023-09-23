@@ -112,6 +112,10 @@ const Navbar = ({ site }) => {
                                     <Link href="/search">Search</Link>
                                 </li>
 
+                                { site.show_contact_form &&  <li key={'contact'}>
+                                    <Link href="/contact">Contact</Link>
+                                </li> }
+
 
 
                  

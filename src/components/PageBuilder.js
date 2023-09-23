@@ -15,6 +15,7 @@ import AmazonProductCard from "@/components/AmazonProductCard";
 import ProductBank from "@/components/ProductBank";
 import ContentNetwork from "@/components/ContentNetwork";
 import TitleBlock from "@/components/TitleBlock";
+import ContactFormBlock from "@/components/ContactFormBlock";
 export default function PageBuilder({ page, site }) {
 
     console.log(site)
@@ -57,6 +58,7 @@ export default function PageBuilder({ page, site }) {
     const showContentNetwork = adRules[adLevel].showContentNetwork
     const showMiscReferralAds = adRules[adLevel].showMiscReferralAds
 
+    const  showContactForm = site.show_contact_form;
 
 
 
@@ -229,6 +231,12 @@ export default function PageBuilder({ page, site }) {
             {showContentNetwork && 
              <ContentNetwork />
             }
+
+             {showContactForm && 
+             <ContactFormBlock site_id={site.id} />
+            }
+
+
             {/*{showMiscReferralAds && 
 
                  <div className="flex space-x-2">
