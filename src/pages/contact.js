@@ -13,7 +13,7 @@ export default function Contact({ homePage, site}) {
         <Layout site={site} page={homePage}>
         <h1 className='text-2xl md:text-4xl text-center py-6'> Contact {site.name}</h1>
         {site.show_contact_form && 
-        <ContactFormBlock side_id={site.id} />
+        <ContactFormBlock site_id={site.id} />
         }
         <TitleBlock page={homePage} />
         {/*<PageBuilder page={homePage} site={site} />*/}
@@ -60,8 +60,8 @@ export async function getStaticProps() {
   
     return {
         props: {
-           homePage: homePage || defaultSite.pages[0],
-            site: site || defaultSite
+           homePage: homePage ,
+            site: site 
         },
         revalidate: 10, // In seconds
 

@@ -69,9 +69,12 @@ const ContactFormBlock = ({
     }
   };
 
+  if (!site_id) {
+    return null;
+  }
   return (
     <div key={key} contentBlockId={contentBlockId} className="scroll-p-0 py-10 px-4 space-y-4 flex flex-col items-center">
-      <ReactMarkdown className={headerClasses}>Contact Us</ReactMarkdown>
+      <h2 className={headerClasses}>Contact</h2>
       <div className="form-control w-full max-w-xs ">
         <form onSubmit={handleSubmit}>
           <label className="label">
