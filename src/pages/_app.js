@@ -8,71 +8,36 @@ import SiteContext from "@/contexts/SiteContext";
 import 'tailwindcss/tailwind.css'
 
 
+import posthog from 'posthog-js'
+
 
 export const AppContext = createContext();
-// export default function MyApp({ Component, pageProps }) {
-//     const router = useRouter()
-//     const [theme, setTheme] = useState(siteData.theme);
-//     const [siteName, setSiteName] = useState(siteData.name);
-//     const [siteDesc, setSiteDesc] = useState(siteData.description);
-//     const [siteImgUrl, setSiteImgUrl] = useState(siteData.site_image);
 
-
-
-
-//     useEffect(() => {
-//         if (router.query.theme) {
-//             setTheme(router.query.theme)
-//         }
-//         if (router.query.siteName) {
-//             setSiteName(router.query.siteName);
-//         }
-//         if (router.query.siteDesc) {
-//             setSiteDesc(router.query.siteDesc);
-//         }
-//         if (router.query.siteImgUrl) {
-//             setSiteImgUrl(router.query.siteImgUrl);
-//         }
-//         const fetchSiteData = async () => {
-//             try {
-
-//                 const siteId = process.env.NEXT_PUBLIC_SITE_ID;
-//                 const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-
-//                 const response = await fetch(`${baseUrl}/api/sites/${siteId}`);
-//                 // console.log(process.env)
-//                 // const response = await fetch(`${baseUrl}/api/sites/${siteId}/`); // Replace with your API endpoint
-//                 const data = await response.json();
-//                 setTheme(data.theme);
-//                 setSiteName(data.name);
-//                 setSiteDesc(data.description);
-//                 setSiteImgUrl(data.site_image);
-//             } catch (error) {
-//                 console.error('Error fetching site data:', error);
-//             }
-//         };
-
-//         fetchSiteData();
-//     }, [router.query])
-
-
-
-//     return (
-
-//         <ThemeProvider attribute="class">
-//             <AppContext.Provider value={{ siteName, theme, siteDesc, siteImgUrl }}>
-//                 <div data-theme={theme}>
-//                     <Component {...pageProps} />
-//                 </div>
-//             </AppContext.Provider>
-//         </ThemeProvider>
-
-//     )
-// }
+// Check that PostHog is client-side (used to handle Next.js SSR)
+if (typeof window !== 'undefined') {
+  posthog.init('phc_zybfTbvIYIVEQ0uvfhTaFYCFNT8O4ZsfGlrUNn0HWgI', {
+    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://app.posthog.com',
+    // Enable debug mode in development
+    loaded: (posthog) => {
+      if (process.env.NODE_ENV === 'development') posthog.debug()
+    },
+    capture_pageview: false // Disable automatic pageview capture, as we capture manually
+  })
+}
 
 export default function MyApp({ Component, pageProps }) {
   const theme = pageProps.site?.theme;
 
+   const router = useRouter()
+     useEffect(() => {
+    // Track page views
+    const handleRouteChange = () => posthog?.capture('$pageview')
+    router.events.on('routeChangeComplete', handleRouteChange)
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [])
   return (
     <ThemeProvider attribute="class">
       <div data-theme={theme}>
