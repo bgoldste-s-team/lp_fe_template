@@ -29,7 +29,7 @@ export default function ContentNetwork({}) {
        {
         title: "Get a Job When No One is Hiring",
         description: "Practical Tips for searching for a job in a **** economy.",
-        url: "https://fivebucksites.com/",
+        url: "https://dumpsterfirejobs.com/",
         thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/dumpster-fire-jobs-5632-image.png",
         site: "Dumpster Fire Jobs",
         accent:"error",
