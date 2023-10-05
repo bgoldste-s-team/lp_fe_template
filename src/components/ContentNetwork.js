@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function ContentNetwork({}) {
   const contentNetworkData = [
       {
-        title: "Best Free Tools for Side Hustlers.",
+        title: "Best Free Tools for Side Hustlers - #1 will surprise you",
         description: "Launch your side hustle in seconds with these FREE tools.",
         url: "https://bestsidehustletools.com/",
         thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/five-buck-sites-62099-image.png",
@@ -21,19 +21,19 @@ export default function ContentNetwork({}) {
         url: "https://fivebucksites.com/",
         thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/five-buck-sites-14626-image.png",
         site: "Five Buck Sites",
-        accent:"info",
-        badgeCopy:"WOA"
+        accent:"secondary",
+        badgeCopy:"COOL"
 
       },
 
        {
-        title: "Get a job, even if no one is hiring",
+        title: "Get a Job When No One is Hiring",
         description: "Practical Tips for searching for a job in a **** economy.",
         url: "https://fivebucksites.com/",
         thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/dumpster-fire-jobs-5632-image.png",
         site: "Dumpster Fire Jobs",
-        accent:"info",
-        badgeCopy:"WOA"
+        accent:"error",
+        badgeCopy:"USEFUL"
 
       },
 
@@ -103,8 +103,9 @@ return (
 
                 <div className={`mr-4 badge badge-${c.accent}`}>{c.badgeCopy}</div>
               </div>
-              <p className="h-12 overflow-hidden ">{c.description}</p>
-              <h2 className="  text-md mb-2">{c.site}</h2>
+                 <Link href={c.url} className="  text-md mb-2 font-bold link">{c.site}</Link>
+              <p className="">{c.description}</p>
+           
             </div>
             <div className="card-actions justify-center">
               <Link href={c.url} className='btn btn-primary btn-wide'> Read More</Link>
