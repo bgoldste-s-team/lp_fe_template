@@ -168,8 +168,8 @@ useEffect(() => {
 
 
             <div className={'flex flex-col md:flex-row justify-center gap-2 mt-4'}>
-                <button className="btn btn-primary btn-outline"><Link href={variants[variant].cta2_link}>{variants[variant].cta2_text}</Link></button>
-                <button className="btn btn-primary"><Link href={variants[variant].cta1_link}>{variants[variant].cta1_text}</Link></button>
+                <button className="btn btn-primary btn-outline"><Link rel="noopener noreferrer" target="_blank" href={"https://pagesake.com"}>{variants[variant].cta2_text}</Link></button>
+                <button className="btn btn-primary"><Link rel="noopener noreferrer" target="_blank" href={"https://pagesake.com"}>{variants[variant].cta1_text}</Link></button>
             </div>
 
         </div>
