@@ -14,7 +14,6 @@ const Review = ({ post }) => {
   // const guides = guideData.posts;
   //
   // console.log(guides)
-  console.log(post);
   return (
 
       <div>

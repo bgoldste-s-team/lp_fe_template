@@ -21,7 +21,6 @@ const SlugPage = ({ page, site }) => {
 export async function getStaticProps({ params }) {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-    console.log(siteId, baseUrl)
 
   const { slug } = params;
 
@@ -40,13 +39,8 @@ export async function getStaticProps({ params }) {
   const data = site;
 
   const page = data.pages.find((p) => p.slug === slug) ;
-  console.log(page)
-
-
-
 
   if(!page) {
-    console.log("PAGE NTO FOUND REDIRECT")
     return {
       redirect: {
         permanent: false,
@@ -67,7 +61,6 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-    console.log("CREATING SLUG FOR PAGE😀😀",siteId, baseUrl);
 
     try {
 
@@ -86,7 +79,6 @@ export async function getStaticPaths() {
         }
 
         const data = site;
-        console.log('data', data);
 
         const paths = data.pages
             .filter((p) => !p.is_homepage)
@@ -95,8 +87,6 @@ export async function getStaticPaths() {
                     slug: p.slug,
                 },
             }));
-
-        console.log('paths', paths);
 
         return {
             paths,

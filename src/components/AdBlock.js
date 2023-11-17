@@ -9,7 +9,6 @@ import {
 
 
 const AdBlock = ({name, page, site, index}) => {
-    console.log('adblock', page, site, index, name)
 
      
     const textArray = [
