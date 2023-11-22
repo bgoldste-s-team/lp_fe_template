@@ -7,9 +7,6 @@ import {
 
 } from "react-icons/fa6";
 export default function AmazonProductCard({ product }) {
-  console.log(product)
-
-
   if (!product || !product.product_name || !product.url) {
     return null;
   }

@@ -7,9 +7,7 @@ import TitleBlock from "@/components/TitleBlock";
 import SearchComponent from "@/components/SearchComponent";
 import ContactFormBlock from "@/components/ContactFormBlock";
 export default function Contact({ homePage, site}) {
-    console.log(site.pages)
     return (
-
         <Layout site={site} page={homePage}>
         <h1 className='text-2xl md:text-4xl text-center py-6'> Contact {site.name}</h1>
         {site.show_contact_form && 
@@ -28,11 +26,6 @@ export async function getStaticProps() {
 
     const siteId = process.env.NEXT_PUBLIC_SITE_ID;
     const baseUrl = process.env.NEXT_PUBLIC_BASEURL;
-    console.log("ENVIRONMENT VARIABLES!", siteId, baseUrl)
-
-
-
-
     const response  = await fetch(`${baseUrl}/api/sites/${siteId}`)
     const site = await response.json()
     // const response = await fetch(`${baseUrl}/api/sites/public/`);
@@ -49,14 +42,7 @@ export async function getStaticProps() {
             revalidate:10
         }
     }
-    console.log("~~~?",typeof(sites), siteId, site)
-    console.log(site.pages)
-
-    console.log("~~~~", "PAGES", site)
     const homePage = site.pages.filter((p) => p.is_homepage === true)[0]
-    console.log('IS HOMEPAGE', homePage, site)
- 
-
   
     return {
         props: {

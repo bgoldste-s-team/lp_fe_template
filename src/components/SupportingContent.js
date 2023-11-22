@@ -12,7 +12,6 @@ const SupportingContent = ({ post }) => {
   // const guides = guideData.posts;
   //
   // console.log(guides)
-  console.log(post);
   const thumbnail = post.products[0]?.product?.thumbnail;
   const products = post?.products;
 

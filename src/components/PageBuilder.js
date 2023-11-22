@@ -18,9 +18,6 @@ import TitleBlock from "@/components/TitleBlock";
 import ContactFormBlock from "@/components/ContactFormBlock";
 export default function PageBuilder({ page, site }) {
 
-    console.log(site)
-    console.log(page)
-
     const adRules = {
 
         full_ads: {
@@ -134,7 +131,6 @@ export default function PageBuilder({ page, site }) {
 
             {page.content_blocks.map((c, index) => {
                 let engagementBlocks = getEngagementBlock(index);
-                console.log(index, engagementBlocks);
                 let commonDiv = (Component, SecondComponent, secondComponentProps) => (
 
 

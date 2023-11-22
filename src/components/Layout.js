@@ -14,8 +14,6 @@
 
    // const pageDescription = page.page_description + "-" + page.content_blocks?.find(block => block?.body?.length > 20)?.body?.slice(0, 300) || '';
    const currentUrl = `https://${site.deployment_url}/${page.slug}`
-     console.log("LAYOUT:", pageTitle, "~", pageDescription, "~", firstImageUrl,  site , page)
-     console.log(page)
     return (
       <>
         <Head>
