@@ -14,8 +14,6 @@
 //                        image_link
 //                    }) => {
 
-
-
 //     return (
 //         <div key={key} contentBlockId={contentBlockId}>
 //             {header && <h2 className="text-2xl font-bold mb-4 text-center">{header}</h2>}
@@ -43,8 +41,6 @@
 // };
 
 // export default TextBlock;
-
-
 
 // import React from "react";
 
@@ -84,9 +80,7 @@
 //         </div>
 //       )}
 //       {/*{body && <p>{body}</p>}*/}
-     
 
-       
 //       <ReactMarkdown plugins={[remarkGfm]} className={bodyClasses}>{body}</ReactMarkdown>
 //       <div className="flex justify-center space-x-4  py-4">
 //         {cta1_link && (
@@ -105,7 +99,6 @@
 // };
 
 // export default TextBlock;
-
 
 import React from "react";
 import Link from "next/link";
@@ -128,25 +121,40 @@ const TextBlock = ({
   const subheaderClasses = "text-xl mb-6 text-center";
   const bodyClasses = "text-lg prose space-y-2 px-2";
   const bodyContainerClasses = "max-w-2xl"; // Adjust this width as needed
-  const buttonClasses =
-    " rounded-md";
+  const buttonClasses = " rounded-md";
   const buttonContainerClasses = "flex justify-center gap-4 mt-4";
 
+  function spliceAfterThirdPeriod(text) {
+    const sentences = text.split(".");
+    if (sentences.length < 3) {
+      return text;
+    }
+    return sentences.slice(0, 2).join(".") + ".";
+  }
+
+  const splicedBody = spliceAfterThirdPeriod(body);
+
   return (
-    <div key={key} contentBlockId={contentBlockId} className="scroll-p-0 py-10 px-4 space-y-4 flex flex-col items-center">
-         
-      {header && <ReactMarkdown className={headerClasses}>{header}</ReactMarkdown>}
-      
-         {image_link && (
+    <div
+      key={key}
+      contentBlockId={contentBlockId}
+      className="scroll-p-0 py-10 px-4 space-y-4 flex flex-col items-center"
+    >
+      {header && (
+        <ReactMarkdown className={headerClasses}>{header}</ReactMarkdown>
+      )}
+
+      {image_link && (
         <div className="flex justify-center">
-          <img src={image_link} alt="Hero Image" className="md:w-3/4" />
+          <img src={image_link} alt="Hero Image" className="w-8/12 md:w-2/4" />
         </div>
       )}
       {subheader && <h3 className={subheaderClasses}>{subheader}</h3>}
-   
 
       <div className={bodyContainerClasses}>
-        <ReactMarkdown plugins={[remarkGfm]} className={bodyClasses}>{body}</ReactMarkdown>
+        <ReactMarkdown plugins={[remarkGfm]} className={bodyClasses}>
+          {splicedBody}
+        </ReactMarkdown>
       </div>
 
       <div className={buttonContainerClasses}>
@@ -160,11 +168,9 @@ const TextBlock = ({
             {cta1_text}
           </Link>
         )}
-      
       </div>
     </div>
   );
 };
 
 export default TextBlock;
-

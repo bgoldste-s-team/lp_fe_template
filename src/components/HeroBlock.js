@@ -12,14 +12,7 @@ const HeroBlock = ({
   cta2_link,
   image_link,
 }) => {
-  // prev custom classes
-  // const imageContainerClasses = "w-full h-auto mx-auto";
-  // const headerClasses = "text-3xl font-bold mb-4 text-center";
-  // const subheaderClasses = "text-lg mb-6 text-center";
-  // const button1Classes = "btn ";
-  // const button2Classes = "btn  btn-accent";
-  // const buttonContainerClasses = "flex justify-center gap-4 mt-4";
-  // const bodyClasses = "text-lg mb-6 text-center whitespace-pre-line";
+
 
   function spliceAfterThirdPeriod(text) {
     const sentences = text.split(".");
@@ -38,8 +31,8 @@ const HeroBlock = ({
     >
       <div className="hero-overlay bg-base-100"></div>
 
-      <div className="hero-content text-center text-primary-content my-10">
-        <div className="max-w-md">
+      <div className="hero-content text-center text-base-content my-10">
+        <div className="max-w-lg">
           <h1 className="mb-5 text-4xl font-bold">{header}</h1>
           <p className="mb-5 text-2xl">{subheader}</p>
           <p className="mb-5">{splicedBody}</p>

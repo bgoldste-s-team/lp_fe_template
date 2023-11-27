@@ -29,7 +29,7 @@ const AdBlock = ({ name, page, site, index }) => {
     // },
     variant1: {
       // styling: "bg-gradient-to-r from-black via-purple-800 to-black text-white p-8 text-center",
-      styling: "bg-neutral-content text-neutral p-8 text-left",
+      styling: "bg-base text-neutral p-8 text-left",
       header1: "Don't Just Browse The Web.",
       header2: "Create It.",
       subheader: "",
@@ -73,24 +73,6 @@ const AdBlock = ({ name, page, site, index }) => {
 
   const variant = index % 2 === 1 ? "variant1" : "variant2";
 
-  // useEffect(() => {
-  //    const interval = setInterval(() => {
-  //      setVisible(false);
-  //      setTextIndex((prevIndex) => {
-  //        const newIndex = prevIndex + 1 === variants[variant].textArray.length ? 0 : prevIndex + 1;
-  //        setTimeout(() => {
-  //          setCurrentText(variants[variant].textArray[newIndex]);
-  //          setVisible(true);
-  //        }, 300); // This delay is for the fade-out effect to be noticeable before the text changes
-
-  //        return newIndex;
-  //      });
-  //    }, 3500); // Giving some extra time for animations
-
-  //    return () => {
-  //      clearInterval(interval);
-  //    };
-  //  }, []);
   useEffect(() => {
     const interval = setInterval(() => {
       setVisible(false); // Starts the fade-out
@@ -122,14 +104,14 @@ const AdBlock = ({ name, page, site, index }) => {
 
   return (
     <div className="">
-      <div className="p-4 bg-neutral-content">
+      <div className="p-0">
         <div
-          data-theme="pagesake"
-          className={`hero rounded-2xl p-0  ${variants[variant].styling} `}
+          data-theme="fantasy"
+          className={`hero p-0  ${variants[variant].styling} `}
         >
           {/*<div  className="scroll-p-0 bg-gradient-to-r from-primary to-secondary text-white py-10 px-4">*/}
 
-          <div>
+          <div className="bg-base-100 rounded-lg p-8">
             <Link href="https://pagesake.com" target="_blank" passHref>
               <img src={"/pagesake_logo.svg"} className=" w-28 p-2" />
             </Link>
