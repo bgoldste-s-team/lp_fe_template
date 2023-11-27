@@ -14,7 +14,6 @@ export default function ContentNetwork({}) {
         badgeCopy:"FREE"
 
       },
-
       {
         title: "Websites, as cheap as $5.",
         description: "Professional Websites for as little as $5/month.",
@@ -25,7 +24,6 @@ export default function ContentNetwork({}) {
         badgeCopy:"COOL"
 
       },
-
        {
         title: "Get a Job When No One is Hiring",
         description: "Practical Tips for searching for a job in a **** economy.",
@@ -36,58 +34,6 @@ export default function ContentNetwork({}) {
         badgeCopy:"USEFUL"
 
       },
-
-
-
-
-
-
-
-      // {
-      //   title: "Crazy Benefits for Business Owners",
-      //   description: "SUPER intersting article about asdfasdf asdf asdf asdf",
-      //   url: "https://asdfasdf.com",
-      //   thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/dogsledding-1507-image.png",
-      //   accent:"primary",
-      //   badgeCopy:"COOL"
-      // },
-      //  {
-      //   title: "FIrst Article",
-      //   description: "SUPER intersting article about asdfasdf asdf asdf asdf",
-      //   url: "https://asdfasdf.com",
-      //   thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/dogsledding-1507-image.png",
-      //   accent:"secondary",
-      //   badgeCopy:"COOL"   
-      // },
-      //       {
-      //   title: "I Got An AI To Write 40000 articles for me.",
-      //   description: "Here's What Happened.",
-      //   url: "https://asdfasdf.com",
-      //   thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/dogsledding-1509-image.png",
-      //   site: "Five Buck Sites",
-      //   accent:"error",
-      //   badgeCopy:"WOA"
-      // },
-      // {
-      //   title: "Crazy Benefits for Business Owners",
-      //   description: "SUPER intersting article about asdfasdf asdf asdf asdf",
-      //   url: "https://asdfasdf.com",
-      //   thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/dogsledding-1507-image.png",
-      //   accent:"info",
-      //   badgeCopy:"COOL"
-      // },
-      //  {
-      //   title: "Web Developers HATE him",
-      //   description: "SUPER intersting article about asdfasdf asdf asdf asdf",
-      //   url: "https://asdfasdf.com",
-      //   thumbnail_url: "https://dexterlabs-public.s3.amazonaws.com/images/dogsledding-1507-image.png",
-      //   accent:"secondary",
-      //   badgeCopy:"COOL"   
-      // },
-   
-   
-
-
     ];
 return (
   <div className="bg-primary p-4">
